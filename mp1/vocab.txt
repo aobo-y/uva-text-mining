@@ -1,3569 +1,3569 @@
-tabl	6758
-make	6529
-menu	6097
-chees	6066
-tast	6042
-chicago	5826
-amaz	5798
-thing	5769
-nice	5642
-peopl	5454
-pretti	5447
-seat	5396
-night	5298
-perfect	4969
-recommend	4917
-drink	4825
-flavor	4811
-price	4660
-bar	4658
-meal	4654
-small	4517
-dinner	4500
-favorit	4461
-bit	4449
-worth	4424
-made	4210
-enjoy	4113
-side	4101
-experi	4092
-chicken	4072
-long	4013
-pizza	3980
-top	3942
-fresh	3942
-star	3851
-line	3836
-serv	3782
-review	3775
-lot	3697
-day	3682
-plate	3674
-atmospher	3635
-sweet	3537
-ll	3532
-minut	3477
-tasti	3458
-ca	3374
-staff	3273
-expect	3272
-visit	3244
-special	3213
-feel	3209
-reserv	3147
-awesom	3137
-french	3136
-lunch	3100
-hour	3092
-salad	3060
-big	3000
-high	2987
-end	2985
-bread	2943
-excel	2942
-wine	2938
-bad	2925
-disappoint	2906
-meat	2890
-hot	2890
-pork	2890
-server	2872
-share	2850
-start	2810
-portion	2793
-busi	2707
-sit	2660
-dessert	2659
-live	2634
-potato	2594
-find	2567
-burger	2558
-crowd	2557
-spot	2516
-thought	2515
-cook	2507
-beef	2506
-kind	2494
-full	2439
-person	2428
-tapa	2426
-walk	2408
-dine	2406
-group	2371
-beer	2366
-huge	2357
-larg	2330
-work	2319
-super	2304
-date	2291
-bbq	2277
-quick	2271
-sandwich	2269
-egg	2258
-area	2207
-decid	2192
-fantast	2191
-breakfast	2168
-crust	2152
-open	2133
-deep	2132
-sausag	2088
-fan	2079
-check	2072
-waiter	2069
-qualiti	2057
-stop	2033
-toast	2019
-year	2009
-park	2006
-fish	1979
-half	1978
-citi	1956
-put	1949
-brunch	1948
-loud	1941
-fun	1940
-pack	1927
-happi	1921
-style	1920
-rib	1918
-crispi	1912
-select	1910
-shrimp	1897
-spici	1892
-italian	1886
-absolut	1869
-call	1858
-week	1856
-parti	1846
-list	1827
-attent	1812
-size	1811
-home	1811
-coupl	1801
-left	1796
-appet	1789
-arriv	1788
-sushi	1762
-surpris	1741
-waitress	1729
-bite	1717
-insid	1706
-hand	1703
-bacon	1703
-item	1700
-option	1693
-tomato	1693
-told	1692
-final	1682
-impress	1652
-chocol	1650
-offer	1648
-part	1647
-choic	1634
-weekend	1632
-fill	1622
-dip	1618
-onion	1614
-ate	1606
-found	1602
-brisket	1601
-close	1588
-bean	1582
-point	1575
-room	1574
-garlic	1556
-cool	1549
-saturday	1540
-light	1538
-sat	1537
-total	1534
-earli	1530
-red	1530
-yummi	1522
-wing	1518
-town	1515
-wrong	1509
-door	1504
-steak	1492
-decor	1483
-felt	1475
-la	1463
-piec	1459
-tender	1458
-mouth	1454
-locat	1451
-decent	1449
-french_toast	1445
-finish	1436
-bring	1430
-guy	1428
-rice	1425
-return	1423
-real	1422
-trip	1411
-prepar	1407
-cocktail	1406
-leav	1404
-mac	1396
-entre	1393
-pepper	1388
-frite	1379
-dog	1363
-gave	1362
-chef	1353
-regular	1351
-sangria	1341
-slice	1337
-mind	1335
-diner	1334
-rememb	1333
-includ	1326
-fast	1325
-suggest	1324
-amount	1317
-water	1316
-mayo	1310
-music	1305
-street	1303
-pasta	1300
-free	1298
-goat	1296
-talk	1293
-oyster	1292
-incred	1292
-corn	1282
-mushroom	1277
-crisp	1273
-ambianc	1264
-move	1260
-stuf	1253
-roast	1247
-miss	1247
-short	1245
-care	1238
-grill	1235
-mix	1230
-yelp	1226
-guess	1221
-heard	1220
-high_recommend	1219
-pick	1217
-brought	1216
-season	1214
-smoke	1213
-wo	1212
-interest	1196
-head	1193
-manag	1191
-glass	1188
-deal	1186
-white	1184
-sunday	1181
-fine	1177
-fact	1167
-extrem	1167
-salti	1164
-cream	1160
-hous	1143
-bowl	1141
-green	1136
-pay	1135
-coffe	1132
-sashimi	1131
-eaten	1129
-hit	1125
-extra	1119
-cut	1117
-girl	1113
-pull	1111
-cold	1103
-space	1103
-friday	1102
-warm	1102
-read	1102
-varieti	1099
-stand	1098
-bill	1097
-cake	1097
-soup	1094
-joint	1091
-butter	1090
-stuff	1086
-type	1082
-complet	1079
-crunchi	1073
-famili	1066
-uniqu	1064
-prefer	1064
-vegetarian	1063
-melt	1041
-show	1030
-local	1028
-add	1026
-front	1026
-honest	1024
-expens	1023
-custom	1022
-dri	1022
-hear	1022
-thin	1022
-cheap	1021
-sampl	1016
-split	1013
-waffl	1011
-veggi	1010
-set	1002
-orlean	1001
-rest	996
-mention	993
-plenti	987
-hype	985
-turn	975
-truffl	969
-die	968
-smoqu	968
-kitchen	962
-fair	959
-wow	957
-glad	957
-husband	946
-slight	941
-hot_dog	938
-bartend	937
-lou	933
-life	933
-boyfriend	931
-mango	925
-ago	923
-ice	922
-grit	921
-jam	920
-averag	919
-excit	918
-cafe	918
-thick	917
-run	917
-hostess	916
-basic	915
-salmon	915
-readi	915
-taco	913
-pickl	912
-stay	908
-juici	908
-pricey	904
-pomm	901
-base	899
-hungri	897
-combin	896
-tip	895
-watch	893
-rich	891
-consist	888
-pull_pork	886
-plan	885
-world	885
-choos	883
-problem	878
-wrap	878
-bottl	876
-satisfi	876
-note	870
-sound	869
-roll	867
-salt	865
-recent	861
-knew	858
-small_plate	858
-yum	857
-ingredi	855
-simpl	855
-soft	850
-liter	849
-comfort	848
-duck	842
-crave	840
-portillo	839
-toro	838
-pomm_frite	838
-tuna	838
-ad	835
-textur	829
-heaven	827
-rabbit	826
-past	824
-birthday	822
-sort	817
-month	814
-vegan	814
-rate	812
-compar	807
-solid	802
-wall	802
-convers	798
-creami	795
-damn	794
-dress	794
-lack	793
-tini	788
-chili	787
-money	785
-word	785
-tradit	784
-popular	782
-de	776
-crazi	775
-write	775
-pequod	771
-complaint	771
-morn	771
-seafood	769
-beauti	769
-caramel	767
-oliv	767
-bake	766
-bland	766
-rave	765
-authent	764
-understand	763
-rush	757
-idea	755
-number	752
-vibe	750
-casual	748
-easi	747
-shake	744
-pleasant	742
-grab	738
-belli	735
-quartino	733
-oil	732
-min	731
-boston	728
-ketchup	727
-simpli	724
-classic	721
-chip	721
-owner	720
-cochon	718
-outstand	714
-typic	714
-pass	713
-babi	711
-wife	707
-chutney	706
-clean	704
-crab	703
-black	700
-notic	698
-italian_beef	696
-man	696
-spanish	691
-hate	688
-spice	682
-benedict	682
-counter	681
-heavi	681
-strong	681
-cup	680
-slow	674
-treat	669
-seoul	668
-pie	668
-eye	666
-standard	664
-blu	663
-greasi	662
-sassi	661
-malnati	656
-play	653
-kick	653
-mango_chutney	652
-ton	649
-jambalaya	649
-boy	647
-forget	645
-chorizo	642
-gumbo	642
-easili	642
-chanc	639
-blu_jam	637
-platter	634
-present	634
-st	632
-cute	631
-general	628
-spinach	627
-pan	626
-level	624
-south	623
-sad	623
-dark	620
-parmesan	620
-save	619
-suppos	619
-saturday_night	619
-heart	618
-addit	617
-tourist	614
-chop	613
-kid	613
-beat	612
-true	612
-generous	611
-nola	605
-combo	605
-fat	604
-face	602
-opinion	597
-realiz	597
-due	594
-ridicul	588
-kinda	587
-empti	583
-blue	583
-trendi	582
-spend	581
-iberico	580
-avoid	578
-vanilla	577
-remind	575
-mine	574
-deliv	574
-sweet_potato	573
-scallop	572
-block	570
-knowledg	570
-girlfriend	569
-bunch	567
-avec	567
-meatbal	566
-bone	565
-prompt	565
-job	564
-ham	563
-paella	562
-ahead	560
-accommod	557
-host	557
-seoul_sassi	556
-octopus	553
-matter	551
-gage	551
-savori	550
-afternoon	550
-figur	549
-stick	548
-goat_chees	548
-ice_cream	545
-delight	544
-pair	543
-korean	541
-peach	540
-downtown	540
-mediocr	540
-touch	539
-bun	539
-singl	538
-risotto	536
-fabul	536
-hold	535
-slaw	530
-rare	529
-neighborhood	528
-weird	527
-friday_night	527
-ladi	526
-terribl	525
-lemon	525
-delish	524
-forward	523
-charg	522
-yeah	521
-dmk	518
-butteri	516
-lucki	516
-lou_malnati	513
-cover	513
-raw	511
-dine_experi	510
-fanci	508
-establish	507
-gravi	506
-balanc	506
-mussel	504
-long_line	503
-medium	502
-pancak	501
-overwhelm	501
-lamb	501
-drive	501
-skip	500
-case	500
-hotel	497
-rude	497
-soggi	496
-snack	494
-allig	493
-agre	493
-imagin	492
-explain	490
-today	490
-middl	487
-origin	487
-lunch_special	486
-moist	486
-cheesi	482
-coop	481
-annoy	481
-question	480
-limit	479
-appl	478
-meet	478
-appar	477
-receiv	476
-eggplant	476
-longer	476
-celebr	475
-gaslight	475
-gen	473
-corner	473
-famous	472
-chocol_cake	470
-overpr	469
-poutin	468
-highlight	468
-mustard	467
-fruit	467
-rock	466
-refil	465
-summer	465
-smell	464
-fall	463
-issu	463
-cost	462
-round	461
-phenomen	461
-version	459
-bathroom	459
-beehiv	457
-crunchi_french	456
-short_rib	453
-veget	451
-plain	451
-cobbler	450
-sign	450
-tea	449
-import	449
-complain	449
-bare	448
-communal	448
-juic	447
-luke	447
-sushi_gen	446
-smaller	445
-refresh	443
-wood	441
-interior	439
-creativ	437
-mexican	437
-drop	437
-chicago_diner	436
-syrup	435
-forgot	435
-upstair	433
-afford	433
-app	433
-cone	432
-paper	429
-pitcher	427
-weekday	426
-bottom	426
-buck	424
-speak	423
-book	423
-jazz	422
-smile	422
-floor	421
-brown	421
-cheddar	421
-similar	421
-nyc	421
-stomach	421
-thin_crust	420
-mood	419
-pork_belli	417
-chose	417
-strawberri	417
-opt	417
-wine_list	415
-suck	414
-monday	414
-peanut	413
-shop	412
-patron	411
-accompani	411
-doubl	410
-shoulder	410
-effici	409
-admit	408
-brais	407
-hang	406
-guest	406
-1/2	406
-god	404
-rpm	403
-pm	402
-guacamol	402
-north	401
-happi_hour	399
-patti	399
-curri	399
-cozi	399
-booth	398
-chicken_wing	398
-modern	397
-homemad	397
-orang	397
-meh	396
-omg	396
-aioli	396
-spectacular	396
-chicago_style	395
-difficult	395
-occas	394
-belgian	393
-luckili	393
-nois	393
-patata	392
-hole	391
-banana	390
-margarita	389
-al	389
-clam	388
-patio	388
-request	388
-warn	387
-japanes	386
-begin	385
-folk	383
-buy	383
-american	382
-brava	380
-downstair	380
-fix	379
-poor	379
-game	378
-tuesday	378
-spent	377
-lover	376
-mercadito	376
-sprout	376
-shot	376
-bother	375
-odd	375
-peach_cobbler	375
-dream	374
-worst	374
-eater	373
-delux	372
-deserv	371
-fit	371
-larger	371
-healthi	370
-bf	370
-outdoor	369
-southern	369
-noisi	368
-compliment	368
-scrambl	367
-year_ago	367
-bigger	367
-pineappl	364
-pepperoni	364
-burnt	363
-quarter	362
-thursday	362
-low	361
-con	360
-mom	360
-beer_select	359
-paid	358
-posit	357
-moment	356
-apolog	356
-fatti	355
-beef_sandwich	354
-east	352
-salsa	352
-state	351
-pig	351
-larg_group	351
-environ	351
-doubt	350
-hell	350
-memor	350
-dine_room	350
-loui	349
-leftov	349
-cramp	348
-heat	348
-cafe_iberico	348
-continu	348
-scene	348
-dont	347
-dollar	347
-horribl	345
-worri	344
-sea	344
-break	343
-brussel	342
-sushi_bar	341
-sens	341
-egg_benedict	341
-relax	340
-lobster	340
-buddha	340
-squid	340
-hash	339
-mess	339
-concept	338
-chewi	337
-pictur	337
-met	336
-cuisin	336
-houston	335
-inform	335
-pesto	335
-drunk	334
-signatur	334
-ring	334
-fire	334
-fare	334
-milkshak	334
-batter	333
-prosciutto	333
-regret	332
-holi	332
-ambienc	332
-pop	331
-waitstaff	331
-crunch	331
-huge_fan	330
-st_loui	330
-tangi	330
-art	330
-def	329
-big_fan	329
-cajun	329
-travel	329
-uni	328
-blend	328
-veal	328
-sister	328
-tough	328
-pure	327
-ball	325
-notch	325
-straight	324
-texa	324
-yelper	324
-tofu	324
-superb	324
-separ	324
-soda	324
-frequent	324
-pork_shoulder	323
-wast	323
-bag	323
-klub	322
-avocado	322
-brussel_sprout	322
-fell	321
-comment	321
-desert	320
-calamari	319
-south_end	319
-patata_brava	319
-hip	319
-catfish	319
-milk	318
-california	318
-pour	318
-attitud	317
-deliveri	316
-dive	316
-perfect_cook	316
-rang	315
-ravioli	315
-equal	314
-foodi	314
-poach	313
-adventur	313
-upscal	310
-los	310
-bloodi	310
-fork	309
-forev	309
-gotta	306
-vinegar	305
-visit_chicago	305
-tad	303
-skin	302
-chunk	302
-card	301
-asian	300
-blow	300
-hey	300
-fluffi	299
-cornbread	299
-miso	299
-biscuit	299
-bacon_wrap	299
-multipl	299
-breakfast_klub	299
-experienc	299
-cooki	299
-window	298
-mercat	298
-dumpl	297
-build	297
-confus	297
-rosemari	297
-trust	297
-dough	296
-mash	296
-extens	296
-major	296
-stood	295
-coleslaw	294
-divin	294
-turkey	294
-mari	293
-honey	292
-addict	291
-countri	291
-design	290
-sour	290
-bar_area	290
-club	289
-step	289
-dozen	289
-edg	288
-liver	288
-layer	288
-chair	288
-teriyaki	288
-creat	288
-menus	287
-nearbi	286
-futur	286
-make_reserv	285
-mistak	285
-store	285
-wrap_date	284
-phone	283
-portion_size	283
-quiet	282
-wednesday	282
-smoki	282
-york	282
-downsid	281
-alcohol	281
-hint	281
-catch	280
-omelett	280
-melros	279
-beet	279
-sooo	279
-bore	279
-byob	278
-meant	278
-gnocchi	278
-negat	278
-pleasant_surpris	277
-form	276
-previous	276
-overcook	276
-handl	274
-pan_pizza	274
-lost	273
-stori	273
-insan	272
-young	272
-blueberri	271
-cole	271
-pud	271
-gross	271
-throw	270
-giant	270
-earlier	270
-chat	270
-knock	269
-stuck	269
-hearti	269
-profession	269
-polit	268
-garlic_mayo	268
-alright	268
-buddha_bowl	268
-bud	268
-dirti	267
-fail	267
-load	266
-advanc	266
-top_notch	266
-burrito	266
-meati	264
-tortilla	264
-answer	264
-constant	264
-enter	263
-strang	263
-sugar	263
-school	263
-marin	263
-tokyo	263
-romant	262
-tartar	262
-carri	262
-chill	262
-biggest	261
-detail	261
-lol	260
-depend	260
-bloodi_mari	260
-twist	259
-stuf_date	259
-organ	259
-awhil	259
-blown	258
-miso_soup	258
-overpow	258
-fave	258
-cole_slaw	258
-match	258
-compani	257
-learn	257
-companion	257
-random	257
-charm	257
-age	257
-term	256
-starter	256
-wide	256
-basil	256
-event	256
-chicago_dog	256
-tempura	255
-giordano	255
-sashimi_lunch	255
-guac	254
-garlic_bread	254
-fondu	254
-favor	254
-red_bean	253
-direct	252
-flatbread	251
-mac_chees	251
-sell	251
-employe	251
-cheek	250
-starv	250
-ass	250
-coat	249
-tight	249
-san	249
-settl	249
-box	249
-specialti	249
-weather	249
-smooth	249
-conveni	247
-band	247
-car	247
-reuben	246
-mark	246
-unbeliev	246
-peppercorn	246
-intim	245
-polenta	245
-funni	245
-cook_perfect	245
-desir	244
-lettuc	244
-shell	244
-poach_egg	243
-live_music	243
-mozzarella	243
-tonight	243
-complimentari	243
-underwhelm	243
-blue_chees	242
-featur	242
-queso	242
-gem	241
-iron	240
-creol	240
-spread	240
-mint	239
-char	239
-natur	239
-besh	239
-view	239
-tap	239
-specif	238
-gras	238
-color	238
-terrif	238
-louisiana	236
-menu_item	236
-cevich	236
-win	236
-accept	236
-center	235
-cheaper	235
-total_worth	235
-post	234
-memori	233
-gonna	233
-burn	233
-latt	233
-john	233
-pretenti	232
-loop	232
-squeez	232
-mash_potato	232
-chicago_deep	232
-appetit	232
-stapl	231
-confit	231
-ny	231
-picki	230
-shock	230
-go-to	230
-attempt	230
-oliv_oil	230
-asparagus	230
-uncomfort	230
-rub	230
-soak	229
-yelp_review	228
-wear	228
-2nd	227
-awkward	227
-gelato	226
-finger	226
-angel	226
-wild	225
-chain	225
-chorizo_stuf	224
-peanut_butter	224
-whip	224
-winner	224
-count	224
-quesadilla	224
-yellowtail	223
-smokey	223
-magic	223
-judg	223
-listen	223
-soooo	223
-kill	223
-river	223
-soy	223
-cucumb	222
-craft	222
-situat	222
-pomegran	222
-practic	220
-bake_bean	220
-street_park	220
-promis	220
-flat	220
-sport	219
-decis	219
-wors	218
-sushi-gen	218
-send	218
-buzz	218
-steam	218
-oven	218
-gino	217
-sweet_mango	217
-ruin	217
-bomb	217
-entertain	216
-buffalo	216
-crawfish	216
-spain	216
-pile	215
-credit	215
-assum	215
-yell	215
-classi	215
-oili	215
-overr	215
-patient	215
-neighbor	214
-onion_ring	214
-devour	214
-small_portion	214
-ran	214
-michigan	214
-complement	214
-beef_brisket	214
-ten	213
-invit	213
-lick	213
-marrow	213
-freak	213
-omelet	213
-luck	213
-joke	213
-substitut	213
-repeat	212
-herb	212
-park_lot	212
-mother	212
-pain	211
-frozen	211
-pea	211
-hesit	211
-anymor	211
-laid	210
-decad	210
-tart	210
-made_reserv	210
-valet	209
-carmel	209
-ricotta	209
-hipster	209
-caraf	208
-mini	208
-peopl_watch	208
-imposs	208
-market	208
-assort	208
-horseradish	207
-big_group	207
-tast_bud	206
-push	206
-bustl	205
-vodka	205
-cake_shake	205
-woman	204
-broth	204
-parent	204
-individu	204
-energi	203
-west	203
-fellow	203
-macaroni	203
-cent	203
-messi	203
-par	203
-execut	203
-ador	203
-ventur	202
-pork_sandwich	202
-discov	202
-laugh	201
-bright	201
-proper	201
-updat	201
-darn	201
-crap	201
-advic	200
-yesterday	200
-delect	200
-privat	200
-spaghetti	200
-higher	200
-polish	199
-brother	199
-im	199
-prime	199
-bonus	198
-high_qualiti	198
-didnt	198
-section	198
-diet	198
-wine_select	198
-fortun	197
-barbecu	197
-mile	197
-feed	197
-appeal	197
-nois_level	197
-red_wine	197
-indulg	197
-los_angel	196
-capres	196
-pleasur	196
-ginger	196
-drool	196
-pork_cheek	196
-act	196
-product	195
-pate	195
-secret	195
-closer	195
-correct	195
-flake	194
-vietnames	194
-sushi_chef	194
-zucchini	194
-sampler	194
-focaccia	193
-cabbag	193
-boudin	193
-mama	192
-fav	192
-tv	192
-excus	192
-week_ago	192
-surround	191
-greas	191
-bone_marrow	191
-jam_cafe	191
-movi	191
-palat	190
-arugula	190
-mcdonald	190
-wash	190
-pretti_quick	189
-dim	189
-wasabi	189
-ceil	189
-creme	189
-drown	189
-descript	188
-cure	188
-mapl	188
-convinc	188
-loui_rib	188
-tongu	187
-communal_tabl	187
-champagn	187
-bread_pud	187
-massiv	187
-system	187
-sip	187
-slab	186
-cater	186
-forc	186
-wooden	186
-consum	186
-grill_corn	186
-fault	186
-anytim	185
-berri	185
-improv	185
-peak	185
-scream	185
-jumbo	185
-opportun	185
-nut	184
-search	184
-escargot	184
-lime	184
-write_home	184
-soul	184
-napkin	183
-river_north	183
-martini	183
-sear	183
-bump	183
-brioch	182
-strip	182
-member	182
-style_pizza	182
-beer_list	182
-initi	182
-villag	182
-tapa_style	181
-outdoor_seat	181
-stellar	181
-sold	181
-dig	180
-winter	180
-gooey	180
-caramel_crust	180
-score	180
-steak_frite	180
-pipe	179
-foie	179
-minus	179
-process	179
-cart	179
-grant	178
-recip	178
-mushi	178
-dine_area	178
-hubbi	178
-bit_pricey	178
-cherri	178
-bet	178
-kuma	177
-truffl_oil	177
-colleg	177
-condiment	176
-brew	176
-beverag	176
-period	176
-big_deal	176
-prior	176
-introduc	176
-bus	176
-inexpens	175
-lie	175
-stew	175
-pretti_tasti	175
-almond	175
-sunday_night	175
-buddi	175
-bench	175
-result	174
-everyday	174
-remain	174
-eh	174
-artichok	174
-squash	174
-carrot	174
-dude	174
-jalapeno	173
-partner	173
-yellow	173
-bistro	173
-troubl	173
-parmesan_peppercorn	173
-sick	173
-chutney_mayo	173
-pari	172
-fig	172
-stranger	172
-temperatur	172
-delic	172
-blood	171
-gourmet	171
-nice_touch	170
-call_ahead	170
-disgust	170
-chicago_pizza	170
-john_besh	170
-smoke_bacon	170
-fake	170
-king	170
-needless	170
-slice_brisket	169
-mild	169
-seitan	169
-butter_crust	169
-vanilla_bean	169
-shame	169
-flight	169
-sashimi_delux	169
-pot	169
-chorizo-stuf	169
-french_quarter	169
-pizzeria	169
-vinaigrett	168
-leg	168
-sausag_jambalaya	168
-spici_tuna	168
-touristi	168
-daili	168
-nonetheless	167
-culinari	167
-gluten	167
-rule	167
-brie	166
-medjool	166
-bitter	166
-lose	166
-factor	166
-success	166
-ave	166
-jamon	166
-sake	165
-spoon	165
-butcher	165
-hollandais	165
-brisket_sandwich	165
-cowork	165
-pace	164
-hot_pepper	164
-hook	164
-tast_menu	164
-so-so	164
-tuesday_night	163
-medjool_date	163
-focus	163
-duck_confit	163
-ala	163
-calori	163
-shred	162
-swear	162
-chees_plate	162
-vacat	162
-brick	162
-curri_ketchup	162
-foie_gras	162
-vietnames_pineappl	162
-fashion	161
-hotdog	161
-quantiti	161
-air	161
-cash	161
-bed	161
-valid	160
-watermelon	160
-fli	160
-tire	160
-sunday_brunch	160
-succul	160
-recal	159
-concoct	159
-insist	159
-famili_style	159
-onlin	159
-inspir	159
-shit	159
-smother	159
-veal_meatbal	158
-crack	158
-inch	158
-beet_salad	158
-blew	158
-station	158
-institut	158
-effort	158
-attract	158
-chipotl	157
-theme	157
-stephani	157
-steal	157
-roast_garlic	157
-kale	157
-worker	156
-golden	156
-tour	156
-high_expect	156
-attend	156
-dad	155
-lower	155
-tile	155
-eateri	155
-veggi_burger	155
-thursday_night	155
-claim	154
-bought	154
-killer	154
-nacho	154
-absolut_amaz	154
-kamil	154
-requir	154
-6pm	154
-comparison	153
-visitor	153
-began	153
-shave	153
-crepe	153
-sun	153
-stare	152
-wallet	152
-au	152
-bison	152
-pipe_hot	152
-essenti	152
-pound	151
-fulli	151
-super_nice	151
-class	151
-approach	151
-scotch	151
-impecc	151
-happili	151
-bisqu	151
-kimchi	150
-ground	150
-free_park	150
-crust_pizza	150
-rosemari_garlic	150
-freshest	150
-bad_thing	150
-gorgeous	149
-uno	149
-irish	149
-date_night	149
-chicago-styl	149
-train	149
-weak	149
-anticip	148
-flaki	148
-favorit_thing	148
-ultim	148
-ratio	148
-invent	147
-marinara	147
-venu	147
-bourbon	147
-chic	147
-jump	147
-hop	147
-croquett	147
-earth	147
-btw	147
-grill_chees	146
-common	146
-chicken_sandwich	146
-garlic_shrimp	146
-stumbl	145
-skeptic	145
-birthday_dinner	145
-eventu	145
-perfect_amount	145
-thumb	145
-standout	145
-press	144
-pub	144
-weeknight	144
-caught	143
-coast	143
-stage	143
-corn_flake	143
-scrumptious	143
-suit	143
-wed	143
-b/c	143
-bbq_joint	143
-plancha	143
-draft	143
-key	143
-haha	143
-text	142
-mmm	142
-chocol_chip	142
-ride	142
-toss	142
-grew	142
-burger_bar	142
-seafood_gumbo	142
-month_ago	142
-potenti	142
-tax	142
-wanna	141
-sprinkl	141
-sooooo	141
-chicago_classic	141
-scrambl_egg	141
-mmmm	141
-beignet	141
-fun_atmospher	141
-soo	141
-loung	140
-relish	140
-fed	140
-rais	140
-fishi	140
-fianc	140
-noodl	140
-cod	139
-traffic	139
-undercook	139
-board	139
-crisp_bbq	139
-medium_rare	139
-wateri	139
-hurri	139
-out-of-town	139
-english	139
-awar	138
-frank	138
-danc	138
-rave_review	138
-pork_chop	138
-cauliflow	138
-network	138
-albeit	138
-offic	138
-safe	138
-threw	137
-overlook	137
-numer	137
-seed	137
-okra	137
-bewar	137
-squar	137
-lean	137
-obsess	137
-distanc	136
-shout	136
-unusu	136
-la_plancha	136
-ordinari	136
-ranch	136
-respons	135
-ear	135
-altern	135
-potato_salad	135
-holiday	135
-contrast	135
-exist	135
-pear	135
-snapper	135
-till	135
-afraid	135
-onion_soup	135
-drench	135
-restroom	135
-hospit	135
-croissant	134
-cuz	134
-tempt	134
-open_tabl	134
-flavorless	134
-special_occas	134
-8pm	133
-tasteless	133
-balsam	133
-pollo	133
-green_bean	133
-cousin	133
-heck	133
-resist	133
-tail	133
-ink	133
-runni	133
-mapl_syrup	133
-daughter	133
-lit	132
-muffin	132
-men	132
-genuin	132
-hazelnut	132
-chicagoan	132
-cabra	132
-sloppi	132
-scallion	132
-cheesecak	132
-monday_night	132
-smoke_salmon	132
-lead	132
-ideal	131
-dill	131
-hamburg	131
-gluten_free	131
-guarante	131
-gamba	131
-tequila	131
-divers	131
-and/or	130
-corn_bread	130
-meter	130
-wise	130
-exceed	130
-reput	130
-tummi	130
-la_cart	130
-star_rate	130
-elbow	130
-drank	130
-flow	129
-shape	129
-belgium	129
-hurt	129
-de_cabra	129
-held	129
-basket	129
-communal_seat	129
-carn	129
-crumbl	129
-minor	128
-unexpect	128
-narrow	128
-war	128
-wet	128
-fool	128
-favorit_part	128
-serrano	128
-websit	128
-bell	128
-italian_tapa	127
-jam_benedict	127
-worthi	127
-larg_parti	127
-paper_cone	127
-cheeseburg	127
-knife	127
-regist	127
-yay	127
-rustic	127
-thrill	127
-drizzl	127
-shrimp_creol	127
-reach	127
-cab	127
-pretti_damn	126
-saute	126
-gf	126
-pomegran_teriyaki	126
-remov	126
-power	126
-liquor	126
-larg_portion	126
-croqueta	126
-pink	125
-suprem	125
-industri	125
-louisiana_cochon	125
-nativ	125
-sunday_morn	125
-pappardell	125
-live_jazz	125
-tast_plate	125
-filet	125
-splurg	125
-hair	125
-regular_size	124
-feet	124
-brais_pork	124
-florentin	124
-co-work	124
-rain	124
-replac	124
-giuliana	124
-tray	124
-expert	124
-black_bean	124
-vari	124
-written	124
-carnivor	123
-breast	123
-ya	123
-chile	123
-prais	123
-trio	123
-cinnamon	123
-queso_de	123
-cheddar_chees	123
-7pm	123
-switch	123
-spoil	122
-mimosa	122
-curd	122
-bottom_line	122
-necessarili	122
-blah	122
-white_sangria	122
-european	122
-pastri	122
-alot	122
-cow	121
-east_villag	121
-background	121
-ajillo	121
-albacor	121
-gyro	121
-hanger	121
-advantag	121
-powder	121
-brandad	121
-asado	120
-9pm	120
-defin	120
-chicago_hot	120
-chi-town	120
-wander	120
-screw	120
-spanish_tapa	120
-churro	120
-to-go	120
-dislik	120
-pesto_mayo	120
-white_wine	119
-generous_portion	119
-cashier	119
-bakeri	119
-comp	119
-corn_beef	119
-gripe	119
-dairi	119
-it.th	119
-degre	118
-bull	118
-pretti_decent	118
-chop_brisket	118
-slider	118
-funki	118
-empanada	118
-critic	118
-scoop	118
-arrang	118
-super_fresh	118
-involv	118
-obnoxi	118
-legit	117
-omakas	117
-em	117
-bruschetta	117
-scotch_egg	117
-instant	117
-truffl_garlic	117
-destin	117
-control	117
-candi	117
-stool	117
-mouth_water	117
-greatest	117
-mad	116
-volum	116
-string	116
-familiar	116
-scare	116
-3rd	116
-land	116
-fresh_fish	116
-row	116
-subtl	116
-distinct	116
-everytim	115
-1st	115
-bc	115
-million	115
-espresso	115
-thicker	115
-side_note	115
-ive	115
-jar	115
-caramel_onion	115
-eclect	115
-itali	115
-tab	115
-spici_potato	114
-hanger_steak	114
-donut	114
-hidden	114
-won	114
-fight	114
-mixtur	114
-proceed	114
-pretti_small	114
-reminisc	114
-farm	114
-bacon-wrap	113
-basi	113
-hamachi	113
-faster	113
-squid_ink	113
-izard	113
-photo	113
-person_favorit	113
-baguett	113
-pretti_darn	112
-women	112
-sucker	112
-refus	112
-shank	112
-coke	112
-coma	112
-minimum	112
-5:30	112
-ale	112
-complex	112
-plastic	112
-join	112
-sum	112
-wednesday_night	111
-distract	111
-whip_cream	111
-al_ajillo	111
-punch	111
-line_move	111
-credit_card	111
-challeng	111
-penni	111
-bay	111
-skewer	111
-express	111
-doughi	111
-star_review	110
-satay	110
-root	110
-deep-dish	110
-quot	110
-draw	110
-easier	110
-pork_rib	110
-snag	110
-intend	110
-huge_portion	110
-perfect_season	110
-sashimi_plate	110
-devil	110
-disappear	110
-ticket	109
-tvs	109
-entranc	109
-communiti	109
-gift	109
-assur	109
-6:30	109
-cram	109
-cloth	109
-children	109
-cheer	108
-chilli	108
-encourag	108
-budget	108
-pros	108
-purchas	108
-venison	108
-grow	108
-saturday_morn	108
-link	108
-gin	108
-dine_companion	108
-5pm	108
-dead	108
-red_sangria	107
-gorgonzola	107
-sidewalk	107
-wont	107
-layout	107
-silli	107
-older	107
-fennel	107
-burst	107
-manner	107
-flag	107
-intrigu	106
-jack	106
-anniversari	106
-remark	106
-slowli	106
-trap	106
-bit_disappoint	106
-infus	106
-exot	106
-explor	106
-cross	106
-confirm	106
-sight	106
-advis	105
-recent_visit	105
-prix	105
-gracious	105
-nigiri	105
-earn	105
-forgotten	105
-yum_yum	105
-kudo	105
-effect	105
-dare	105
-cafeteria	105
-pizza_joint	105
-bad_experi	105
-rough	105
-stupid	105
-son	105
-social	105
-road	105
-sprout_salad	104
-chi	104
-favorit_pizza	104
-mahi	104
-crumb	104
-francisco	104
-um	104
-support	104
-snob	104
-smart	104
-roast_chicken	104
-booz	104
-sticki	104
-seat_area	104
-sour_cream	104
-brasseri	104
-bucatini	104
-thrown	104
-justifi	104
-cri	103
-island	103
-grand	103
-encount	103
-machin	103
-spring	103
-drip	103
-curious	103
-citrus	103
-array	103
-san_francisco	103
-depandi	103
-pretti_cool	102
-tortellini	102
-advertis	102
-halibut	102
-3-4	102
-real_deal	102
-mayonnais	102
-savor	102
-11am	102
-rack	102
-embarrass	102
-french_onion	102
-red_pepper	102
-wood-fir	102
-turkey_burger	102
-fusion	102
-cracker	102
-lighter	102
-brais_beef	101
-feast	101
-charcuteri	101
-foot	101
-meat_eater	101
-sunni	101
-engag	101
-chili_garlic	101
-blame	101
-guid	101
-bodi	101
-mouss	101
-courteous	101
-candl	101
-access	101
-team	100
-bias	100
-pineappl_mayo	100
-wasnt	100
-bang	100
-garnish	100
-nasti	100
-content	100
-skirt	100
-expand	100
-yolk	100
-grill_octopus	100
-drink_menu	100
-8:30	100
-drove	100
-los_drown	100
-dens	100
-red_onion	99
-tartufo	99
-anim	99
-test	99
-grape	99
-occasion	99
-decent_price	99
-prix_fix	99
-eleg	99
-skimp	99
-intens	99
-brule	99
-tostada	99
-debat	99
-steep	99
-brunch_spot	99
-public	99
-gastropub	99
-moder	99
-element	98
-dinner_menu	98
-fear	98
-crusti	98
-veg	98
-ai	98
-signific	98
-burger_joint	98
-gigant	98
-peanut_satay	98
-child	98
-nicer	98
-save_room	98
-green_pepper	98
-planxa	98
-demand	98
-cast	98
-dear	98
-energet	98
-redfish	98
-hundr	97
-breath	97
-date_wrap	97
-capres_salad	97
-perfect_size	97
-fyi	97
-thin_slice	97
-broccoli	97
-gulf	97
-aka	97
-flan	97
-chees_curd	96
-fuss	96
-adult	96
-upset	96
-final_made	96
-glaze	96
-hangov	96
-michigan_ave	96
-saturday_afternoon	96
-spin	96
-boil	96
-5-star	96
-bison_burger	96
-2-3	95
-led	95
-bank	95
-la_planxa	95
-dive_bar	95
-wisconsin	95
-sauci	95
-canadian	95
-wtf	95
-gal	95
-saliv	95
-cider	95
-discuss	95
-bellini	95
-chew	95
-blast	95
-firm	95
-blood_orang	95
-sassi_wing	95
-carpaccio	95
-recent_trip	94
-lil	94
-oper	94
-neat	94
-larg_plate	94
-research	94
-rank	94
-enorm	94
-gamba_al	94
-nice_atmospher	94
-hock	94
-brunch_menu	94
-spare	94
-carb	94
-thick_cut	94
-expos	93
-mama_depandi	93
-prop	93
-pumpkin	93
-frustrat	93
-stretch	93
-perfect_balanc	93
-lincoln	93
-half_hour	93
-cracklin	93
-shine	93
-fond	93
-verd	93
-casserol	93
-purpos	93
-crostini	93
-lacklust	93
-whiskey	93
-wood_fire	93
-caesar	93
-burrata	93
-tag	93
-gold	92
-sorbet	92
-sea_salt	92
-ham_hock	92
-innov	92
-oppos	92
-style_hot	92
-prove	92
-drag	92
-ol	92
-america	92
-lunch_menu	92
-windi	92
-acid	92
-truth	92
-wide_varieti	92
-absolut_favorit	92
-black_truffl	92
-pulpo	92
-smoqu_bbq	92
-tuna_tartar	92
-spoke	91
-til	91
-fuck	91
-cob	91
-earli_dinner	91
-cream_chees	91
-grapefruit	91
-skinni	91
-chili_chees	91
-indoor	91
-bear	91
-tall	91
-seawe	91
-spill	91
-suffer	91
-pretti_busi	91
-favorit_sushi	91
-offici	91
-utter	91
-minim	90
-attack	90
-stack	90
-philli	90
-tiramisu	90
-alioli	90
-sweet_shrimp	90
-voic	90
-dmk_burger	90
-excess	90
-aspect	90
-bold	90
-compet	90
-sigh	90
-croqu	90
-7:30	89
-open_kitchen	89
-eager	89
-refer	89
-small_tabl	89
-mr	89
-turnip	89
-nope	89
-avenu	89
-butt	89
-batch	89
-freakin	89
-italian_sausag	89
-lamb_burger	89
-sole	89
-prici	89
-arm	89
-creme_brule	89
-drawback	89
-parm	88
-truffl_mayo	88
-grate	88
-craft_beer	88
-piquillo	88
-feta	88
-gather	88
-linger	88
-mushroom_risotto	88
-small_group	88
-garlic_aioli	88
-sexi	88
-freez	88
-yea	88
-lazi	88
-midnight	88
-health	88
-truffl_cream	88
-ill	88
-brisket_platter	88
-fruiti	88
-bim	88
-raini	87
-celeri	87
-eye_french	87
-water_glass	87
-cavatelli	87
-cooki_dough	87
-unimpress	87
-slam	87
-good.th	87
-allergi	87
-steak_bowl	87
-ps	87
-genius	87
-trek	87
-enthusiast	87
-mojito	87
-jean	87
-king_crab	87
-broke	87
-grace	87
-plaza	87
-ll_find	87
-tho	86
-garlicki	86
-colleagu	86
-fish_taco	86
-valentin	86
-measur	86
-saffron	86
-forgett	86
-ooz	86
-wasabi_mayo	86
-pincho	86
-de_pollo	86
-connoisseur	86
-charact	86
-swim	86
-account	86
-court	86
-bulgogi	86
-chip_cooki	86
-bad_boy	86
-outrag	86
-barbequ	86
-downtown_chicago	86
-fresh_cut	86
-1/4	86
-fresh_fruit	86
-wedg	86
-sausag_pizza	85
-millennium	85
-sashimi_dinner	85
-small_side	85
-griddl	85
-abita	85
-tastier	85
-student	85
-packag	85
-halfway	85
-argu	85
-stock	85
-cent_oyster	85
-liquid	85
-smallest	85
-jus	85
-sing	85
-ampl	85
-cast_iron	84
-ensur	84
-thousand	84
-smoke_pork	84
-doug	84
-ined	84
-mass	84
-crappi	84
-wrote	84
-shirt	84
-babi_buddha	84
-walnut	84
-festiv	84
-lunch_hour	84
-extraordinari	84
-dessert_menu	84
-walk_distanc	84
-client	84
-fellow_yelper	84
-dark_chocol	84
-sushi_joint	83
-pomodoro	83
-japan	83
-rubberi	83
-barcelona	83
-crush	83
-brisket_chili	83
-ppl	83
-orgasm	83
-struggl	83
-edibl	83
-sophist	83
-bachelorett	83
-lakeview	83
-hunger	83
-takeout	83
-l.a	83
-contact	83
-front_door	83
-salami	82
-sunday_afternoon	82
-pant	82
-take-out	82
-blacken	82
-stephani_izard	82
-chop_salad	82
-pinot	82
-texa_sausag	82
-screen	82
-acknowledg	82
-bbq_bean	82
-house-mad	82
-en	82
-millennium_park	82
-venison_burger	82
-parmesan_truffl	82
-tourist_trap	82
-bubbl	82
-chirashi	82
-raw_oyster	82
-lame	82
-chai	82
-skirt_steak	82
-accomod	82
-sundri	82
-girl_night	82
-hash_brown	82
-ship	82
-vanilla_ice	82
-mackerel	82
-brilliant	82
-intimid	82
-christma	82
-price_point	82
-green_tea	82
-polici	81
-towel	81
-tear	81
-breakfast/brunch	81
-august	81
-hilton	81
-fine_dine	81
-pretti_awesom	81
-pastor	81
-sauerkraut	81
-silverwar	81
-pretti_big	81
-death	81
-nail	81
-oyster_roast	81
-glorious	81
-joe	81
-munch	81
-produc	81
-mahi_mahi	81
-passion	81
-catalan	81
-roma	80
-exquisit	80
-tenderloin	80
-creation	80
-district	80
-upsid	80
-fresh_squeez	80
-bird	80
-10pm	80
-slap	80
-clientel	80
-garden	80
-move_quick	80
-rabbit_sausag	80
-caramel_chees	80
-anchovi	80
-jalapeño	80
-display	80
-tapa_bar	79
-piss	79
-miga	79
-foccacia	79
-competit	79
-malt	79
-hefti	79
-bass	79
-ribey	79
-p.s	79
-julep	79
-bi	79
-grub	79
-metal	79
-sundri_tomato	79
-a-ok	79
-spacious	79
-doughnut	79
-hous_made	79
-lobster_ravioli	79
-lemonad	79
-vinegari	79
-belli_pancak	79
-award	79
-busser	78
-busboy	78
-recogn	78
-15-20	78
-bacon-wrap_date	78
-tast_fresh	78
-finest	78
-bar_seat	78
-busi_night	78
-hot_spot	78
-find_park	78
-sweeter	78
-franc	78
-ha	78
-honey_mustard	78
-elvi	78
-aroma	78
-blackbird	78
-duck_prosciutto	78
-norwegian	78
-chow	78
-smoke_eggplant	78
-master	78
-slather	78
-coconut	78
-mexican_ketchup	78
-stone	78
-attach	77
-bus_boy	77
-tone	77
-esp	77
-carnita	77
-superior	77
-bummer	77
-basement	77
-mmmmm	77
-consider	77
-duck_quesadilla	77
-favorit_spot	77
-overbear	77
-red_snapper	77
-devil_egg	77
-boss	77
-joy	77
-dent	77
-amus	77
-nutella	76
-top-notch	76
-jelli	76
-grass	76
-twenti	76
-cotija	76
-taleggio	76
-wild_mushroom	76
-beef_hash	76
-manchego	76
-bday	76
-airi	76
-chorizo-stuf_medjool	76
-accident	76
-sock	76
-buffalo_wing	76
-reflect	76
-substanti	76
-lukewarm	76
-orang_juic	76
-bop	76
-blue_jam	76
-paint	76
-bum	76
-roast_pork	75
-vegetarian_option	75
-jazz_band	75
-grain	75
-past_weekend	75
-florentin_benedict	75
-elev	75
-skill	75
-subway	75
-regular_menu	75
-accur	75
-bi_bim	75
-yellow_tail	75
-picnic	75
-wake	75
-realiti	75
-marri	75
-penn	75
-bell_pepper	75
-weight	75
-10:30	75
-sushi_delux	75
-imo	75
-sweet_chili	75
-café	75
-lack_flavor	75
-epic	75
-wheat	75
-favorit_tapa	75
-vast	75
-perfect_crispi	75
-roommat	74
-increas	74
-lip	74
-glanc	74
-ugh	74
-endless	74
-benefit	74
-loui_style	74
-honor	74
-trick	74
-flash	74
-drunken	74
-ah	74
-garc	74
-raw_fish	74
-determin	74
-wood-fir_oyster	74
-pretti_fast	74
-rip	74
-stuffi	74
-housemad	74
-madam	74
-worth_check	74
-chorizo-stuf_date	74
-raspberri	74
-super_tasti	74
-quick_bite	73
-chunki	73
-mon	73
-carbonara	73
-flavour	73
-risk	73
-st_mark	73
-custard	73
-seafood_paella	73
-sudden	73
-sf	73
-blackston	73
-snap	73
-perform	73
-windi_citi	73
-resembl	73
-iron_chef	73
-comfi	73
-lobster_capres	73
-patienc	73
-bit_dri	73
-sin	73
-closest	73
-teeth	73
-pork_shank	72
-fire_oyster	72
-enhanc	72
-seat_prompt	72
-adequ	72
-arriv_earli	72
-radish	72
-stair	72
-eel	72
-bit_small	72
-malnati_chicago	72
-croqueta_de	72
-bliss	72
-hung	72
-make_sens	72
-el	72
-shrimp_taco	72
-move_fast	72
-ten_minut	72
-nose	72
-cocktail_menu	72
-quieter	72
-yep	72
-inconsist	72
-theater	72
-lincoln_park	72
-toler	72
-shut	72
-arteri	72
-white_bean	72
-asado_con	72
-mind_blow	71
-claw	71
-cube	71
-fatti_tuna	71
-straw	71
-loaf	71
-sweet_pepper	71
-sober	71
-variat	71
-hous_wine	71
-elk	71
-ice_tea	71
-steak_tartar	71
-di	71
-rosco	71
-butteri_crust	71
-wind	71
-peak_hour	71
-pricier	71
-sooner	71
-suburb	71
-skillet	71
-bake_goat	71
-unreal	71
-brown_rice	71
-proport	70
-pine	70
-grass-f	70
-plump	70
-heavili	70
-opposit	70
-din	70
-buttercrust	70
-bachelorett_parti	70
-weekend_night	70
-boucheri	70
-thinner	70
-9:30	70
-gator	70
-pic	70
-cultur	70
-manhattan	70
-guilti	70
-breakfast_spot	70
-price_tag	70
-onion_string	70
-summari	70
-thanksgiv	70
-chines	70
-hot_chocol	70
-atom	70
-dump	70
-tasso	70
-sashimi_platter	70
-mission	70
-collar	70
-accent	70
-tie	69
-pretti_standard	69
-smoke_duck	69
-egg_white	69
-convert	69
-fryer	69
-revisit	69
-2pm	69
-activ	69
-hover	69
-hr	69
-fresh_ingredi	69
-sashimi_combo	69
-wipe	69
-chive	69
-lentil	69
-song	69
-strike	69
-runner	69
-sensat	69
-vinegar_base	69
-boot	69
-explos	69
-size_portion	69
-abund	69
-katfish	69
-memphi	68
-pint	68
-10-15	68
-commit	68
-alfredo	68
-float	68
-rancic	68
-cilantro	68
-maintain	68
-infam	68
-nom	68
-tastiest	68
-rabbit_dumpl	68
-schedul	68
-confer	68
-proud	68
-scale	68
-unagi	68
-pistachio	68
-larger_group	68
-spinach_salad	68
-half_chicken	68
-pretti_crowd	68
-partial	68
-person_prefer	68
-notabl	68
-stress	68
-chicken_liver	68
-crab_dip	67
-spirit	67
-butternut	67
-10am	67
-11:30	67
-sardin	67
-apologet	67
-pretti_pack	67
-horseradish_potato	67
-suspect	67
-intent	67
-video	67
-asap	67
-hog	67
-simpli_amaz	67
-repli	67
-action	67
-underneath	67
-steer	67
-french_bistro	67
-shorter	67
-born	67
-resid	67
-mix_drink	67
-yogurt	67
-eggplant_mayo	67
-hot_doug	67
-tune	67
-pronounc	66
-address	66
-fair_quick	66
-rose	66
-chaotic	66
-carolina	66
-rabbit_liver	66
-art_institut	66
-pepperi	66
-rotat	66
-hummus	66
-fab	66
-tremend	66
-vibrant	66
-high_price	66
-dissapoint	66
-pretti_amaz	66
-grown	66
-heart_attack	66
-swanki	66
-salumeria	66
-carmel_crust	66
-forgiv	66
-burnt_chees	66
-depart	66
-interact	66
-contemporari	66
-goat_chili	66
-chicken_waffl	66
-plane	66
-stroll	66
-report	66
-jose	66
-rout	65
-tabasco	65
-moonshin	65
-premium	65
-dous	65
-bless	65
-speed	65
-posit_review	65
-sharp	65
-central	65
-urban	65
-quaint	65
-desper	65
-justic	65
-du	65
-thai	65
-bim_bop	65
-german	65
-chick	65
-goodi	65
-patti_melt	65
-pancetta	65
-lüke	65
-purpl	65
-track	65
-20-30	65
-capac	65
-shoe	65
-delay	65
-staff_member	65
-blt	65
-hide	65
-gluten-fre	65
-raisin	65
-crispi_french	65
-warrant	64
-connect	64
-bit_loud	64
-maxwel	64
-happier	64
-hassl	64
-spell	64
-super_busi	64
-wisconsin_cheddar	64
-europ	64
-wit	64
-30-40	64
-margherita	64
-expos_brick	64
-high_ceil	64
-elvi_waffl	64
-ll_make	64
-generic	64
-idiot	64
-overdon	64
-unhealthi	64
-outing	64
-budino	64
-jamon_iberico	64
-beg	64
-goos	63
-cool_atmospher	63
-marshmallow	63
-town_guest	63
-shove	63
-pressur	63
-chocol_mouss	63
-sun-dri	63
-highest	63
-cappuccino	63
-eas	63
-kimche	63
-slip	63
-bargain	63
-p.m	63
-refin	63
-whim	63
-confid	63
-extend	63
-puff	63
-heap	63
-bleu	63
-histori	63
-pricey_side	63
-divey	63
-long_tabl	63
-perfect_crisp	63
-dark_wood	63
-fifteen	63
-pepper-tomato	63
-angri	63
-con_alioli	63
-midwest	63
-seoul_steak	62
-hollywood	62
-molten	62
-super_excit	62
-stale	62
-opent	62
-picki_eater	62
-sun-dri_tomato	62
-quinoa	62
-amish	62
-escap	62
-big_portion	62
-eve	62
-news	62
-chees_pizza	62
-serrano_ham	62
-fritter	62
-butternut_squash	62
-tast_pretti	62
-sweet_tea	62
-hat	62
-prawn	62
-solo	62
-crab_claw	62
-fair_price	62
-poppi	62
-pecan	62
-shortrib	62
-nervous	62
-bolognes	62
-categori	62
-respond	61
-bar_steak	61
-yuck	61
-discount	61
-influenc	61
-downfal	61
-maiz	61
-dug	61
-mug	61
-cell	61
-portobello	61
-tad_bit	61
-tooth	61
-hous_salad	61
-30-45	61
-oj	61
-brand	61
-decent_size	61
-grass_fed	61
-high_end	61
-breakfast_item	61
-arroz	61
-mocha	61
-unabl	61
-strict	61
-live_atmospher	61
-jambalaya_suprem	61
-atop	61
-pickl_pepper	61
-favorit_chicago	61
-chees_crust	61
-boo	61
-gentleman	61
-pretend	60
-pre-ord	60
-empti_tabl	60
-cheat	60
-queso_cotija	60
-pincho_de	60
-convent	60
-seat_quick	60
-torn	60
-palett	60
-grill_shrimp	60
-tastebud	60
-fix_menu	60
-chocol_shake	60
-brain	60
-limit_seat	60
-uniqu_flavor	60
-upbeat	60
-restrict	60
-unpretenti	60
-casual_atmospher	60
-hut	60
-tripl	60
-father	60
-green_chile	60
-utensil	60
-asparagus_risotto	60
-protein	60
-mole	60
-morsel	60
-slide	60
-french_bread	60
-rabbit_jambalaya	60
-top_chef	60
-stole	60
-piquillo_pepper-tomato	60
-fake_meat	60
-fountain	59
-concert	59
-urchin	59
-flat_bread	59
-jazz_music	59
-monkfish	59
-duh	59
-pretti_long	59
-occupi	59
-irish_curri	59
-chosen	59
-style_rib	59
-vindaloo	59
-yorker	59
-yellowtail_belli	59
-boy_buddha	59
-dim_lit	59
-wave	59
-vote	59
-poppi_seed	59
-juli	59
-lunchtim	59
-explan	59
-towner	59
-fresh_sushi	59
-pool	59
-airport	59
-swing	59
-equival	59
-half_price	59
-unnecessari	59
-grade	59
-north_side	59
-profil	59
-mouthwat	59
-sport_bar	59
-flip	58
-home_made	58
-dim_light	58
-reheat	58
-zone	58
-valet_park	58
-bucket	58
-overheard	58
-bath	58
-overload	58
-stun	58
-sazerac	58
-brave	58
-understood	58
-foam	58
-tomato_mayo	58
-grandma	58
-scarf	58
-powder_sugar	58
-drinker	58
-qualiti_ingredi	58
-depth	58
-caesar_salad	58
-melt_chees	58
-receipt	58
-birthday_parti	58
-serv_size	58
-disagre	58
-daili_special	58
-crew	58
-compon	58
-broken	58
-amaz_flavor	58
-favorit_meal	58
-deter	58
-bon	58
-fourth	58
-site	58
-unpleas	58
-cat	58
-sale	57
-tin	57
-cheez	57
-exterior	57
-final_decid	57
-built	57
-week_menu	57
-andouill	57
-gage_burger	57
-inconveni	57
-estim	57
-pretti_loud	57
-transport	57
-mysteri	57
-dice	57
-sauté	57
-english_muffin	57
-automat	57
-qualiti_sushi	57
-oz	57
-real_thing	57
-bad_day	57
-circl	57
-brick_wall	57
-trash	57
-giardiniera	57
-pride	57
-microwav	57
-free_sampl	57
-oblig	57
-small_piec	57
-norwegian_benedict	57
-alik	57
-sea_scallop	57
-favorit_breakfast	57
-shi	57
-upgrad	57
-desk	57
-milk_shake	57
-dri_tomato	57
-fresh_made	56
-dagwood	56
-bbq_chicken	56
-sunda	56
-perfect_combin	56
-frill	56
-homey	56
-includ_tip	56
-sparkl	56
-record	56
-human	56
-cure_meat	56
-field	56
-romain	56
-cheapest	56
-fulfil	56
-super_yummi	56
-overhyp	56
-insult	56
-sleek	56
-zeppol	56
-entré	56
-clever	56
-quail	56
-dang	56
-rib_pappardell	56
-kale_salad	56
-inhal	56
-jam_pack	56
-hmm	56
-mirror	56
-march	56
-bibimbap	56
-lasagna	56
-fat_elvi	56
-groceri	56
-previous_review	56
-explod	56
-slight_sweet	56
-dri_rub	56
-crouton	56
-décor	56
-bitch	56
-full_bar	55
-paprika	55
-thigh	55
-toast_bread	55
-fresh_bake	55
-path	55
-raw_onion	55
-nuff	55
-max	55
-smaller_portion	55
-male	55
-lord	55
-paper_bag	55
-healthier	55
-bit_slow	55
-wine_glass	55
-4-5	55
-bbq_wing	55
-museum	55
-gain	55
-fee	55
-allerg	55
-high_rate	55
-prompt_seat	55
-outdoor_patio	55
-conclus	55
-seek	55
-sweetbread	55
-favorit_bbq	55
-t-shirt	55
-pocket	55
-drumstick	55
-pushi	55
-sub-par	55
-taleggio_chees	55
-soap	55
-planet	55
-night_snack	55
-nibbl	55
-collect	55
-caper	55
-moon	55
-secur	55
-sun_dri	55
-hill	55
-draft_beer	55
-cap	55
-scratch	54
-subpar	54
-grandmoth	54
-gosh	54
-lay	54
-9am	54
-pine_nut	54
-ink_pasta	54
-eggplant_parmesan	54
-spotti	54
-status	54
-sleep	54
-sweat	54
-4/5	54
-must-tri	54
-jame	54
-feel_rush	54
-greek	54
-malnati_salad	54
-garbag	54
-whale	54
-beef_short	54
-favorit_brunch	54
-espanola	54
-expans	54
-marmalad	54
-korean_bbq	54
-nice_dinner	54
-kobe	54
-pet	54
-price_rang	54
-4th	54
-lesson	54
-hub	54
-high_school	54
-loud_music	54
-seat_arrang	54
-bean_rice	54
-repres	54
-classic_chicago	54
-fame	54
-nice_flavor	54
-cochon_butcher	54
-heartbeat	54
-west_coast	54
-hustl	54
-michigan_avenu	54
-1-2	54
-apricot	54
-communic	54
-grill_onion	53
-sushi_rice	53
-sea_urchin	53
-function	53
-worthwhil	53
-nice_select	53
-filipino	53
-perfect_portion	53
-humbl	53
-outer	53
-mid	53
-steak_hash	53
-luke_burger	53
-trend	53
-alley	53
-indecis	53
-chees_fondu	53
-fin	53
-domin	53
-3pm	53
-le	53
-special_menu	53
-uh	53
-fresh_tomato	53
-kansa	53
-redeem	53
-sushi_spot	53
-chicago-styl_pizza	53
-music_play	53
-strong_recommend	53
-local_beer	53
-radic	53
-dinner_reserv	53
-tagliatell	53
-turnip_cabbag	53
-wine_pair	53
-rye	53
-scrape	53
-disclaim	53
-jersey	53
-watermelon_pickl	53
-super_cute	53
-verdict	53
-hike	53
-inattent	53
-date_stuf	53
-lech	53
-cancel	52
-huevo	52
-suffici	52
-babareeba	52
-vanilla_french	52
-flour	52
-green_salad	52
-nicest	52
-friggin	52
-danger	52
-weekend_brunch	52
-snooti	52
-small_space	52
-femal	52
-flair	52
-11pm	52
-beef_tenderloin	52
-willi	52
-accid	52
-5/5	52
-reeba	52
-pump	52
-gut	52
-peep	52
-snow	52
-camaron	52
-vintag	52
-unaccept	52
-chickpea	52
-favorit_deep	52
-absurd	52
-yup	52
-sublim	52
-blackston_hotel	52
-spinach_mushroom	52
-faux	52
-exit	52
-talent	52
-white_fish	52
-deli	52
-shrimp_risotto	52
-sourdough	52
-hall	51
-dozen_oyster	51
-tini_bit	51
-crawl	51
-fontina	51
-french_press	51
-panini	51
-page	51
-pretti_close	51
-pale	51
-cupcak	51
-green_onion	51
-magazin	51
-formal	51
-journey	51
-ranchero	51
-barnelli	51
-melt-in-your-mouth	51
-reward	51
-tomat	51
-approxim	51
-boucheri_plate	51
-harder	51
-bar_tender	51
-magnific	51
-muscl	51
-korean_style	51
-menu_option	51
-nation	51
-noir	51
-region	51
-parsley	51
-lait	51
-ensalada	51
-lake	51
-au_jus	51
-bleu_chees	51
-prefac	51
-mint_julep	51
-petit	51
-abil	51
-smack	51
-glow	51
-well.th	51
-beef_burger	51
-egg_bacon	51
-tabl_open	51
-mound	51
-aliv	51
-alla	51
-whitefish	51
-tomorrow	51
-well-season	51
-sop	51
-fluke	51
-seed_bun	50
-flawless	50
-spici_king	50
-side_salad	50
-plethora	50
-al_dent	50
-pickl_onion	50
-beard	50
-teriyaki_mayo	50
-fun_night	50
-boast	50
-hunt	50
-skate	50
-liter_melt	50
-sloppi_goat	50
-stringi	50
-conveni_locat	50
-final_seat	50
-email	50
-bean_burger	50
-turnov	50
-peev	50
-januari	50
-rpm_italian	50
-univers	50
-tang	50
-condit	50
-belong	50
-pretti_bad	50
-singl_thing	50
-style_deep	50
-declin	50
-church	50
-spicier	50
-meat-eat	50
-lunch_spot	50
-pizza_hut	50
-small_size	50
-border	50
-cocktail_list	50
-frost	50
-munchi	50
-sushi/sashimi	50
-tuna_roll	50
-observ	50
+tabl	6758	2.744802486140284
+make	6529	2.779275682227886
+menu	6097	2.847732627506703
+chees	6066	2.8528300651659926
+tast	6042	2.856794391467902
+chicago	5826	2.893198815895139
+amaz	5798	2.898016443932918
+thing	5769	2.9030307191576297
+nice	5642	2.9252908618525773
+peopl	5454	2.9591801900089854
+pretti	5447	2.960464476030845
+seat	5396	2.969871536086873
+night	5298	2.9882000835825044
+perfect	4969	3.052310861812199
+recommend	4917	3.0628308860025797
+drink	4825	3.081718739641433
+flavor	4811	3.0846245117150657
+price	4660	3.1165140262948277
+bar	4658	3.116943302970233
+meal	4654	3.117802409552282
+small	4517	3.147681417759915
+dinner	4500	3.151452077656108
+favorit	4461	3.1601565182862545
+bit	4449	3.1628501226084773
+worth	4424	3.1684852102123484
+made	4210	3.218066826738092
+enjoy	4113	3.2413767851840953
+side	4101	3.24429862802246
+experi	4092	3.2464956263430023
+chicken	4072	3.2513951951841604
+long	4013	3.2659903831476025
+pizza	3980	3.2742476551360356
+top	3942	3.2838412657018536
+fresh	3942	3.2838412657018536
+star	3851	3.3071966195996105
+line	3836	3.3110993174111902
+serv	3782	3.3252765041961165
+review	3775	3.3271290917313943
+lot	3697	3.3480077944778874
+day	3682	3.352073391621496
+plate	3674	3.354248487639448
+atmospher	3635	3.3649203634468994
+sweet	3537	3.392250564209039
+ll	3532	3.3936651916906686
+minut	3477	3.409359621406658
+tasti	3458	3.4148390871712833
+ca	3374	3.4394304903086055
+staff	3273	3.4698224789133385
+expect	3272	3.4701280556918817
+visit	3244	3.4787223381792156
+special	3213	3.488324394298661
+feel	3209	3.489570112304662
+reserv	3147	3.5090798563501124
+awesom	3137	3.512262545223841
+french	3136	3.5125813719442207
+lunch	3100	3.5241273629412815
+hour	3092	3.5267113437072064
+salad	3060	3.5371145584680925
+big	3000	3.5569171857642727
+high	2987	3.5612599351984096
+end	2985	3.561929727587817
+bread	2943	3.5761000051810465
+excel	2942	3.576439852253136
+wine	2938	3.5778003966806966
+bad	2925	3.5822349937485622
+disappoint	2906	3.5887519092842908
+meat	2890	3.5942729723080413
+hot	2890	3.5942729723080413
+pork	2890	3.5942729723080413
+server	2872	3.6005208232464043
+share	2850	3.608210480151823
+start	2810	3.622344991086728
+portion	2793	3.6284131874693424
+busi	2707	3.659688463800218
+sit	2660	3.6772033516387745
+dessert	2659	3.677579362171499
+live	2634	3.6870258711112927
+potato	2594	3.70232838853813
+find	2567	3.7127915725433787
+burger	2558	3.716303771275731
+crowd	2557	3.7166947781233324
+spot	2516	3.7328591355941882
+thought	2515	3.73325667088068
+cook	2507	3.736442655256226
+beef	2506	3.736841617958506
+kind	2494	3.7416416271745376
+full	2439	3.763941355198599
+person	2428	3.7684616012351304
+tapa	2426	3.769285663910524
+walk	2408	3.7767329469858075
+dine	2406	3.777563856879895
+group	2371	3.7922176673491137
+beer	2366	3.7943287088761872
+huge	2357	3.798139850478388
+larg	2330	3.809661206854773
+work	2319	3.8143934161589876
+super	2304	3.8208827315987373
+date	2291	3.8265410709610235
+bbq	2277	3.8326706873507796
+quick	2271	3.8353092113089606
+sandwich	2269	3.8361902686346774
+egg	2258	3.841050008704912
+area	2207	3.863895347157783
+decid	2192	3.870715105346613
+fantast	2191	3.8711714138190527
+breakfast	2168	3.8817243908549823
+crust	2152	3.8891318321328443
+open	2133	3.898000034943169
+deep	2132	3.898468968128784
+sausag	2088	3.9193228044119897
+fan	2079	3.9236424655565063
+check	2072	3.9270151500351456
+waiter	2069	3.9284640756689764
+qualiti	2057	3.934280863761562
+stop	2033	3.9460169397861726
+toast	2019	3.9529271351016817
+year	2009	3.9578923885995847
+park	2006	3.9593867848926383
+fish	1979	3.9729378078119533
+half	1978	3.9734432412318617
+citi	1956	3.9846279028197564
+put	1949	3.9882130539069585
+brunch	1948	3.9887262692120387
+loud	1941	3.992326170245509
+fun	1940	3.9928415013571454
+pack	1927	3.9995650850001527
+happi	1921	4.002683590645963
+style	1920	4.003204288392691
+rib	1918	4.004246497971136
+crispi	1912	4.007379659803172
+select	1910	4.008426232373844
+shrimp	1897	4.015255783479505
+spici	1892	4.017895003802696
+italian	1886	4.0210712902211165
+absolut	1869	4.0301259459589565
+call	1858	4.036028834040735
+week	1856	4.0371058400683735
+parti	1846	4.0425083383517215
+list	1827	4.052854197036512
+attent	1812	4.0610982668115945
+size	1811	4.061650295531106
+home	1811	4.061650295531106
+coupl	1801	4.0671874082385635
+left	1796	4.069967504552374
+appet	1789	4.0738726699058
+arriv	1788	4.07443179768106
+sushi	1762	4.089079946918394
+surpris	1741	4.10106981364633
+waitress	1729	4.107986267731229
+bite	1717	4.114950892517044
+insid	1706	4.121378025362895
+hand	1703	4.12313807275183
+bacon	1703	4.12313807275183
+item	1700	4.124901223370212
+option	1693	4.129027371281384
+tomato	1693	4.129027371281384
+told	1692	4.129618213248351
+final	1682	4.135545912881626
+impress	1652	4.1535427993335965
+chocol	1650	4.154754186519893
+offer	1648	4.155967042945102
+part	1647	4.156574023236878
+choic	1634	4.164498477994571
+weekend	1632	4.165723217890466
+fill	1622	4.171869518739161
+dip	1618	4.174338655796082
+onion	1614	4.176813904584625
+ate	1606	4.1817828589078125
+found	1602	4.1842766257862145
+brisket	1601	4.184901040417804
+close	1588	4.193054111607438
+bean	1582	4.19683960508692
+point	1575	4.201274202154786
+room	1574	4.201909324437171
+garlic	1556	4.213411048676182
+cool	1549	4.217919912997651
+saturday	1540	4.223747058006844
+light	1538	4.22504660334893
+sat	1537	4.2256970098759234
+total	1534	4.227650771487317
+earli	1530	4.2302617390280375
+red	1530	4.2302617390280375
+yummi	1522	4.235504214992888
+wing	1518	4.238135795458944
+town	1515	4.24011403547105
+wrong	1509	4.24408229464667
+door	1504	4.247401248904734
+steak	1492	4.255411972650814
+decor	1483	4.261462411276588
+felt	1475	4.266871484640599
+la	1463	4.275040352394395
+piec	1459	4.277778204891733
+tender	1458	4.278463840845916
+mouth	1454	4.281211095321055
+locat	1451	4.283276500530331
+decent	1449	4.284655811093836
+french_toast	1445	4.287420152867987
+finish	1436	4.293668003806349
+bring	1430	4.297855030160566
+guy	1428	4.299254610514989
+rice	1425	4.301357660711768
+return	1423	4.302762155324666
+real	1422	4.3034651430513335
+trip	1411	4.311230801561705
+prepar	1407	4.31406969630013
+cocktail	1406	4.314780681043909
+leav	1404	4.316204168828763
+mac	1396	4.321918470092202
+entre	1393	4.324069779634714
+pepper	1388	4.3276656123477695
+frite	1379	4.334170875621217
+dog	1363	4.3458413217179865
+gave	1362	4.346575266705061
+chef	1353	4.353205125243731
+regular	1351	4.3546844154543205
+sangria	1341	4.362113870132841
+slice	1337	4.365101176312576
+mind	1335	4.366598182580169
+diner	1334	4.36734752693895
+rememb	1333	4.3680974332358105
+includ	1326	4.373362582668712
+fast	1325	4.374117014994196
+suggest	1324	4.374872016917566
+amount	1317	4.380173051671238
+water	1316	4.380932641529257
+mayo	1310	4.385502337219322
+music	1305	4.389326433657725
+street	1303	4.390860176289674
+pasta	1300	4.3931652099648915
+free	1298	4.394704856150484
+goat	1296	4.3962468765023
+talk	1293	4.398564374642662
+oyster	1292	4.3993380690719714
+incred	1292	4.3993380690719714
+corn	1282	4.407108115933903
+mushroom	1277	4.41101589738198
+crisp	1273	4.414153154857113
+ambianc	1264	4.4212481787077165
+move	1260	4.424417753468996
+stuf	1253	4.429988798518451
+roast	1247	4.434788807734483
+miss	1247	4.434788807734483
+short	1245	4.436393944515711
+care	1238	4.442032300169978
+grill	1235	4.444458504352442
+mix	1230	4.448515305048057
+yelp	1226	4.451772636918363
+guess	1221	4.455859279303814
+heard	1220	4.456678615687217
+high_recommend	1219	4.4574986239332475
+pick	1217	4.459140660426992
+brought	1216	4.459962690888407
+season	1214	4.461608781795076
+smoke	1213	4.462432844470469
+wo	1212	4.463257586785259
+interest	1196	4.476546818903943
+head	1193	4.479058331316603
+manag	1191	4.48073618405922
+glass	1188	4.483258253491929
+deal	1186	4.484943173856848
+white	1184	4.486630937970569
+sunday	1181	4.489167937217157
+fine	1177	4.492560646154242
+fact	1167	4.501093121127964
+extrem	1167	4.501093121127964
+salti	1164	4.503667125123137
+cream	1160	4.507109469314109
+hous	1143	4.521873089619708
+bowl	1141	4.523624403552444
+green	1136	4.5280161541334225
+pay	1135	4.528896823499016
+coffe	1132	4.531543494651391
+sashimi	1131	4.532427277298399
+eaten	1129	4.534197189264857
+hit	1125	4.537746438775999
+extra	1119	4.543094045102594
+cut	1117	4.544882954345319
+girl	1113	4.548470402138975
+pull	1111	4.550268963774889
+cold	1103	4.557495734161017
+space	1103	4.557495734161017
+friday	1102	4.558402763701659
+warm	1102	4.558402763701659
+read	1102	4.558402763701659
+varieti	1099	4.561128799010898
+stand	1098	4.562039131345044
+bill	1097	4.56295029313929
+cake	1097	4.56295029313929
+soup	1094	4.565688770432592
+joint	1091	4.568434767581449
+butter	1090	4.569351778191329
+stuff	1086	4.573028252920638
+type	1082	4.576718294008092
+complet	1079	4.579494788156385
+crunchi	1073	4.585071010783821
+famili	1066	4.591616148688729
+uniqu	1064	4.59349408351293
+prefer	1064	4.59349408351293
+vegetarian	1063	4.594434375072572
+melt	1041	4.61534768479955
+show	1030	4.625970672190838
+local	1028	4.627914307399409
+add	1026	4.629861727683805
+front	1026	4.629861727683805
+honest	1024	4.631812947815066
+expens	1023	4.632789987462893
+custom	1022	4.63376798265087
+dri	1022	4.63376798265087
+hear	1022	4.63376798265087
+thin	1022	4.63376798265087
+cheap	1021	4.634746935249854
+sampl	1016	4.639656125276092
+split	1013	4.642613249165835
+waffl	1011	4.644589534394048
+veggi	1010	4.645579143579214
+set	1002	4.653531471769709
+orlean	1001	4.654529974099299
+rest	996	4.659537495829921
+mention	993	4.662554089369347
+plenti	987	4.668614713981038
+hype	985	4.670643112242431
+turn	975	4.680847282416672
+truffl	969	4.687020141523753
+die	968	4.688052666137942
+smoqu	968	4.688052666137942
+kitchen	962	4.694270302748812
+fair	959	4.697393678531081
+wow	957	4.699481361961565
+glad	957	4.699481361961565
+husband	946	4.7110421843626415
+slight	941	4.71634161382914
+hot_dog	938	4.719534804408294
+bartend	937	4.7206014711760975
+lou	933	4.724879552567176
+life	933	4.724879552567176
+boyfriend	931	4.727025476137452
+mango	925	4.733491015902095
+ago	923	4.735655518911667
+ice	922	4.736739529857926
+grit	921	4.737824717159212
+jam	920	4.738911083371433
+averag	919	4.739998631058832
+excit	918	4.741087362794029
+cafe	918	4.741087362794029
+thick	917	4.742177281158055
+run	917	4.742177281158055
+hostess	916	4.743268388740389
+basic	915	4.744360688138998
+salmon	915	4.744360688138998
+readi	915	4.744360688138998
+taco	913	4.746548872819551
+pickl	912	4.747644763340188
+stay	908	4.752040374813226
+juici	908	4.752040374813226
+pricey	904	4.7564553930223425
+pomm	901	4.759779495806182
+base	899	4.7620017189429
+hungri	897	4.764228891355723
+combin	896	4.765344340439588
+tip	895	4.766461035139663
+watch	893	4.76869817253802
+rich	891	4.77094032594371
+consist	888	4.774313010422349
+pull_pork	886	4.7765678028094385
+plan	885	4.77769710840659
+world	885	4.77769710840659
+choos	883	4.779959552810559
+problem	878	4.785638159779403
+wrap	878	4.785638159779403
+bottl	876	4.787918662478128
+satisfi	876	4.787918662478128
+note	870	4.79479154176589
+sound	869	4.7959416281491265
+roll	867	4.798245776633977
+salt	865	4.80055524648264
+recent	861	4.805190248986788
+knew	858	4.808680653926557
+small_plate	858	4.808680653926557
+yum	857	4.80984683481674
+ingredi	855	4.812183284477759
+simpl	855	4.812183284477759
+soft	850	4.818048403930157
+liter	849	4.819225567103172
+comfort	848	4.820404117622616
+duck	842	4.827504739172193
+crave	840	4.829882861577159
+portillo	839	4.831074046947313
+toro	838	4.832266652932436
+pomm_frite	838	4.832266652932436
+tuna	838	4.832266652932436
+ad	835	4.835853028563664
+textur	829	4.843064598279224
+heaven	827	4.845480058390828
+rabbit	826	4.846689979893541
+past	824	4.8491142235050475
+birthday	822	4.851544358358339
+sort	817	4.8576456585545165
+month	814	4.861324387411979
+vegan	814	4.861324387411979
+rate	812	4.863784413252841
+compar	807	4.8699610851445705
+solid	802	4.876176145548005
+wall	802	4.876176145548005
+convers	798	4.88117615596471
+creami	795	4.8849426387601875
+damn	794	4.886201292167383
+dress	794	4.886201292167383
+lack	793	4.887461531779671
+tini	788	4.89378666355664
+chili	787	4.895056504997116
+money	785	4.8976010356321105
+word	785	4.8976010356321105
+tradit	784	4.898875733064111
+popular	782	4.901430012869207
+de	776	4.9091322332313005
+crazi	775	4.910421724061172
+write	775	4.910421724061172
+pequod	771	4.9155963798511895
+complaint	771	4.9155963798511895
+morn	771	4.9155963798511895
+seafood	769	4.918193783908875
+beauti	769	4.918193783908875
+caramel	767	4.920797952047263
+oliv	767	4.920797952047263
+bake	766	4.922102583673928
+bland	766	4.922102583673928
+rave	765	4.923408919587983
+authent	764	4.924716964247999
+understand	763	4.926026722130063
+rush	757	4.933921499977071
+idea	755	4.936567004165495
+number	752	4.9405484294646795
+vibe	750	4.943211546884163
+casual	748	4.945881775440042
+easi	747	4.947219568281701
+shake	744	4.951243718581427
+pleasant	742	4.953935510247138
+grab	738	4.959340928814047
+belli	735	4.963414254201682
+quartino	733	4.966139051527868
+oil	732	4.967504239453207
+min	731	4.968871293664741
+boston	728	4.972983705217834
+ketchup	727	4.974358275881
+simpli	724	4.978493361028803
+classic	721	4.98264561612957
+chip	721	4.98264561612957
+owner	720	4.984033541404418
+cochon	718	4.986815184366295
+outstand	714	4.9924017910749345
+typic	714	4.9924017910749345
+pass	713	4.993803333000223
+babi	711	4.996612323611279
+wife	707	5.002254087517946
+chutney	706	5.003669515921278
+clean	704	5.0065063972564765
+crab	703	5.0079278616038545
+black	700	5.012204418371114
+notic	698	5.015065650652147
+italian_beef	696	5.0179350930801
+man	696	5.0179350930801
+spanish	691	5.025144929646849
+hate	688	5.029495915481175
+spice	682	5.038255095571057
+benedict	682	5.038255095571057
+counter	681	5.039722447265007
+heavi	681	5.039722447265007
+strong	681	5.039722447265007
+cup	680	5.041191955244367
+slow	674	5.050054642502213
+treat	669	5.057500693286291
+seoul	668	5.058996579877873
+pie	668	5.058996579877873
+eye	666	5.06199508287413
+standard	664	5.065002603938085
+blu	663	5.066509763228657
+greasi	662	5.068019197477511
+sassi	661	5.069530913562833
+malnati	656	5.07712396447043
+play	653	5.0817076241380885
+kick	653	5.0817076241380885
+mango_chutney	652	5.083240191487866
+ton	649	5.087852036710429
+jambalaya	649	5.087852036710429
+boy	647	5.090938458913619
+forget	645	5.094034436618747
+chorizo	642	5.098696449724558
+gumbo	642	5.098696449724558
+easili	642	5.098696449724558
+chanc	639	5.103380299036984
+blu_jam	637	5.106515097842356
+platter	634	5.111235798977293
+present	634	5.111235798977293
+st	632	5.114395359267662
+cute	631	5.115978890873306
+general	628	5.12074458694632
+spinach	627	5.122338212781599
+pan	626	5.12393438231442
+level	624	5.127134385045092
+south	623	5.1287382346270665
+sad	623	5.1287382346270665
+dark	620	5.133565275375382
+parmesan	620	5.133565275375382
+save	619	5.135179480729923
+suppos	619	5.135179480729923
+saturday_night	619	5.135179480729923
+heart	618	5.136796295956828
+addit	617	5.1384157295091315
+tourist	614	5.143289825267376
+chop	613	5.144919817478308
+kid	613	5.144919817478308
+beat	612	5.1465524709021935
+true	612	5.1465524709021935
+generous	611	5.148187794242924
+nola	605	5.158056295383678
+combo	605	5.158056295383678
+fat	604	5.1597105554797045
+face	602	5.163027308105698
+opinion	597	5.171367640021917
+realiz	597	5.171367640021917
+due	594	5.176405434051874
+ridicul	588	5.186557805515893
+kinda	587	5.188259933586423
+empti	583	5.1950975670640265
+blue	583	5.1950975670640265
+trendi	582	5.196814305683081
+spend	581	5.198533996562608
+iberico	580	5.200256649874055
+avoid	578	5.203710884742142
+vanilla	577	5.20544248690642
+remind	575	5.208914712617169
+mine	574	5.210655357094953
+deliv	574	5.210655357094953
+sweet_potato	573	5.21239903669978
+scallop	572	5.214145762034722
+block	570	5.217648392585923
+knowledg	570	5.217648392585923
+girlfriend	569	5.219404319288188
+bunch	567	5.222925449686767
+avec	567	5.222925449686767
+meatbal	566	5.2246906752113365
+bone	565	5.226459022268078
+prompt	565	5.226459022268078
+job	564	5.22823050191646
+ham	563	5.230005125274829
+paella	562	5.231782903520828
+ahead	560	5.235347969685324
+accommod	557	5.240719513487235
+host	557	5.240719513487235
+seoul_sassi	556	5.242516459163937
+octopus	553	5.247926751892185
+matter	551	5.251549944261605
+gage	551	5.251549944261605
+savori	550	5.2533664751880025
+afternoon	550	5.2533664751880025
+figur	549	5.255186311904988
+stick	548	5.257009466466504
+goat_chees	548	5.257009466466504
+ice_cream	545	5.262498958751276
+delight	544	5.264335506558576
+pair	543	5.2661754334805835
+korean	541	5.2698654745680376
+peach	540	5.271715613856199
+downtown	540	5.271715613856199
+mediocr	540	5.271715613856199
+touch	539	5.273569182505522
+bun	539	5.273569182505522
+singl	538	5.275426193252735
+risotto	536	5.279150592343718
+fabul	536	5.279150592343718
+hold	535	5.281018006518512
+slaw	530	5.290407746868352
+rare	529	5.29229632155622
+neighborhood	528	5.294188469708257
+weird	527	5.296084204873157
+friday_night	527	5.296084204873157
+ladi	526	5.297983540676809
+terribl	525	5.299886490822895
+lemon	525	5.299886490822895
+delish	524	5.301793069093477
+forward	523	5.303703289349596
+charg	522	5.3056171655318805
+yeah	521	5.307534711661153
+dmk	518	5.313309511155036
+butteri	516	5.317177987932957
+lucki	516	5.317177987932957
+lou_malnati	513	5.323008908243749
+cover	513	5.323008908243749
+raw	511	5.326915163210814
+dine_experi	510	5.3288740276961475
+fanci	508	5.332803305836038
+establish	507	5.334773749823336
+gravi	506	5.336748084127054
+balanc	506	5.336748084127054
+mussel	504	5.340708485343151
+long_line	503	5.34269458331478
+medium	502	5.34468463372279
+pancak	501	5.346678652329654
+overwhelm	501	5.346678652329654
+lamb	501	5.346678652329654
+drive	501	5.346678652329654
+skip	500	5.348676654992327
+case	500	5.348676654992327
+hotel	497	5.354694727317891
+rude	497	5.354694727317891
+soggi	496	5.356708826689592
+snack	494	5.360749236226597
+allig	493	5.362775579371829
+agre	493	5.362775579371829
+imagin	492	5.364806036922211
+explain	490	5.368879362309847
+today	490	5.368879362309847
+middl	487	5.37502063033193
+origin	487	5.37502063033193
+lunch_special	486	5.377076129514025
+moist	486	5.377076129514025
+cheesi	482	5.3853406393639185
+coop	481	5.3874174833087585
+annoy	481	5.3874174833087585
+question	480	5.389498649512583
+limit	479	5.391584156003604
+appl	478	5.393674020923063
+meet	478	5.393674020923063
+appar	477	5.395768262526178
+receiv	476	5.397866899183099
+eggplant	476	5.397866899183099
+longer	476	5.397866899183099
+celebr	475	5.399969949379878
+gaslight	475	5.399969949379878
+gen	473	5.404189364922586
+corner	473	5.404189364922586
+famous	472	5.406305767828964
+chocol_cake	470	5.410552058710415
+overpr	469	5.4126819849682395
+poutin	468	5.4148164574968725
+highlight	468	5.4148164574968725
+mustard	467	5.416955495745622
+fruit	467	5.416955495745622
+rock	466	5.419099119288873
+refil	465	5.421247347827163
+summer	465	5.421247347827163
+smell	464	5.423400201188264
+fall	463	5.4255576993282855
+issu	463	5.4255576993282855
+cost	462	5.42771986233278
+round	461	5.429886710417871
+phenomen	461	5.429886710417871
+version	459	5.434234543353974
+bathroom	459	5.434234543353974
+beehiv	457	5.4386013625203145
+crunchi_french	456	5.440791943900133
+short_rib	453	5.447392627931485
+veget	451	5.451817413911841
+plain	451	5.451817413911841
+cobbler	450	5.454037170650154
+sign	450	5.454037170650154
+tea	449	5.456261865672265
+import	449	5.456261865672265
+complain	449	5.456261865672265
+bare	448	5.458491520999534
+communal	448	5.458491520999534
+juic	447	5.46072615880095
+luke	447	5.46072615880095
+sushi_gen	446	5.462965801394455
+smaller	445	5.465210471248279
+refresh	443	5.469714983369384
+wood	441	5.4742398779676735
+interior	439	5.478785340339348
+creativ	437	5.483351558318929
+mexican	437	5.483351558318929
+drop	437	5.483351558318929
+chicago_diner	436	5.485642510065485
+syrup	435	5.487938722325835
+forgot	435	5.487938722325835
+upstair	433	5.492547025412029
+afford	433	5.492547025412029
+app	433	5.492547025412029
+cone	432	5.494859165170409
+paper	429	5.501827834486503
+pitcher	427	5.506500740185895
+weekday	426	5.508845407145149
+bottom	426	5.508845407145149
+buck	424	5.513551298182562
+speak	423	5.515912574368241
+book	423	5.515912574368241
+jazz	422	5.5182794393785075
+smile	422	5.5182794393785075
+floor	421	5.5206519197321375
+brown	421	5.5206519197321375
+cheddar	421	5.5206519197321375
+similar	421	5.5206519197321375
+nyc	421	5.5206519197321375
+stomach	421	5.5206519197321375
+thin_crust	420	5.523030042137105
+mood	419	5.525413833492381
+pork_belli	417	5.530198531615718
+chose	417	5.530198531615718
+strawberri	417	5.530198531615718
+opt	417	5.530198531615718
+wine_list	415	5.535006233183821
+suck	414	5.5374187795892045
+monday	414	5.5374187795892045
+peanut	413	5.539837160453486
+shop	412	5.542261404064993
+patron	411	5.5446915389182845
+accompani	411	5.5446915389182845
+doubl	410	5.547127593716166
+shoulder	410	5.547127593716166
+effici	409	5.549569597371717
+admit	408	5.552017579010357
+brais	407	5.554471567971924
+hang	406	5.556931593812787
+guest	406	5.556931593812787
+1/2	406	5.556931593812787
+god	404	5.561869875453369
+rpm	403	5.564348191467836
+pm	402	5.566832664795498
+guacamol	402	5.566832664795498
+north	401	5.56932332610795
+happi_hour	399	5.574323336524656
+patti	399	5.574323336524656
+curri	399	5.574323336524656
+cozi	399	5.574323336524656
+booth	398	5.576832748130082
+chicken_wing	398	5.576832748130082
+modern	397	5.579348472727329
+homemad	397	5.579348472727329
+orang	397	5.579348472727329
+meh	396	5.581870542160039
+omg	396	5.581870542160039
+aioli	396	5.581870542160039
+spectacular	396	5.581870542160039
+chicago_style	395	5.5843989885133976
+difficult	395	5.5843989885133976
+occas	394	5.586933844116586
+belgian	393	5.589475141545258
+luckili	393	5.589475141545258
+nois	393	5.589475141545258
+patata	392	5.5920229136240565
+hole	391	5.594577193429154
+banana	390	5.597138014290827
+margarita	389	5.599705409796073
+al	389	5.599705409796073
+clam	388	5.602279413791246
+patio	388	5.602279413791246
+request	388	5.602279413791246
+warn	387	5.604860060384738
+japanes	386	5.607447383949689
+begin	385	5.610041419126735
+folk	383	5.615249764233873
+buy	383	5.615249764233873
+american	382	5.617864144807944
+brava	380	5.623113500694088
+downstair	380	5.623113500694088
+fix	379	5.625748548332093
+poor	379	5.625748548332093
+game	378	5.628390557794932
+tuesday	378	5.628390557794932
+spent	377	5.631039565966509
+lover	376	5.633695610024625
+mercadito	376	5.633695610024625
+sprout	376	5.633695610024625
+shot	376	5.633695610024625
+bother	375	5.636358727444108
+odd	375	5.636358727444108
+peach_cobbler	375	5.636358727444108
+dream	374	5.639028955999987
+worst	374	5.639028955999987
+eater	373	5.641706333770704
+delux	372	5.6443908991413725
+deserv	371	5.647082690807084
+fit	371	5.647082690807084
+larger	371	5.647082690807084
+healthi	370	5.649781747776249
+bf	370	5.649781747776249
+outdoor	369	5.652488109373992
+southern	369	5.652488109373992
+noisi	368	5.655201815245588
+compliment	368	5.655201815245588
+scrambl	367	5.657922905359949
+year_ago	367	5.657922905359949
+bigger	367	5.657922905359949
+pineappl	364	5.666130885777779
+pepperoni	364	5.666130885777779
+burnt	363	5.668881919149668
+quarter	362	5.671640541588748
+thursday	362	5.671640541588748
+low	361	5.674406795081638
+con	360	5.677180721964364
+mom	360	5.677180721964364
+beer_select	359	5.67996236492624
+paid	358	5.682751767013819
+posit	357	5.68554897163488
+moment	356	5.688354022562489
+apolog	356	5.688354022562489
+fatti	355	5.691166963939104
+beef_sandwich	354	5.6939878402807445
+east	352	5.699653577816422
+salsa	352	5.699653577816422
+state	351	5.702498529948653
+pig	351	5.702498529948653
+larg_group	351	5.702498529948653
+environ	351	5.702498529948653
+doubt	350	5.70535159893106
+hell	350	5.70535159893106
+memor	350	5.70535159893106
+dine_room	350	5.70535159893106
+loui	349	5.708212831212092
+leftov	349	5.708212831212092
+cramp	348	5.711082273640045
+heat	348	5.711082273640045
+cafe_iberico	348	5.711082273640045
+continu	348	5.711082273640045
+scene	348	5.711082273640045
+dont	347	5.71395997346766
+dollar	347	5.71395997346766
+horribl	345	5.719740336383159
+worri	344	5.7226430960411205
+sea	344	5.7226430960411205
+break	343	5.725554306248579
+brussel	342	5.728474016351914
+sushi_bar	341	5.731402276131003
+sens	341	5.731402276131003
+egg_benedict	341	5.731402276131003
+relax	340	5.734339135804312
+lobster	340	5.734339135804312
+buddha	340	5.734339135804312
+squid	340	5.734339135804312
+hash	339	5.737284646034069
+mess	339	5.737284646034069
+concept	338	5.740238857931501
+chewi	337	5.743201823062157
+pictur	337	5.743201823062157
+met	336	5.7461735934513145
+cuisin	336	5.7461735934513145
+houston	335	5.749154221589452
+inform	335	5.749154221589452
+pesto	335	5.749154221589452
+drunk	334	5.752143760437819
+signatur	334	5.752143760437819
+ring	334	5.752143760437819
+fire	334	5.752143760437819
+fare	334	5.752143760437819
+milkshak	334	5.752143760437819
+batter	333	5.755142263434076
+prosciutto	333	5.755142263434076
+regret	332	5.7581497844980305
+holi	332	5.7581497844980305
+ambienc	332	5.7581497844980305
+pop	331	5.761166378037457
+waitstaff	331	5.761166378037457
+crunch	331	5.761166378037457
+huge_fan	330	5.764192098953993
+st_loui	330	5.764192098953993
+tangi	330	5.764192098953993
+art	330	5.764192098953993
+def	329	5.767227002649148
+big_fan	329	5.767227002649148
+cajun	329	5.767227002649148
+travel	329	5.767227002649148
+uni	328	5.770271145030375
+blend	328	5.770271145030375
+veal	328	5.770271145030375
+sister	328	5.770271145030375
+tough	328	5.770271145030375
+pure	327	5.773324582517266
+ball	325	5.779459571084781
+notch	325	5.779459571084781
+straight	324	5.78254123762219
+texa	324	5.78254123762219
+yelper	324	5.78254123762219
+tofu	324	5.78254123762219
+superb	324	5.78254123762219
+separ	324	5.78254123762219
+soda	324	5.78254123762219
+frequent	324	5.78254123762219
+pork_shoulder	323	5.785632430191863
+wast	323	5.785632430191863
+bag	323	5.785632430191863
+klub	322	5.788733207870111
+avocado	322	5.788733207870111
+brussel_sprout	322	5.788733207870111
+fell	321	5.791843630284503
+comment	321	5.791843630284503
+desert	320	5.794963757620747
+calamari	319	5.798093650629674
+south_end	319	5.798093650629674
+patata_brava	319	5.798093650629674
+hip	319	5.798093650629674
+catfish	319	5.798093650629674
+milk	318	5.801233370634343
+california	318	5.801233370634343
+pour	318	5.801233370634343
+attitud	317	5.804382979537238
+deliveri	316	5.807542539827607
+dive	316	5.807542539827607
+perfect_cook	316	5.807542539827607
+rang	315	5.8107121145888865
+ravioli	315	5.8107121145888865
+equal	314	5.813891767506266
+foodi	314	5.813891767506266
+poach	313	5.817081562874366
+adventur	313	5.817081562874366
+upscal	310	5.826712455935327
+los	310	5.826712455935327
+bloodi	310	5.826712455935327
+fork	309	5.829943476516774
+forev	309	5.829943476516774
+gotta	306	5.839699651462139
+vinegar	305	5.842972976807108
+visit_chicago	305	5.842972976807108
+tad	303	5.84955194790515
+skin	302	5.85285773603965
+chunk	302	5.85285773603965
+card	301	5.856174488665643
+asian	300	5.859502278758319
+blow	300	5.859502278758319
+hey	300	5.859502278758319
+fluffi	299	5.862841180023833
+cornbread	299	5.862841180023833
+miso	299	5.862841180023833
+biscuit	299	5.862841180023833
+bacon_wrap	299	5.862841180023833
+multipl	299	5.862841180023833
+breakfast_klub	299	5.862841180023833
+experienc	299	5.862841180023833
+cooki	299	5.862841180023833
+window	298	5.866191266909115
+mercat	298	5.866191266909115
+dumpl	297	5.86955261461182
+build	297	5.86955261461182
+confus	297	5.86955261461182
+rosemari	297	5.86955261461182
+trust	297	5.86955261461182
+dough	296	5.872925299090459
+mash	296	5.872925299090459
+extens	296	5.872925299090459
+major	296	5.872925299090459
+stood	295	5.876309397074699
+coleslaw	294	5.879704986075837
+divin	294	5.879704986075837
+turkey	294	5.879704986075837
+mari	293	5.883112144397452
+honey	292	5.886530951146237
+addict	291	5.889961486243027
+countri	291	5.889961486243027
+design	290	5.893403830434
+sour	290	5.893403830434
+bar_area	290	5.893403830434
+club	289	5.896858065302087
+step	289	5.896858065302087
+dozen	289	5.896858065302087
+edg	288	5.9003242732785735
+liver	288	5.9003242732785735
+layer	288	5.9003242732785735
+chair	288	5.9003242732785735
+teriyaki	288	5.9003242732785735
+creat	288	5.9003242732785735
+menus	287	5.903802537654898
+nearbi	286	5.907292942594666
+futur	286	5.907292942594666
+make_reserv	285	5.910795573145869
+mistak	285	5.910795573145869
+store	285	5.910795573145869
+wrap_date	284	5.914310515253313
+phone	283	5.917837855771282
+portion_size	283	5.917837855771282
+quiet	282	5.921377682476406
+wednesday	282	5.921377682476406
+smoki	282	5.921377682476406
+york	282	5.921377682476406
+downsid	281	5.924930084080773
+alcohol	281	5.924930084080773
+hint	281	5.924930084080773
+catch	280	5.928495150245269
+omelett	280	5.928495150245269
+melros	279	5.932072971593153
+beet	279	5.932072971593153
+sooo	279	5.932072971593153
+bore	279	5.932072971593153
+byob	278	5.935663639723882
+meant	278	5.935663639723882
+gnocchi	278	5.935663639723882
+negat	278	5.935663639723882
+pleasant_surpris	277	5.939267247227181
+form	276	5.942883887697369
+previous	276	5.942883887697369
+overcook	276	5.942883887697369
+handl	274	5.950156647026449
+pan_pizza	274	5.950156647026449
+lost	273	5.95381295822956
+stori	273	5.95381295822956
+insan	272	5.957482687118522
+young	272	5.957482687118522
+blueberri	271	5.9611659325348185
+cole	271	5.9611659325348185
+pud	271	5.9611659325348185
+gross	271	5.9611659325348185
+throw	270	5.9648627944161445
+giant	270	5.9648627944161445
+earlier	270	5.9648627944161445
+chat	270	5.9648627944161445
+knock	269	5.9685733738126805
+stuck	269	5.9685733738126805
+hearti	269	5.9685733738126805
+profession	269	5.9685733738126805
+polit	268	5.972297772903662
+garlic_mayo	268	5.972297772903662
+alright	268	5.972297772903662
+buddha_bowl	268	5.972297772903662
+bud	268	5.972297772903662
+dirti	267	5.97603609501427
+fail	267	5.97603609501427
+load	266	5.97978844463282
+advanc	266	5.97978844463282
+top_notch	266	5.97978844463282
+burrito	266	5.97978844463282
+meati	264	5.987335650268203
+tortilla	264	5.987335650268203
+answer	264	5.987335650268203
+constant	264	5.987335650268203
+enter	263	5.991130721236755
+strang	263	5.991130721236755
+sugar	263	5.991130721236755
+school	263	5.991130721236755
+marin	263	5.991130721236755
+tokyo	263	5.991130721236755
+romant	262	5.994940249653422
+tartar	262	5.994940249653422
+carri	262	5.994940249653422
+chill	262	5.994940249653422
+biggest	261	5.998764346091826
+detail	261	5.998764346091826
+lol	260	6.002603122398992
+depend	260	6.002603122398992
+bloodi_mari	260	6.002603122398992
+twist	259	6.006456691714981
+stuf_date	259	6.006456691714981
+organ	259	6.006456691714981
+awhil	259	6.006456691714981
+blown	258	6.010325168492902
+miso_soup	258	6.010325168492902
+overpow	258	6.010325168492902
+fave	258	6.010325168492902
+cole_slaw	258	6.010325168492902
+match	258	6.010325168492902
+compani	257	6.0142086685192995
+learn	257	6.0142086685192995
+companion	257	6.0142086685192995
+random	257	6.0142086685192995
+charm	257	6.0142086685192995
+age	257	6.0142086685192995
+term	256	6.018107308934956
+starter	256	6.018107308934956
+wide	256	6.018107308934956
+basil	256	6.018107308934956
+event	256	6.018107308934956
+chicago_dog	256	6.018107308934956
+tempura	255	6.022021208256093
+giordano	255	6.022021208256093
+sashimi_lunch	255	6.022021208256093
+guac	254	6.025950486395983
+garlic_bread	254	6.025950486395983
+fondu	254	6.025950486395983
+favor	254	6.025950486395983
+red_bean	253	6.029895264686999
+direct	252	6.033855665903096
+flatbread	251	6.037831814282735
+mac_chees	251	6.037831814282735
+sell	251	6.037831814282735
+employe	251	6.037831814282735
+cheek	250	6.041823835552273
+starv	250	6.041823835552273
+ass	250	6.041823835552273
+coat	249	6.045831856949811
+tight	249	6.045831856949811
+san	249	6.045831856949811
+settl	249	6.045831856949811
+box	249	6.045831856949811
+specialti	249	6.045831856949811
+weather	249	6.045831856949811
+smooth	249	6.045831856949811
+conveni	247	6.053896416786542
+band	247	6.053896416786542
+car	247	6.053896416786542
+reuben	246	6.057953217482156
+mark	246	6.057953217482156
+unbeliev	246	6.057953217482156
+peppercorn	246	6.057953217482156
+intim	245	6.062026542869792
+polenta	245	6.062026542869792
+funni	245	6.062026542869792
+cook_perfect	245	6.062026542869792
+desir	244	6.066116528121317
+lettuc	244	6.066116528121317
+shell	244	6.066116528121317
+poach_egg	243	6.07022331007397
+live_music	243	6.07022331007397
+mozzarella	243	6.07022331007397
+tonight	243	6.07022331007397
+complimentari	243	6.07022331007397
+underwhelm	243	6.07022331007397
+blue_chees	242	6.074347027257833
+featur	242	6.074347027257833
+queso	242	6.074347027257833
+gem	241	6.078487819923864
+iron	240	6.0826458300725275
+creol	240	6.0826458300725275
+spread	240	6.0826458300725275
+mint	239	6.0868212014830085
+char	239	6.0868212014830085
+natur	239	6.0868212014830085
+besh	239	6.0868212014830085
+view	239	6.0868212014830085
+tap	239	6.0868212014830085
+specif	238	6.0910140797430445
+gras	238	6.0910140797430445
+color	238	6.0910140797430445
+terrif	238	6.0910140797430445
+louisiana	236	6.099452948388909
+menu_item	236	6.099452948388909
+cevich	236	6.099452948388909
+win	236	6.099452948388909
+accept	236	6.099452948388909
+center	235	6.103699239270361
+cheaper	235	6.103699239270361
+total_worth	235	6.103699239270361
+post	234	6.107963638056818
+memori	233	6.1122462998488185
+gonna	233	6.1122462998488185
+burn	233	6.1122462998488185
+latt	233	6.1122462998488185
+john	233	6.1122462998488185
+pretenti	232	6.11654738174821
+loop	232	6.11654738174821
+squeez	232	6.11654738174821
+mash_potato	232	6.11654738174821
+chicago_deep	232	6.11654738174821
+appetit	232	6.11654738174821
+stapl	231	6.120867042892725
+confit	231	6.120867042892725
+ny	231	6.120867042892725
+picki	230	6.125205444491324
+shock	230	6.125205444491324
+go-to	230	6.125205444491324
+attempt	230	6.125205444491324
+oliv_oil	230	6.125205444491324
+asparagus	230	6.125205444491324
+uncomfort	230	6.125205444491324
+rub	230	6.125205444491324
+soak	229	6.12956274986028
+yelp_review	228	6.1339391244600785
+wear	228	6.1339391244600785
+2nd	227	6.138334735933117
+awkward	227	6.138334735933117
+gelato	226	6.142749754142233
+finger	226	6.142749754142233
+angel	226	6.142749754142233
+wild	225	6.147184351210099
+chain	225	6.147184351210099
+chorizo_stuf	224	6.151638701559479
+peanut_butter	224	6.151638701559479
+whip	224	6.151638701559479
+winner	224	6.151638701559479
+count	224	6.151638701559479
+quesadilla	224	6.151638701559479
+yellowtail	223	6.156112981954401
+smokey	223	6.156112981954401
+magic	223	6.156112981954401
+judg	223	6.156112981954401
+listen	223	6.156112981954401
+soooo	223	6.156112981954401
+kill	223	6.156112981954401
+river	223	6.156112981954401
+soy	223	6.156112981954401
+cucumb	222	6.160607371542239
+craft	222	6.160607371542239
+situat	222	6.160607371542239
+pomegran	222	6.160607371542239
+practic	220	6.169657207062158
+bake_bean	220	6.169657207062158
+street_park	220	6.169657207062158
+promis	220	6.169657207062158
+flat	220	6.169657207062158
+sport	219	6.174213023598019
+decis	219	6.174213023598019
+wors	218	6.178789690625431
+sushi-gen	218	6.178789690625431
+send	218	6.178789690625431
+buzz	218	6.178789690625431
+steam	218	6.178789690625431
+oven	218	6.178789690625431
+gino	217	6.18338739987406
+sweet_mango	217	6.18338739987406
+ruin	217	6.18338739987406
+bomb	217	6.18338739987406
+entertain	216	6.188006345730354
+buffalo	216	6.188006345730354
+crawfish	216	6.188006345730354
+spain	216	6.188006345730354
+pile	215	6.192646725286856
+credit	215	6.192646725286856
+assum	215	6.192646725286856
+yell	215	6.192646725286856
+classi	215	6.192646725286856
+oili	215	6.192646725286856
+overr	215	6.192646725286856
+patient	215	6.192646725286856
+neighbor	214	6.1973087383926675
+onion_ring	214	6.1973087383926675
+devour	214	6.1973087383926675
+small_portion	214	6.1973087383926675
+ran	214	6.1973087383926675
+michigan	214	6.1973087383926675
+complement	214	6.1973087383926675
+beef_brisket	214	6.1973087383926675
+ten	213	6.201992587705094
+invit	213	6.201992587705094
+lick	213	6.201992587705094
+marrow	213	6.201992587705094
+freak	213	6.201992587705094
+omelet	213	6.201992587705094
+luck	213	6.201992587705094
+joke	213	6.201992587705094
+substitut	213	6.201992587705094
+repeat	212	6.206698478742506
+herb	212	6.206698478742506
+park_lot	212	6.206698478742506
+mother	212	6.206698478742506
+pain	211	6.211426619938453
+frozen	211	6.211426619938453
+pea	211	6.211426619938453
+hesit	211	6.211426619938453
+anymor	211	6.211426619938453
+laid	210	6.21617722269705
+decad	210	6.21617722269705
+tart	210	6.21617722269705
+made_reserv	210	6.21617722269705
+valet	209	6.220950501449709
+carmel	209	6.220950501449709
+ricotta	209	6.220950501449709
+hipster	209	6.220950501449709
+caraf	208	6.225746673713202
+mini	208	6.225746673713202
+peopl_watch	208	6.225746673713202
+imposs	208	6.225746673713202
+market	208	6.225746673713202
+assort	208	6.225746673713202
+horseradish	207	6.23056596014915
+big_group	207	6.23056596014915
+tast_bud	206	6.235408584624938
+push	206	6.235408584624938
+bustl	205	6.240274774276111
+vodka	205	6.240274774276111
+cake_shake	205	6.240274774276111
+woman	204	6.245164759570303
+broth	204	6.245164759570303
+parent	204	6.245164759570303
+individu	204	6.245164759570303
+energi	203	6.2500787743727315
+west	203	6.2500787743727315
+fellow	203	6.2500787743727315
+macaroni	203	6.2500787743727315
+cent	203	6.2500787743727315
+messi	203	6.2500787743727315
+par	203	6.2500787743727315
+execut	203	6.2500787743727315
+ador	203	6.2500787743727315
+ventur	202	6.2550170560133145
+pork_sandwich	202	6.2550170560133145
+discov	202	6.2550170560133145
+laugh	201	6.259979845355444
+bright	201	6.259979845355444
+proper	201	6.259979845355444
+updat	201	6.259979845355444
+darn	201	6.259979845355444
+crap	201	6.259979845355444
+advic	200	6.264967386866482
+yesterday	200	6.264967386866482
+delect	200	6.264967386866482
+privat	200	6.264967386866482
+spaghetti	200	6.264967386866482
+higher	200	6.264967386866482
+polish	199	6.269979928690027
+brother	199	6.269979928690027
+im	199	6.269979928690027
+prime	199	6.269979928690027
+bonus	198	6.275017722719984
+high_qualiti	198	6.275017722719984
+didnt	198	6.275017722719984
+section	198	6.275017722719984
+diet	198	6.275017722719984
+wine_select	198	6.275017722719984
+fortun	197	6.280081024676531
+barbecu	197	6.280081024676531
+mile	197	6.280081024676531
+feed	197	6.280081024676531
+appeal	197	6.280081024676531
+nois_level	197	6.280081024676531
+red_wine	197	6.280081024676531
+indulg	197	6.280081024676531
+los_angel	196	6.285170094184002
+capres	196	6.285170094184002
+pleasur	196	6.285170094184002
+ginger	196	6.285170094184002
+drool	196	6.285170094184002
+pork_cheek	196	6.285170094184002
+act	196	6.285170094184002
+product	195	6.290285194850773
+pate	195	6.290285194850773
+secret	195	6.290285194850773
+closer	195	6.290285194850773
+correct	195	6.290285194850773
+flake	194	6.295426594351191
+vietnames	194	6.295426594351191
+sushi_chef	194	6.295426594351191
+zucchini	194	6.295426594351191
+sampler	194	6.295426594351191
+focaccia	193	6.300594564509634
+cabbag	193	6.300594564509634
+boudin	193	6.300594564509634
+mama	192	6.305789381386738
+fav	192	6.305789381386738
+tv	192	6.305789381386738
+excus	192	6.305789381386738
+week_ago	192	6.305789381386738
+surround	191	6.31101132536789
+greas	191	6.31101132536789
+bone_marrow	191	6.31101132536789
+jam_cafe	191	6.31101132536789
+movi	191	6.31101132536789
+palat	190	6.316260681254033
+arugula	190	6.316260681254033
+mcdonald	190	6.316260681254033
+wash	190	6.316260681254033
+pretti_quick	189	6.321537738354877
+dim	189	6.321537738354877
+wasabi	189	6.321537738354877
+ceil	189	6.321537738354877
+creme	189	6.321537738354877
+drown	189	6.321537738354877
+descript	188	6.32684279058457
+cure	188	6.32684279058457
+mapl	188	6.32684279058457
+convinc	188	6.32684279058457
+loui_rib	188	6.32684279058457
+tongu	187	6.332176136559933
+communal_tabl	187	6.332176136559933
+champagn	187	6.332176136559933
+bread_pud	187	6.332176136559933
+massiv	187	6.332176136559933
+system	187	6.332176136559933
+sip	187	6.332176136559933
+slab	186	6.337538079701318
+cater	186	6.337538079701318
+forc	186	6.337538079701318
+wooden	186	6.337538079701318
+consum	186	6.337538079701318
+grill_corn	186	6.337538079701318
+fault	186	6.337538079701318
+anytim	185	6.342928928336194
+berri	185	6.342928928336194
+improv	185	6.342928928336194
+peak	185	6.342928928336194
+scream	185	6.342928928336194
+jumbo	185	6.342928928336194
+opportun	185	6.342928928336194
+nut	184	6.348348995805534
+search	184	6.348348995805534
+escargot	184	6.348348995805534
+lime	184	6.348348995805534
+write_home	184	6.348348995805534
+soul	184	6.348348995805534
+napkin	183	6.353798600573098
+river_north	183	6.353798600573098
+martini	183	6.353798600573098
+sear	183	6.353798600573098
+bump	183	6.353798600573098
+brioch	182	6.3592780663377235
+strip	182	6.3592780663377235
+member	182	6.3592780663377235
+style_pizza	182	6.3592780663377235
+beer_list	182	6.3592780663377235
+initi	182	6.3592780663377235
+villag	182	6.3592780663377235
+tapa_style	181	6.3647877221486935
+outdoor_seat	181	6.3647877221486935
+stellar	181	6.3647877221486935
+sold	181	6.3647877221486935
+dig	180	6.370327902524309
+winter	180	6.370327902524309
+gooey	180	6.370327902524309
+caramel_crust	180	6.370327902524309
+score	180	6.370327902524309
+steak_frite	180	6.370327902524309
+pipe	179	6.375898947573764
+foie	179	6.375898947573764
+minus	179	6.375898947573764
+process	179	6.375898947573764
+cart	179	6.375898947573764
+grant	178	6.3815012031224345
+recip	178	6.3815012031224345
+mushi	178	6.3815012031224345
+dine_area	178	6.3815012031224345
+hubbi	178	6.3815012031224345
+bit_pricey	178	6.3815012031224345
+cherri	178	6.3815012031224345
+bet	178	6.3815012031224345
+kuma	177	6.38713502084069
+truffl_oil	177	6.38713502084069
+colleg	177	6.38713502084069
+condiment	176	6.392800758376367
+brew	176	6.392800758376367
+beverag	176	6.392800758376367
+period	176	6.392800758376367
+big_deal	176	6.392800758376367
+prior	176	6.392800758376367
+introduc	176	6.392800758376367
+bus	176	6.392800758376367
+inexpens	175	6.398498779491005
+lie	175	6.398498779491005
+stew	175	6.398498779491005
+pretti_tasti	175	6.398498779491005
+almond	175	6.398498779491005
+sunday_night	175	6.398498779491005
+buddi	175	6.398498779491005
+bench	175	6.398498779491005
+result	174	6.4042294541999905
+everyday	174	6.4042294541999905
+remain	174	6.4042294541999905
+eh	174	6.4042294541999905
+artichok	174	6.4042294541999905
+squash	174	6.4042294541999905
+carrot	174	6.4042294541999905
+dude	174	6.4042294541999905
+jalapeno	173	6.40999315891674
+partner	173	6.40999315891674
+yellow	173	6.40999315891674
+bistro	173	6.40999315891674
+troubl	173	6.40999315891674
+parmesan_peppercorn	173	6.40999315891674
+sick	173	6.40999315891674
+chutney_mayo	173	6.40999315891674
+pari	172	6.415790276601066
+fig	172	6.415790276601066
+stranger	172	6.415790276601066
+temperatur	172	6.415790276601066
+delic	172	6.415790276601066
+blood	171	6.421621196911859
+gourmet	171	6.421621196911859
+nice_touch	170	6.4274863163642575
+call_ahead	170	6.4274863163642575
+disgust	170	6.4274863163642575
+chicago_pizza	170	6.4274863163642575
+john_besh	170	6.4274863163642575
+smoke_bacon	170	6.4274863163642575
+fake	170	6.4274863163642575
+king	170	6.4274863163642575
+needless	170	6.4274863163642575
+slice_brisket	169	6.433386038491446
+mild	169	6.433386038491446
+seitan	169	6.433386038491446
+butter_crust	169	6.433386038491446
+vanilla_bean	169	6.433386038491446
+shame	169	6.433386038491446
+flight	169	6.433386038491446
+sashimi_delux	169	6.433386038491446
+pot	169	6.433386038491446
+chorizo-stuf	169	6.433386038491446
+french_quarter	169	6.433386038491446
+pizzeria	169	6.433386038491446
+vinaigrett	168	6.43932077401126
+leg	168	6.43932077401126
+sausag_jambalaya	168	6.43932077401126
+spici_tuna	168	6.43932077401126
+touristi	168	6.43932077401126
+daili	168	6.43932077401126
+nonetheless	167	6.445290940997764
+culinari	167	6.445290940997764
+gluten	167	6.445290940997764
+rule	167	6.445290940997764
+brie	166	6.451296965057976
+medjool	166	6.451296965057976
+bitter	166	6.451296965057976
+lose	166	6.451296965057976
+factor	166	6.451296965057976
+success	166	6.451296965057976
+ave	166	6.451296965057976
+jamon	166	6.451296965057976
+sake	165	6.457339279513938
+spoon	165	6.457339279513938
+butcher	165	6.457339279513938
+hollandais	165	6.457339279513938
+brisket_sandwich	165	6.457339279513938
+cowork	165	6.457339279513938
+pace	164	6.463418325590321
+hot_pepper	164	6.463418325590321
+hook	164	6.463418325590321
+tast_menu	164	6.463418325590321
+so-so	164	6.463418325590321
+tuesday_night	163	6.469534552607757
+medjool_date	163	6.469534552607757
+focus	163	6.469534552607757
+duck_confit	163	6.469534552607757
+ala	163	6.469534552607757
+calori	163	6.469534552607757
+shred	162	6.475688418182135
+swear	162	6.475688418182135
+chees_plate	162	6.475688418182135
+vacat	162	6.475688418182135
+brick	162	6.475688418182135
+curri_ketchup	162	6.475688418182135
+foie_gras	162	6.475688418182135
+vietnames_pineappl	162	6.475688418182135
+fashion	161	6.481880388430056
+hotdog	161	6.481880388430056
+quantiti	161	6.481880388430056
+air	161	6.481880388430056
+cash	161	6.481880388430056
+bed	161	6.481880388430056
+valid	160	6.488110938180692
+watermelon	160	6.488110938180692
+fli	160	6.488110938180692
+tire	160	6.488110938180692
+sunday_brunch	160	6.488110938180692
+succul	160	6.488110938180692
+recal	159	6.494380551194288
+concoct	159	6.494380551194288
+insist	159	6.494380551194288
+famili_style	159	6.494380551194288
+onlin	159	6.494380551194288
+inspir	159	6.494380551194288
+shit	159	6.494380551194288
+smother	159	6.494380551194288
+veal_meatbal	158	6.500689720387553
+crack	158	6.500689720387553
+inch	158	6.500689720387553
+beet_salad	158	6.500689720387553
+blew	158	6.500689720387553
+station	158	6.500689720387553
+institut	158	6.500689720387553
+effort	158	6.500689720387553
+attract	158	6.500689720387553
+chipotl	157	6.507038948066211
+theme	157	6.507038948066211
+stephani	157	6.507038948066211
+steal	157	6.507038948066211
+roast_garlic	157	6.507038948066211
+kale	157	6.507038948066211
+worker	156	6.5134287461649825
+golden	156	6.5134287461649825
+tour	156	6.5134287461649825
+high_expect	156	6.5134287461649825
+attend	156	6.5134287461649825
+dad	155	6.519859636495273
+lower	155	6.519859636495273
+tile	155	6.519859636495273
+eateri	155	6.519859636495273
+veggi_burger	155	6.519859636495273
+thursday_night	155	6.519859636495273
+claim	154	6.52633215100089
+bought	154	6.52633215100089
+killer	154	6.52633215100089
+nacho	154	6.52633215100089
+absolut_amaz	154	6.52633215100089
+kamil	154	6.52633215100089
+requir	154	6.52633215100089
+6pm	154	6.52633215100089
+comparison	153	6.532846832022083
+visitor	153	6.532846832022083
+began	153	6.532846832022083
+shave	153	6.532846832022083
+crepe	153	6.532846832022083
+sun	153	6.532846832022083
+stare	152	6.539404232568243
+wallet	152	6.539404232568243
+au	152	6.539404232568243
+bison	152	6.539404232568243
+pipe_hot	152	6.539404232568243
+essenti	152	6.539404232568243
+pound	151	6.546004916599595
+fulli	151	6.546004916599595
+super_nice	151	6.546004916599595
+class	151	6.546004916599595
+approach	151	6.546004916599595
+scotch	151	6.546004916599595
+impecc	151	6.546004916599595
+happili	151	6.546004916599595
+bisqu	151	6.546004916599595
+kimchi	150	6.552649459318263
+ground	150	6.552649459318263
+free_park	150	6.552649459318263
+crust_pizza	150	6.552649459318263
+rosemari_garlic	150	6.552649459318263
+freshest	150	6.552649459318263
+bad_thing	150	6.552649459318263
+gorgeous	149	6.55933844746906
+uno	149	6.55933844746906
+irish	149	6.55933844746906
+date_night	149	6.55933844746906
+chicago-styl	149	6.55933844746906
+train	149	6.55933844746906
+weak	149	6.55933844746906
+anticip	148	6.566072479650404
+flaki	148	6.566072479650404
+favorit_thing	148	6.566072479650404
+ultim	148	6.566072479650404
+ratio	148	6.566072479650404
+invent	147	6.572852166635783
+marinara	147	6.572852166635783
+venu	147	6.572852166635783
+bourbon	147	6.572852166635783
+chic	147	6.572852166635783
+jump	147	6.572852166635783
+hop	147	6.572852166635783
+croquett	147	6.572852166635783
+earth	147	6.572852166635783
+btw	147	6.572852166635783
+grill_chees	146	6.579678131706182
+common	146	6.579678131706182
+chicken_sandwich	146	6.579678131706182
+garlic_shrimp	146	6.579678131706182
+stumbl	145	6.5865510109939445
+skeptic	145	6.5865510109939445
+birthday_dinner	145	6.5865510109939445
+eventu	145	6.5865510109939445
+perfect_amount	145	6.5865510109939445
+thumb	145	6.5865510109939445
+standout	145	6.5865510109939445
+press	144	6.593471453838519
+pub	144	6.593471453838519
+weeknight	144	6.593471453838519
+caught	143	6.600440123154612
+coast	143	6.600440123154612
+stage	143	6.600440123154612
+corn_flake	143	6.600440123154612
+scrumptious	143	6.600440123154612
+suit	143	6.600440123154612
+wed	143	6.600440123154612
+b/c	143	6.600440123154612
+bbq_joint	143	6.600440123154612
+plancha	143	6.600440123154612
+draft	143	6.600440123154612
+key	143	6.600440123154612
+haha	143	6.600440123154612
+text	142	6.607457695813259
+mmm	142	6.607457695813259
+chocol_chip	142	6.607457695813259
+ride	142	6.607457695813259
+toss	142	6.607457695813259
+grew	142	6.607457695813259
+burger_bar	142	6.607457695813259
+seafood_gumbo	142	6.607457695813259
+month_ago	142	6.607457695813259
+potenti	142	6.607457695813259
+tax	142	6.607457695813259
+wanna	141	6.614524863036351
+sprinkl	141	6.614524863036351
+sooooo	141	6.614524863036351
+chicago_classic	141	6.614524863036351
+scrambl_egg	141	6.614524863036351
+mmmm	141	6.614524863036351
+beignet	141	6.614524863036351
+fun_atmospher	141	6.614524863036351
+soo	141	6.614524863036351
+loung	140	6.621642330805215
+relish	140	6.621642330805215
+fed	140	6.621642330805215
+rais	140	6.621642330805215
+fishi	140	6.621642330805215
+fianc	140	6.621642330805215
+noodl	140	6.621642330805215
+cod	139	6.628810820283827
+traffic	139	6.628810820283827
+undercook	139	6.628810820283827
+board	139	6.628810820283827
+crisp_bbq	139	6.628810820283827
+medium_rare	139	6.628810820283827
+wateri	139	6.628810820283827
+hurri	139	6.628810820283827
+out-of-town	139	6.628810820283827
+english	139	6.628810820283827
+awar	138	6.6360310682573145
+frank	138	6.6360310682573145
+danc	138	6.6360310682573145
+rave_review	138	6.6360310682573145
+pork_chop	138	6.6360310682573145
+cauliflow	138	6.6360310682573145
+network	138	6.6360310682573145
+albeit	138	6.6360310682573145
+offic	138	6.6360310682573145
+safe	138	6.6360310682573145
+threw	137	6.6433038275863945
+overlook	137	6.6433038275863945
+numer	137	6.6433038275863945
+seed	137	6.6433038275863945
+okra	137	6.6433038275863945
+bewar	137	6.6433038275863945
+squar	137	6.6433038275863945
+lean	137	6.6433038275863945
+obsess	137	6.6433038275863945
+distanc	136	6.650629867678467
+shout	136	6.650629867678467
+unusu	136	6.650629867678467
+la_plancha	136	6.650629867678467
+ordinari	136	6.650629867678467
+ranch	136	6.650629867678467
+respons	135	6.65800997497609
+ear	135	6.65800997497609
+altern	135	6.65800997497609
+potato_salad	135	6.65800997497609
+holiday	135	6.65800997497609
+contrast	135	6.65800997497609
+exist	135	6.65800997497609
+pear	135	6.65800997497609
+snapper	135	6.65800997497609
+till	135	6.65800997497609
+afraid	135	6.65800997497609
+onion_soup	135	6.65800997497609
+drench	135	6.65800997497609
+restroom	135	6.65800997497609
+hospit	135	6.65800997497609
+croissant	134	6.6654449534636075
+cuz	134	6.6654449534636075
+tempt	134	6.6654449534636075
+open_tabl	134	6.6654449534636075
+flavorless	134	6.6654449534636075
+special_occas	134	6.6654449534636075
+8pm	133	6.672935625192766
+tasteless	133	6.672935625192766
+balsam	133	6.672935625192766
+pollo	133	6.672935625192766
+green_bean	133	6.672935625192766
+cousin	133	6.672935625192766
+heck	133	6.672935625192766
+resist	133	6.672935625192766
+tail	133	6.672935625192766
+ink	133	6.672935625192766
+runni	133	6.672935625192766
+mapl_syrup	133	6.672935625192766
+daughter	133	6.672935625192766
+lit	132	6.680482830828148
+muffin	132	6.680482830828148
+men	132	6.680482830828148
+genuin	132	6.680482830828148
+hazelnut	132	6.680482830828148
+chicagoan	132	6.680482830828148
+cabra	132	6.680482830828148
+sloppi	132	6.680482830828148
+scallion	132	6.680482830828148
+cheesecak	132	6.680482830828148
+monday_night	132	6.680482830828148
+smoke_salmon	132	6.680482830828148
+lead	132	6.680482830828148
+ideal	131	6.6880874302133675
+dill	131	6.6880874302133675
+hamburg	131	6.6880874302133675
+gluten_free	131	6.6880874302133675
+guarante	131	6.6880874302133675
+gamba	131	6.6880874302133675
+tequila	131	6.6880874302133675
+divers	131	6.6880874302133675
+and/or	130	6.6957503029589365
+corn_bread	130	6.6957503029589365
+meter	130	6.6957503029589365
+wise	130	6.6957503029589365
+exceed	130	6.6957503029589365
+reput	130	6.6957503029589365
+tummi	130	6.6957503029589365
+la_cart	130	6.6957503029589365
+star_rate	130	6.6957503029589365
+elbow	130	6.6957503029589365
+drank	130	6.6957503029589365
+flow	129	6.703472349052848
+shape	129	6.703472349052848
+belgium	129	6.703472349052848
+hurt	129	6.703472349052848
+de_cabra	129	6.703472349052848
+held	129	6.703472349052848
+basket	129	6.703472349052848
+communal_seat	129	6.703472349052848
+carn	129	6.703472349052848
+crumbl	129	6.703472349052848
+minor	128	6.711254489494902
+unexpect	128	6.711254489494902
+narrow	128	6.711254489494902
+war	128	6.711254489494902
+wet	128	6.711254489494902
+fool	128	6.711254489494902
+favorit_part	128	6.711254489494902
+serrano	128	6.711254489494902
+websit	128	6.711254489494902
+bell	128	6.711254489494902
+italian_tapa	127	6.719097666955928
+jam_benedict	127	6.719097666955928
+worthi	127	6.719097666955928
+larg_parti	127	6.719097666955928
+paper_cone	127	6.719097666955928
+cheeseburg	127	6.719097666955928
+knife	127	6.719097666955928
+regist	127	6.719097666955928
+yay	127	6.719097666955928
+rustic	127	6.719097666955928
+thrill	127	6.719097666955928
+drizzl	127	6.719097666955928
+shrimp_creol	127	6.719097666955928
+reach	127	6.719097666955928
+cab	127	6.719097666955928
+pretti_damn	126	6.727002846463042
+saute	126	6.727002846463042
+gf	126	6.727002846463042
+pomegran_teriyaki	126	6.727002846463042
+remov	126	6.727002846463042
+power	126	6.727002846463042
+liquor	126	6.727002846463042
+larg_portion	126	6.727002846463042
+croqueta	126	6.727002846463042
+pink	125	6.734971016112218
+suprem	125	6.734971016112218
+industri	125	6.734971016112218
+louisiana_cochon	125	6.734971016112218
+nativ	125	6.734971016112218
+sunday_morn	125	6.734971016112218
+pappardell	125	6.734971016112218
+live_jazz	125	6.734971016112218
+tast_plate	125	6.734971016112218
+filet	125	6.734971016112218
+splurg	125	6.734971016112218
+hair	125	6.734971016112218
+regular_size	124	6.7430031878094825
+feet	124	6.7430031878094825
+brais_pork	124	6.7430031878094825
+florentin	124	6.7430031878094825
+co-work	124	6.7430031878094825
+rain	124	6.7430031878094825
+replac	124	6.7430031878094825
+giuliana	124	6.7430031878094825
+tray	124	6.7430031878094825
+expert	124	6.7430031878094825
+black_bean	124	6.7430031878094825
+vari	124	6.7430031878094825
+written	124	6.7430031878094825
+carnivor	123	6.751100398042102
+breast	123	6.751100398042102
+ya	123	6.751100398042102
+chile	123	6.751100398042102
+prais	123	6.751100398042102
+trio	123	6.751100398042102
+cinnamon	123	6.751100398042102
+queso_de	123	6.751100398042102
+cheddar_chees	123	6.751100398042102
+7pm	123	6.751100398042102
+switch	123	6.751100398042102
+spoil	122	6.759263708681263
+mimosa	122	6.759263708681263
+curd	122	6.759263708681263
+bottom_line	122	6.759263708681263
+necessarili	122	6.759263708681263
+blah	122	6.759263708681263
+white_sangria	122	6.759263708681263
+european	122	6.759263708681263
+pastri	122	6.759263708681263
+alot	122	6.759263708681263
+cow	121	6.767494207817778
+east_villag	121	6.767494207817778
+background	121	6.767494207817778
+ajillo	121	6.767494207817778
+albacor	121	6.767494207817778
+gyro	121	6.767494207817778
+hanger	121	6.767494207817778
+advantag	121	6.767494207817778
+powder	121	6.767494207817778
+brandad	121	6.767494207817778
+asado	120	6.775793010632473
+9pm	120	6.775793010632473
+defin	120	6.775793010632473
+chicago_hot	120	6.775793010632473
+chi-town	120	6.775793010632473
+wander	120	6.775793010632473
+screw	120	6.775793010632473
+spanish_tapa	120	6.775793010632473
+churro	120	6.775793010632473
+to-go	120	6.775793010632473
+dislik	120	6.775793010632473
+pesto_mayo	120	6.775793010632473
+white_wine	119	6.78416126030299
+generous_portion	119	6.78416126030299
+cashier	119	6.78416126030299
+bakeri	119	6.78416126030299
+comp	119	6.78416126030299
+corn_beef	119	6.78416126030299
+gripe	119	6.78416126030299
+dairi	119	6.78416126030299
+it.th	119	6.78416126030299
+degre	118	6.7926001289488545
+bull	118	6.7926001289488545
+pretti_decent	118	6.7926001289488545
+chop_brisket	118	6.7926001289488545
+slider	118	6.7926001289488545
+funki	118	6.7926001289488545
+empanada	118	6.7926001289488545
+critic	118	6.7926001289488545
+scoop	118	6.7926001289488545
+arrang	118	6.7926001289488545
+super_fresh	118	6.7926001289488545
+involv	118	6.7926001289488545
+obnoxi	118	6.7926001289488545
+legit	117	6.801110818616763
+omakas	117	6.801110818616763
+em	117	6.801110818616763
+bruschetta	117	6.801110818616763
+scotch_egg	117	6.801110818616763
+instant	117	6.801110818616763
+truffl_garlic	117	6.801110818616763
+destin	117	6.801110818616763
+control	117	6.801110818616763
+candi	117	6.801110818616763
+stool	117	6.801110818616763
+mouth_water	117	6.801110818616763
+greatest	117	6.801110818616763
+mad	116	6.809694562308154
+volum	116	6.809694562308154
+string	116	6.809694562308154
+familiar	116	6.809694562308154
+scare	116	6.809694562308154
+3rd	116	6.809694562308154
+land	116	6.809694562308154
+fresh_fish	116	6.809694562308154
+row	116	6.809694562308154
+subtl	116	6.809694562308154
+distinct	116	6.809694562308154
+everytim	115	6.818352625051269
+1st	115	6.818352625051269
+bc	115	6.818352625051269
+million	115	6.818352625051269
+espresso	115	6.818352625051269
+thicker	115	6.818352625051269
+side_note	115	6.818352625051269
+ive	115	6.818352625051269
+jar	115	6.818352625051269
+caramel_onion	115	6.818352625051269
+eclect	115	6.818352625051269
+itali	115	6.818352625051269
+tab	115	6.818352625051269
+spici_potato	114	6.827086305020024
+hanger_steak	114	6.827086305020024
+donut	114	6.827086305020024
+hidden	114	6.827086305020024
+won	114	6.827086305020024
+fight	114	6.827086305020024
+mixtur	114	6.827086305020024
+proceed	114	6.827086305020024
+pretti_small	114	6.827086305020024
+reminisc	114	6.827086305020024
+farm	114	6.827086305020024
+bacon-wrap	113	6.835896934702179
+basi	113	6.835896934702179
+hamachi	113	6.835896934702179
+faster	113	6.835896934702179
+squid_ink	113	6.835896934702179
+izard	113	6.835896934702179
+photo	113	6.835896934702179
+person_favorit	113	6.835896934702179
+baguett	113	6.835896934702179
+pretti_darn	112	6.8447858821194245
+women	112	6.8447858821194245
+sucker	112	6.8447858821194245
+refus	112	6.8447858821194245
+shank	112	6.8447858821194245
+coke	112	6.8447858821194245
+coma	112	6.8447858821194245
+minimum	112	6.8447858821194245
+5:30	112	6.8447858821194245
+ale	112	6.8447858821194245
+complex	112	6.8447858821194245
+plastic	112	6.8447858821194245
+join	112	6.8447858821194245
+sum	112	6.8447858821194245
+wednesday_night	111	6.853754552102185
+distract	111	6.853754552102185
+whip_cream	111	6.853754552102185
+al_ajillo	111	6.853754552102185
+punch	111	6.853754552102185
+line_move	111	6.853754552102185
+credit_card	111	6.853754552102185
+challeng	111	6.853754552102185
+penni	111	6.853754552102185
+bay	111	6.853754552102185
+skewer	111	6.853754552102185
+express	111	6.853754552102185
+doughi	111	6.853754552102185
+star_review	110	6.862804387622103
+satay	110	6.862804387622103
+root	110	6.862804387622103
+deep-dish	110	6.862804387622103
+quot	110	6.862804387622103
+draw	110	6.862804387622103
+easier	110	6.862804387622103
+pork_rib	110	6.862804387622103
+snag	110	6.862804387622103
+intend	110	6.862804387622103
+huge_portion	110	6.862804387622103
+perfect_season	110	6.862804387622103
+sashimi_plate	110	6.862804387622103
+devil	110	6.862804387622103
+disappear	110	6.862804387622103
+ticket	109	6.871936871185375
+tvs	109	6.871936871185375
+entranc	109	6.871936871185375
+communiti	109	6.871936871185375
+gift	109	6.871936871185375
+assur	109	6.871936871185375
+6:30	109	6.871936871185375
+cram	109	6.871936871185375
+cloth	109	6.871936871185375
+children	109	6.871936871185375
+cheer	108	6.8811535262903
+chilli	108	6.8811535262903
+encourag	108	6.8811535262903
+budget	108	6.8811535262903
+pros	108	6.8811535262903
+purchas	108	6.8811535262903
+venison	108	6.8811535262903
+grow	108	6.8811535262903
+saturday_morn	108	6.8811535262903
+link	108	6.8811535262903
+gin	108	6.8811535262903
+dine_companion	108	6.8811535262903
+5pm	108	6.8811535262903
+dead	108	6.8811535262903
+red_sangria	107	6.890455918952613
+gorgonzola	107	6.890455918952613
+sidewalk	107	6.890455918952613
+wont	107	6.890455918952613
+layout	107	6.890455918952613
+silli	107	6.890455918952613
+older	107	6.890455918952613
+fennel	107	6.890455918952613
+burst	107	6.890455918952613
+manner	107	6.890455918952613
+flag	107	6.890455918952613
+intrigu	106	6.899845659302452
+jack	106	6.899845659302452
+anniversari	106	6.899845659302452
+remark	106	6.899845659302452
+slowli	106	6.899845659302452
+trap	106	6.899845659302452
+bit_disappoint	106	6.899845659302452
+infus	106	6.899845659302452
+exot	106	6.899845659302452
+explor	106	6.899845659302452
+cross	106	6.899845659302452
+confirm	106	6.899845659302452
+sight	106	6.899845659302452
+advis	105	6.909324403256996
+recent_visit	105	6.909324403256996
+prix	105	6.909324403256996
+gracious	105	6.909324403256996
+nigiri	105	6.909324403256996
+earn	105	6.909324403256996
+forgotten	105	6.909324403256996
+yum_yum	105	6.909324403256996
+kudo	105	6.909324403256996
+effect	105	6.909324403256996
+dare	105	6.909324403256996
+cafeteria	105	6.909324403256996
+pizza_joint	105	6.909324403256996
+bad_experi	105	6.909324403256996
+rough	105	6.909324403256996
+stupid	105	6.909324403256996
+son	105	6.909324403256996
+social	105	6.909324403256996
+road	105	6.909324403256996
+sprout_salad	104	6.918893854273146
+chi	104	6.918893854273146
+favorit_pizza	104	6.918893854273146
+mahi	104	6.918893854273146
+crumb	104	6.918893854273146
+francisco	104	6.918893854273146
+um	104	6.918893854273146
+support	104	6.918893854273146
+snob	104	6.918893854273146
+smart	104	6.918893854273146
+roast_chicken	104	6.918893854273146
+booz	104	6.918893854273146
+sticki	104	6.918893854273146
+seat_area	104	6.918893854273146
+sour_cream	104	6.918893854273146
+brasseri	104	6.918893854273146
+bucatini	104	6.918893854273146
+thrown	104	6.918893854273146
+justifi	104	6.918893854273146
+cri	103	6.928555765184884
+island	103	6.928555765184884
+grand	103	6.928555765184884
+encount	103	6.928555765184884
+machin	103	6.928555765184884
+spring	103	6.928555765184884
+drip	103	6.928555765184884
+curious	103	6.928555765184884
+citrus	103	6.928555765184884
+array	103	6.928555765184884
+san_francisco	103	6.928555765184884
+depandi	103	6.928555765184884
+pretti_cool	102	6.938311940130248
+tortellini	102	6.938311940130248
+advertis	102	6.938311940130248
+halibut	102	6.938311940130248
+3-4	102	6.938311940130248
+real_deal	102	6.938311940130248
+mayonnais	102	6.938311940130248
+savor	102	6.938311940130248
+11am	102	6.938311940130248
+rack	102	6.938311940130248
+embarrass	102	6.938311940130248
+french_onion	102	6.938311940130248
+red_pepper	102	6.938311940130248
+wood-fir	102	6.938311940130248
+turkey_burger	102	6.938311940130248
+fusion	102	6.938311940130248
+cracker	102	6.938311940130248
+lighter	102	6.938311940130248
+brais_beef	101	6.94816423657326
+feast	101	6.94816423657326
+charcuteri	101	6.94816423657326
+foot	101	6.94816423657326
+meat_eater	101	6.94816423657326
+sunni	101	6.94816423657326
+engag	101	6.94816423657326
+chili_garlic	101	6.94816423657326
+blame	101	6.94816423657326
+guid	101	6.94816423657326
+bodi	101	6.94816423657326
+mouss	101	6.94816423657326
+courteous	101	6.94816423657326
+candl	101	6.94816423657326
+access	101	6.94816423657326
+team	100	6.958114567426428
+bias	100	6.958114567426428
+pineappl_mayo	100	6.958114567426428
+wasnt	100	6.958114567426428
+bang	100	6.958114567426428
+garnish	100	6.958114567426428
+nasti	100	6.958114567426428
+content	100	6.958114567426428
+skirt	100	6.958114567426428
+expand	100	6.958114567426428
+yolk	100	6.958114567426428
+grill_octopus	100	6.958114567426428
+drink_menu	100	6.958114567426428
+8:30	100	6.958114567426428
+drove	100	6.958114567426428
+los_drown	100	6.958114567426428
+dens	100	6.958114567426428
+red_onion	99	6.96816490327993
+tartufo	99	6.96816490327993
+anim	99	6.96816490327993
+test	99	6.96816490327993
+grape	99	6.96816490327993
+occasion	99	6.96816490327993
+decent_price	99	6.96816490327993
+prix_fix	99	6.96816490327993
+eleg	99	6.96816490327993
+skimp	99	6.96816490327993
+intens	99	6.96816490327993
+brule	99	6.96816490327993
+tostada	99	6.96816490327993
+debat	99	6.96816490327993
+steep	99	6.96816490327993
+brunch_spot	99	6.96816490327993
+public	99	6.96816490327993
+gastropub	99	6.96816490327993
+moder	99	6.96816490327993
+element	98	6.978317274743947
+dinner_menu	98	6.978317274743947
+fear	98	6.978317274743947
+crusti	98	6.978317274743947
+veg	98	6.978317274743947
+ai	98	6.978317274743947
+signific	98	6.978317274743947
+burger_joint	98	6.978317274743947
+gigant	98	6.978317274743947
+peanut_satay	98	6.978317274743947
+child	98	6.978317274743947
+nicer	98	6.978317274743947
+save_room	98	6.978317274743947
+green_pepper	98	6.978317274743947
+planxa	98	6.978317274743947
+demand	98	6.978317274743947
+cast	98	6.978317274743947
+dear	98	6.978317274743947
+energet	98	6.978317274743947
+redfish	98	6.978317274743947
+hundr	97	6.988573774911137
+breath	97	6.988573774911137
+date_wrap	97	6.988573774911137
+capres_salad	97	6.988573774911137
+perfect_size	97	6.988573774911137
+fyi	97	6.988573774911137
+thin_slice	97	6.988573774911137
+broccoli	97	6.988573774911137
+gulf	97	6.988573774911137
+aka	97	6.988573774911137
+flan	97	6.988573774911137
+chees_curd	96	6.998936561946683
+fuss	96	6.998936561946683
+adult	96	6.998936561946683
+upset	96	6.998936561946683
+final_made	96	6.998936561946683
+glaze	96	6.998936561946683
+hangov	96	6.998936561946683
+michigan_ave	96	6.998936561946683
+saturday_afternoon	96	6.998936561946683
+spin	96	6.998936561946683
+boil	96	6.998936561946683
+5-star	96	6.998936561946683
+bison_burger	96	6.998936561946683
+2-3	95	7.009407861813979
+led	95	7.009407861813979
+bank	95	7.009407861813979
+la_planxa	95	7.009407861813979
+dive_bar	95	7.009407861813979
+wisconsin	95	7.009407861813979
+sauci	95	7.009407861813979
+canadian	95	7.009407861813979
+wtf	95	7.009407861813979
+gal	95	7.009407861813979
+saliv	95	7.009407861813979
+cider	95	7.009407861813979
+discuss	95	7.009407861813979
+bellini	95	7.009407861813979
+chew	95	7.009407861813979
+blast	95	7.009407861813979
+firm	95	7.009407861813979
+blood_orang	95	7.009407861813979
+sassi_wing	95	7.009407861813979
+carpaccio	95	7.009407861813979
+recent_trip	94	7.019989971144516
+lil	94	7.019989971144516
+oper	94	7.019989971144516
+neat	94	7.019989971144516
+larg_plate	94	7.019989971144516
+research	94	7.019989971144516
+rank	94	7.019989971144516
+enorm	94	7.019989971144516
+gamba_al	94	7.019989971144516
+nice_atmospher	94	7.019989971144516
+hock	94	7.019989971144516
+brunch_menu	94	7.019989971144516
+spare	94	7.019989971144516
+carb	94	7.019989971144516
+thick_cut	94	7.019989971144516
+expos	93	7.030685260261263
+mama_depandi	93	7.030685260261263
+prop	93	7.030685260261263
+pumpkin	93	7.030685260261263
+frustrat	93	7.030685260261263
+stretch	93	7.030685260261263
+perfect_balanc	93	7.030685260261263
+lincoln	93	7.030685260261263
+half_hour	93	7.030685260261263
+cracklin	93	7.030685260261263
+shine	93	7.030685260261263
+fond	93	7.030685260261263
+verd	93	7.030685260261263
+casserol	93	7.030685260261263
+purpos	93	7.030685260261263
+crostini	93	7.030685260261263
+lacklust	93	7.030685260261263
+whiskey	93	7.030685260261263
+wood_fire	93	7.030685260261263
+caesar	93	7.030685260261263
+burrata	93	7.030685260261263
+tag	93	7.030685260261263
+gold	92	7.041496176365479
+sorbet	92	7.041496176365479
+sea_salt	92	7.041496176365479
+ham_hock	92	7.041496176365479
+innov	92	7.041496176365479
+oppos	92	7.041496176365479
+style_hot	92	7.041496176365479
+prove	92	7.041496176365479
+drag	92	7.041496176365479
+ol	92	7.041496176365479
+america	92	7.041496176365479
+lunch_menu	92	7.041496176365479
+windi	92	7.041496176365479
+acid	92	7.041496176365479
+truth	92	7.041496176365479
+wide_varieti	92	7.041496176365479
+absolut_favorit	92	7.041496176365479
+black_truffl	92	7.041496176365479
+pulpo	92	7.041496176365479
+smoqu_bbq	92	7.041496176365479
+tuna_tartar	92	7.041496176365479
+spoke	91	7.052425246897669
+til	91	7.052425246897669
+fuck	91	7.052425246897669
+cob	91	7.052425246897669
+earli_dinner	91	7.052425246897669
+cream_chees	91	7.052425246897669
+grapefruit	91	7.052425246897669
+skinni	91	7.052425246897669
+chili_chees	91	7.052425246897669
+indoor	91	7.052425246897669
+bear	91	7.052425246897669
+tall	91	7.052425246897669
+seawe	91	7.052425246897669
+spill	91	7.052425246897669
+suffer	91	7.052425246897669
+pretti_busi	91	7.052425246897669
+favorit_sushi	91	7.052425246897669
+offici	91	7.052425246897669
+utter	91	7.052425246897669
+minim	90	7.0634750830842545
+attack	90	7.0634750830842545
+stack	90	7.0634750830842545
+philli	90	7.0634750830842545
+tiramisu	90	7.0634750830842545
+alioli	90	7.0634750830842545
+sweet_shrimp	90	7.0634750830842545
+voic	90	7.0634750830842545
+dmk_burger	90	7.0634750830842545
+excess	90	7.0634750830842545
+aspect	90	7.0634750830842545
+bold	90	7.0634750830842545
+compet	90	7.0634750830842545
+sigh	90	7.0634750830842545
+croqu	90	7.0634750830842545
+7:30	89	7.074648383682379
+open_kitchen	89	7.074648383682379
+eager	89	7.074648383682379
+refer	89	7.074648383682379
+small_tabl	89	7.074648383682379
+mr	89	7.074648383682379
+turnip	89	7.074648383682379
+nope	89	7.074648383682379
+avenu	89	7.074648383682379
+butt	89	7.074648383682379
+batch	89	7.074648383682379
+freakin	89	7.074648383682379
+italian_sausag	89	7.074648383682379
+lamb_burger	89	7.074648383682379
+sole	89	7.074648383682379
+prici	89	7.074648383682379
+arm	89	7.074648383682379
+creme_brule	89	7.074648383682379
+drawback	89	7.074648383682379
+parm	88	7.085947938936313
+truffl_mayo	88	7.085947938936313
+grate	88	7.085947938936313
+craft_beer	88	7.085947938936313
+piquillo	88	7.085947938936313
+feta	88	7.085947938936313
+gather	88	7.085947938936313
+linger	88	7.085947938936313
+mushroom_risotto	88	7.085947938936313
+small_group	88	7.085947938936313
+garlic_aioli	88	7.085947938936313
+sexi	88	7.085947938936313
+freez	88	7.085947938936313
+yea	88	7.085947938936313
+lazi	88	7.085947938936313
+midnight	88	7.085947938936313
+health	88	7.085947938936313
+truffl_cream	88	7.085947938936313
+ill	88	7.085947938936313
+brisket_platter	88	7.085947938936313
+fruiti	88	7.085947938936313
+bim	88	7.085947938936313
+raini	87	7.097376634759936
+celeri	87	7.097376634759936
+eye_french	87	7.097376634759936
+water_glass	87	7.097376634759936
+cavatelli	87	7.097376634759936
+cooki_dough	87	7.097376634759936
+unimpress	87	7.097376634759936
+slam	87	7.097376634759936
+good.th	87	7.097376634759936
+allergi	87	7.097376634759936
+steak_bowl	87	7.097376634759936
+ps	87	7.097376634759936
+genius	87	7.097376634759936
+trek	87	7.097376634759936
+enthusiast	87	7.097376634759936
+mojito	87	7.097376634759936
+jean	87	7.097376634759936
+king_crab	87	7.097376634759936
+broke	87	7.097376634759936
+grace	87	7.097376634759936
+plaza	87	7.097376634759936
+ll_find	87	7.097376634759936
+tho	86	7.108937457161011
+garlicki	86	7.108937457161011
+colleagu	86	7.108937457161011
+fish_taco	86	7.108937457161011
+valentin	86	7.108937457161011
+measur	86	7.108937457161011
+saffron	86	7.108937457161011
+forgett	86	7.108937457161011
+ooz	86	7.108937457161011
+wasabi_mayo	86	7.108937457161011
+pincho	86	7.108937457161011
+de_pollo	86	7.108937457161011
+connoisseur	86	7.108937457161011
+charact	86	7.108937457161011
+swim	86	7.108937457161011
+account	86	7.108937457161011
+court	86	7.108937457161011
+bulgogi	86	7.108937457161011
+chip_cooki	86	7.108937457161011
+bad_boy	86	7.108937457161011
+outrag	86	7.108937457161011
+barbequ	86	7.108937457161011
+downtown_chicago	86	7.108937457161011
+fresh_cut	86	7.108937457161011
+1/4	86	7.108937457161011
+fresh_fruit	86	7.108937457161011
+wedg	86	7.108937457161011
+sausag_pizza	85	7.120633496924203
+millennium	85	7.120633496924203
+sashimi_dinner	85	7.120633496924203
+small_side	85	7.120633496924203
+griddl	85	7.120633496924203
+abita	85	7.120633496924203
+tastier	85	7.120633496924203
+student	85	7.120633496924203
+packag	85	7.120633496924203
+halfway	85	7.120633496924203
+argu	85	7.120633496924203
+stock	85	7.120633496924203
+cent_oyster	85	7.120633496924203
+liquid	85	7.120633496924203
+smallest	85	7.120633496924203
+jus	85	7.120633496924203
+sing	85	7.120633496924203
+ampl	85	7.120633496924203
+cast_iron	84	7.132467954571205
+ensur	84	7.132467954571205
+thousand	84	7.132467954571205
+smoke_pork	84	7.132467954571205
+doug	84	7.132467954571205
+ined	84	7.132467954571205
+mass	84	7.132467954571205
+crappi	84	7.132467954571205
+wrote	84	7.132467954571205
+shirt	84	7.132467954571205
+babi_buddha	84	7.132467954571205
+walnut	84	7.132467954571205
+festiv	84	7.132467954571205
+lunch_hour	84	7.132467954571205
+extraordinari	84	7.132467954571205
+dessert_menu	84	7.132467954571205
+walk_distanc	84	7.132467954571205
+client	84	7.132467954571205
+fellow_yelper	84	7.132467954571205
+dark_chocol	84	7.132467954571205
+sushi_joint	83	7.144444145617921
+pomodoro	83	7.144444145617921
+japan	83	7.144444145617921
+rubberi	83	7.144444145617921
+barcelona	83	7.144444145617921
+crush	83	7.144444145617921
+brisket_chili	83	7.144444145617921
+ppl	83	7.144444145617921
+orgasm	83	7.144444145617921
+struggl	83	7.144444145617921
+edibl	83	7.144444145617921
+sophist	83	7.144444145617921
+bachelorett	83	7.144444145617921
+lakeview	83	7.144444145617921
+hunger	83	7.144444145617921
+takeout	83	7.144444145617921
+l.a	83	7.144444145617921
+contact	83	7.144444145617921
+front_door	83	7.144444145617921
+salami	82	7.156565506150266
+sunday_afternoon	82	7.156565506150266
+pant	82	7.156565506150266
+take-out	82	7.156565506150266
+blacken	82	7.156565506150266
+stephani_izard	82	7.156565506150266
+chop_salad	82	7.156565506150266
+pinot	82	7.156565506150266
+texa_sausag	82	7.156565506150266
+screen	82	7.156565506150266
+acknowledg	82	7.156565506150266
+bbq_bean	82	7.156565506150266
+house-mad	82	7.156565506150266
+en	82	7.156565506150266
+millennium_park	82	7.156565506150266
+venison_burger	82	7.156565506150266
+parmesan_truffl	82	7.156565506150266
+tourist_trap	82	7.156565506150266
+bubbl	82	7.156565506150266
+chirashi	82	7.156565506150266
+raw_oyster	82	7.156565506150266
+lame	82	7.156565506150266
+chai	82	7.156565506150266
+skirt_steak	82	7.156565506150266
+accomod	82	7.156565506150266
+sundri	82	7.156565506150266
+girl_night	82	7.156565506150266
+hash_brown	82	7.156565506150266
+ship	82	7.156565506150266
+vanilla_ice	82	7.156565506150266
+mackerel	82	7.156565506150266
+brilliant	82	7.156565506150266
+intimid	82	7.156565506150266
+christma	82	7.156565506150266
+price_point	82	7.156565506150266
+green_tea	82	7.156565506150266
+polici	81	7.16883559874208
+towel	81	7.16883559874208
+tear	81	7.16883559874208
+breakfast/brunch	81	7.16883559874208
+august	81	7.16883559874208
+hilton	81	7.16883559874208
+fine_dine	81	7.16883559874208
+pretti_awesom	81	7.16883559874208
+pastor	81	7.16883559874208
+sauerkraut	81	7.16883559874208
+silverwar	81	7.16883559874208
+pretti_big	81	7.16883559874208
+death	81	7.16883559874208
+nail	81	7.16883559874208
+oyster_roast	81	7.16883559874208
+glorious	81	7.16883559874208
+joe	81	7.16883559874208
+munch	81	7.16883559874208
+produc	81	7.16883559874208
+mahi_mahi	81	7.16883559874208
+passion	81	7.16883559874208
+catalan	81	7.16883559874208
+roma	80	7.1812581187406375
+exquisit	80	7.1812581187406375
+tenderloin	80	7.1812581187406375
+creation	80	7.1812581187406375
+district	80	7.1812581187406375
+upsid	80	7.1812581187406375
+fresh_squeez	80	7.1812581187406375
+bird	80	7.1812581187406375
+10pm	80	7.1812581187406375
+slap	80	7.1812581187406375
+clientel	80	7.1812581187406375
+garden	80	7.1812581187406375
+move_quick	80	7.1812581187406375
+rabbit_sausag	80	7.1812581187406375
+caramel_chees	80	7.1812581187406375
+anchovi	80	7.1812581187406375
+jalapeño	80	7.1812581187406375
+display	80	7.1812581187406375
+tapa_bar	79	7.193836900947498
+piss	79	7.193836900947498
+miga	79	7.193836900947498
+foccacia	79	7.193836900947498
+competit	79	7.193836900947498
+malt	79	7.193836900947498
+hefti	79	7.193836900947498
+bass	79	7.193836900947498
+ribey	79	7.193836900947498
+p.s	79	7.193836900947498
+julep	79	7.193836900947498
+bi	79	7.193836900947498
+grub	79	7.193836900947498
+metal	79	7.193836900947498
+sundri_tomato	79	7.193836900947498
+a-ok	79	7.193836900947498
+spacious	79	7.193836900947498
+doughnut	79	7.193836900947498
+hous_made	79	7.193836900947498
+lobster_ravioli	79	7.193836900947498
+lemonad	79	7.193836900947498
+vinegari	79	7.193836900947498
+belli_pancak	79	7.193836900947498
+award	79	7.193836900947498
+busser	78	7.206575926724928
+busboy	78	7.206575926724928
+recogn	78	7.206575926724928
+15-20	78	7.206575926724928
+bacon-wrap_date	78	7.206575926724928
+tast_fresh	78	7.206575926724928
+finest	78	7.206575926724928
+bar_seat	78	7.206575926724928
+busi_night	78	7.206575926724928
+hot_spot	78	7.206575926724928
+find_park	78	7.206575926724928
+sweeter	78	7.206575926724928
+franc	78	7.206575926724928
+ha	78	7.206575926724928
+honey_mustard	78	7.206575926724928
+elvi	78	7.206575926724928
+aroma	78	7.206575926724928
+blackbird	78	7.206575926724928
+duck_prosciutto	78	7.206575926724928
+norwegian	78	7.206575926724928
+chow	78	7.206575926724928
+smoke_eggplant	78	7.206575926724928
+master	78	7.206575926724928
+slather	78	7.206575926724928
+coconut	78	7.206575926724928
+mexican_ketchup	78	7.206575926724928
+stone	78	7.206575926724928
+attach	77	7.219479331560835
+bus_boy	77	7.219479331560835
+tone	77	7.219479331560835
+esp	77	7.219479331560835
+carnita	77	7.219479331560835
+superior	77	7.219479331560835
+bummer	77	7.219479331560835
+basement	77	7.219479331560835
+mmmmm	77	7.219479331560835
+consider	77	7.219479331560835
+duck_quesadilla	77	7.219479331560835
+favorit_spot	77	7.219479331560835
+overbear	77	7.219479331560835
+red_snapper	77	7.219479331560835
+devil_egg	77	7.219479331560835
+boss	77	7.219479331560835
+joy	77	7.219479331560835
+dent	77	7.219479331560835
+amus	77	7.219479331560835
+nutella	76	7.2325514131281885
+top-notch	76	7.2325514131281885
+jelli	76	7.2325514131281885
+grass	76	7.2325514131281885
+twenti	76	7.2325514131281885
+cotija	76	7.2325514131281885
+taleggio	76	7.2325514131281885
+wild_mushroom	76	7.2325514131281885
+beef_hash	76	7.2325514131281885
+manchego	76	7.2325514131281885
+bday	76	7.2325514131281885
+airi	76	7.2325514131281885
+chorizo-stuf_medjool	76	7.2325514131281885
+accident	76	7.2325514131281885
+sock	76	7.2325514131281885
+buffalo_wing	76	7.2325514131281885
+reflect	76	7.2325514131281885
+substanti	76	7.2325514131281885
+lukewarm	76	7.2325514131281885
+orang_juic	76	7.2325514131281885
+bop	76	7.2325514131281885
+blue_jam	76	7.2325514131281885
+paint	76	7.2325514131281885
+bum	76	7.2325514131281885
+roast_pork	75	7.2457966398782085
+vegetarian_option	75	7.2457966398782085
+jazz_band	75	7.2457966398782085
+grain	75	7.2457966398782085
+past_weekend	75	7.2457966398782085
+florentin_benedict	75	7.2457966398782085
+elev	75	7.2457966398782085
+skill	75	7.2457966398782085
+subway	75	7.2457966398782085
+regular_menu	75	7.2457966398782085
+accur	75	7.2457966398782085
+bi_bim	75	7.2457966398782085
+yellow_tail	75	7.2457966398782085
+picnic	75	7.2457966398782085
+wake	75	7.2457966398782085
+realiti	75	7.2457966398782085
+marri	75	7.2457966398782085
+penn	75	7.2457966398782085
+bell_pepper	75	7.2457966398782085
+weight	75	7.2457966398782085
+10:30	75	7.2457966398782085
+sushi_delux	75	7.2457966398782085
+imo	75	7.2457966398782085
+sweet_chili	75	7.2457966398782085
+café	75	7.2457966398782085
+lack_flavor	75	7.2457966398782085
+epic	75	7.2457966398782085
+wheat	75	7.2457966398782085
+favorit_tapa	75	7.2457966398782085
+vast	75	7.2457966398782085
+perfect_crispi	75	7.2457966398782085
+roommat	74	7.259219660210349
+increas	74	7.259219660210349
+lip	74	7.259219660210349
+glanc	74	7.259219660210349
+ugh	74	7.259219660210349
+endless	74	7.259219660210349
+benefit	74	7.259219660210349
+loui_style	74	7.259219660210349
+honor	74	7.259219660210349
+trick	74	7.259219660210349
+flash	74	7.259219660210349
+drunken	74	7.259219660210349
+ah	74	7.259219660210349
+garc	74	7.259219660210349
+raw_fish	74	7.259219660210349
+determin	74	7.259219660210349
+wood-fir_oyster	74	7.259219660210349
+pretti_fast	74	7.259219660210349
+rip	74	7.259219660210349
+stuffi	74	7.259219660210349
+housemad	74	7.259219660210349
+madam	74	7.259219660210349
+worth_check	74	7.259219660210349
+chorizo-stuf_date	74	7.259219660210349
+raspberri	74	7.259219660210349
+super_tasti	74	7.259219660210349
+quick_bite	73	7.272825312266128
+chunki	73	7.272825312266128
+mon	73	7.272825312266128
+carbonara	73	7.272825312266128
+flavour	73	7.272825312266128
+risk	73	7.272825312266128
+st_mark	73	7.272825312266128
+custard	73	7.272825312266128
+seafood_paella	73	7.272825312266128
+sudden	73	7.272825312266128
+sf	73	7.272825312266128
+blackston	73	7.272825312266128
+snap	73	7.272825312266128
+perform	73	7.272825312266128
+windi_citi	73	7.272825312266128
+resembl	73	7.272825312266128
+iron_chef	73	7.272825312266128
+comfi	73	7.272825312266128
+lobster_capres	73	7.272825312266128
+patienc	73	7.272825312266128
+bit_dri	73	7.272825312266128
+sin	73	7.272825312266128
+closest	73	7.272825312266128
+teeth	73	7.272825312266128
+pork_shank	72	7.286618634398464
+fire_oyster	72	7.286618634398464
+enhanc	72	7.286618634398464
+seat_prompt	72	7.286618634398464
+adequ	72	7.286618634398464
+arriv_earli	72	7.286618634398464
+radish	72	7.286618634398464
+stair	72	7.286618634398464
+eel	72	7.286618634398464
+bit_small	72	7.286618634398464
+malnati_chicago	72	7.286618634398464
+croqueta_de	72	7.286618634398464
+bliss	72	7.286618634398464
+hung	72	7.286618634398464
+make_sens	72	7.286618634398464
+el	72	7.286618634398464
+shrimp_taco	72	7.286618634398464
+move_fast	72	7.286618634398464
+ten_minut	72	7.286618634398464
+nose	72	7.286618634398464
+cocktail_menu	72	7.286618634398464
+quieter	72	7.286618634398464
+yep	72	7.286618634398464
+inconsist	72	7.286618634398464
+theater	72	7.286618634398464
+lincoln_park	72	7.286618634398464
+toler	72	7.286618634398464
+shut	72	7.286618634398464
+arteri	72	7.286618634398464
+white_bean	72	7.286618634398464
+asado_con	72	7.286618634398464
+mind_blow	71	7.300604876373204
+claw	71	7.300604876373204
+cube	71	7.300604876373204
+fatti_tuna	71	7.300604876373204
+straw	71	7.300604876373204
+loaf	71	7.300604876373204
+sweet_pepper	71	7.300604876373204
+sober	71	7.300604876373204
+variat	71	7.300604876373204
+hous_wine	71	7.300604876373204
+elk	71	7.300604876373204
+ice_tea	71	7.300604876373204
+steak_tartar	71	7.300604876373204
+di	71	7.300604876373204
+rosco	71	7.300604876373204
+butteri_crust	71	7.300604876373204
+wind	71	7.300604876373204
+peak_hour	71	7.300604876373204
+pricier	71	7.300604876373204
+sooner	71	7.300604876373204
+suburb	71	7.300604876373204
+skillet	71	7.300604876373204
+bake_goat	71	7.300604876373204
+unreal	71	7.300604876373204
+brown_rice	71	7.300604876373204
+proport	70	7.31478951136516
+pine	70	7.31478951136516
+grass-f	70	7.31478951136516
+plump	70	7.31478951136516
+heavili	70	7.31478951136516
+opposit	70	7.31478951136516
+din	70	7.31478951136516
+buttercrust	70	7.31478951136516
+bachelorett_parti	70	7.31478951136516
+weekend_night	70	7.31478951136516
+boucheri	70	7.31478951136516
+thinner	70	7.31478951136516
+9:30	70	7.31478951136516
+gator	70	7.31478951136516
+pic	70	7.31478951136516
+cultur	70	7.31478951136516
+manhattan	70	7.31478951136516
+guilti	70	7.31478951136516
+breakfast_spot	70	7.31478951136516
+price_tag	70	7.31478951136516
+onion_string	70	7.31478951136516
+summari	70	7.31478951136516
+thanksgiv	70	7.31478951136516
+chines	70	7.31478951136516
+hot_chocol	70	7.31478951136516
+atom	70	7.31478951136516
+dump	70	7.31478951136516
+tasso	70	7.31478951136516
+sashimi_platter	70	7.31478951136516
+mission	70	7.31478951136516
+collar	70	7.31478951136516
+accent	70	7.31478951136516
+tie	69	7.32917824881726
+pretti_standard	69	7.32917824881726
+smoke_duck	69	7.32917824881726
+egg_white	69	7.32917824881726
+convert	69	7.32917824881726
+fryer	69	7.32917824881726
+revisit	69	7.32917824881726
+2pm	69	7.32917824881726
+activ	69	7.32917824881726
+hover	69	7.32917824881726
+hr	69	7.32917824881726
+fresh_ingredi	69	7.32917824881726
+sashimi_combo	69	7.32917824881726
+wipe	69	7.32917824881726
+chive	69	7.32917824881726
+lentil	69	7.32917824881726
+song	69	7.32917824881726
+strike	69	7.32917824881726
+runner	69	7.32917824881726
+sensat	69	7.32917824881726
+vinegar_base	69	7.32917824881726
+boot	69	7.32917824881726
+explos	69	7.32917824881726
+size_portion	69	7.32917824881726
+abund	69	7.32917824881726
+katfish	69	7.32917824881726
+memphi	68	7.343777048238413
+pint	68	7.343777048238413
+10-15	68	7.343777048238413
+commit	68	7.343777048238413
+alfredo	68	7.343777048238413
+float	68	7.343777048238413
+rancic	68	7.343777048238413
+cilantro	68	7.343777048238413
+maintain	68	7.343777048238413
+infam	68	7.343777048238413
+nom	68	7.343777048238413
+tastiest	68	7.343777048238413
+rabbit_dumpl	68	7.343777048238413
+schedul	68	7.343777048238413
+confer	68	7.343777048238413
+proud	68	7.343777048238413
+scale	68	7.343777048238413
+unagi	68	7.343777048238413
+pistachio	68	7.343777048238413
+larger_group	68	7.343777048238413
+spinach_salad	68	7.343777048238413
+half_chicken	68	7.343777048238413
+pretti_crowd	68	7.343777048238413
+partial	68	7.343777048238413
+person_prefer	68	7.343777048238413
+notabl	68	7.343777048238413
+stress	68	7.343777048238413
+chicken_liver	68	7.343777048238413
+crab_dip	67	7.358592134023553
+spirit	67	7.358592134023553
+butternut	67	7.358592134023553
+10am	67	7.358592134023553
+11:30	67	7.358592134023553
+sardin	67	7.358592134023553
+apologet	67	7.358592134023553
+pretti_pack	67	7.358592134023553
+horseradish_potato	67	7.358592134023553
+suspect	67	7.358592134023553
+intent	67	7.358592134023553
+video	67	7.358592134023553
+asap	67	7.358592134023553
+hog	67	7.358592134023553
+simpli_amaz	67	7.358592134023553
+repli	67	7.358592134023553
+action	67	7.358592134023553
+underneath	67	7.358592134023553
+steer	67	7.358592134023553
+french_bistro	67	7.358592134023553
+shorter	67	7.358592134023553
+born	67	7.358592134023553
+resid	67	7.358592134023553
+mix_drink	67	7.358592134023553
+yogurt	67	7.358592134023553
+eggplant_mayo	67	7.358592134023553
+hot_doug	67	7.358592134023553
+tune	67	7.358592134023553
+pronounc	66	7.3736300113880935
+address	66	7.3736300113880935
+fair_quick	66	7.3736300113880935
+rose	66	7.3736300113880935
+chaotic	66	7.3736300113880935
+carolina	66	7.3736300113880935
+rabbit_liver	66	7.3736300113880935
+art_institut	66	7.3736300113880935
+pepperi	66	7.3736300113880935
+rotat	66	7.3736300113880935
+hummus	66	7.3736300113880935
+fab	66	7.3736300113880935
+tremend	66	7.3736300113880935
+vibrant	66	7.3736300113880935
+high_price	66	7.3736300113880935
+dissapoint	66	7.3736300113880935
+pretti_amaz	66	7.3736300113880935
+grown	66	7.3736300113880935
+heart_attack	66	7.3736300113880935
+swanki	66	7.3736300113880935
+salumeria	66	7.3736300113880935
+carmel_crust	66	7.3736300113880935
+forgiv	66	7.3736300113880935
+burnt_chees	66	7.3736300113880935
+depart	66	7.3736300113880935
+interact	66	7.3736300113880935
+contemporari	66	7.3736300113880935
+goat_chili	66	7.3736300113880935
+chicken_waffl	66	7.3736300113880935
+plane	66	7.3736300113880935
+stroll	66	7.3736300113880935
+report	66	7.3736300113880935
+jose	66	7.3736300113880935
+rout	65	7.388897483518882
+tabasco	65	7.388897483518882
+moonshin	65	7.388897483518882
+premium	65	7.388897483518882
+dous	65	7.388897483518882
+bless	65	7.388897483518882
+speed	65	7.388897483518882
+posit_review	65	7.388897483518882
+sharp	65	7.388897483518882
+central	65	7.388897483518882
+urban	65	7.388897483518882
+quaint	65	7.388897483518882
+desper	65	7.388897483518882
+justic	65	7.388897483518882
+du	65	7.388897483518882
+thai	65	7.388897483518882
+bim_bop	65	7.388897483518882
+german	65	7.388897483518882
+chick	65	7.388897483518882
+goodi	65	7.388897483518882
+patti_melt	65	7.388897483518882
+pancetta	65	7.388897483518882
+lüke	65	7.388897483518882
+purpl	65	7.388897483518882
+track	65	7.388897483518882
+20-30	65	7.388897483518882
+capac	65	7.388897483518882
+shoe	65	7.388897483518882
+delay	65	7.388897483518882
+staff_member	65	7.388897483518882
+blt	65	7.388897483518882
+hide	65	7.388897483518882
+gluten-fre	65	7.388897483518882
+raisin	65	7.388897483518882
+crispi_french	65	7.388897483518882
+warrant	64	7.404401670054847
+connect	64	7.404401670054847
+bit_loud	64	7.404401670054847
+maxwel	64	7.404401670054847
+happier	64	7.404401670054847
+hassl	64	7.404401670054847
+spell	64	7.404401670054847
+super_busi	64	7.404401670054847
+wisconsin_cheddar	64	7.404401670054847
+europ	64	7.404401670054847
+wit	64	7.404401670054847
+30-40	64	7.404401670054847
+margherita	64	7.404401670054847
+expos_brick	64	7.404401670054847
+high_ceil	64	7.404401670054847
+elvi_waffl	64	7.404401670054847
+ll_make	64	7.404401670054847
+generic	64	7.404401670054847
+idiot	64	7.404401670054847
+overdon	64	7.404401670054847
+unhealthi	64	7.404401670054847
+outing	64	7.404401670054847
+budino	64	7.404401670054847
+jamon_iberico	64	7.404401670054847
+beg	64	7.404401670054847
+goos	63	7.420150027022986
+cool_atmospher	63	7.420150027022986
+marshmallow	63	7.420150027022986
+town_guest	63	7.420150027022986
+shove	63	7.420150027022986
+pressur	63	7.420150027022986
+chocol_mouss	63	7.420150027022986
+sun-dri	63	7.420150027022986
+highest	63	7.420150027022986
+cappuccino	63	7.420150027022986
+eas	63	7.420150027022986
+kimche	63	7.420150027022986
+slip	63	7.420150027022986
+bargain	63	7.420150027022986
+p.m	63	7.420150027022986
+refin	63	7.420150027022986
+whim	63	7.420150027022986
+confid	63	7.420150027022986
+extend	63	7.420150027022986
+puff	63	7.420150027022986
+heap	63	7.420150027022986
+bleu	63	7.420150027022986
+histori	63	7.420150027022986
+pricey_side	63	7.420150027022986
+divey	63	7.420150027022986
+long_tabl	63	7.420150027022986
+perfect_crisp	63	7.420150027022986
+dark_wood	63	7.420150027022986
+fifteen	63	7.420150027022986
+pepper-tomato	63	7.420150027022986
+angri	63	7.420150027022986
+con_alioli	63	7.420150027022986
+midwest	63	7.420150027022986
+seoul_steak	62	7.436150368369428
+hollywood	62	7.436150368369428
+molten	62	7.436150368369428
+super_excit	62	7.436150368369428
+stale	62	7.436150368369428
+opent	62	7.436150368369428
+picki_eater	62	7.436150368369428
+sun-dri_tomato	62	7.436150368369428
+quinoa	62	7.436150368369428
+amish	62	7.436150368369428
+escap	62	7.436150368369428
+big_portion	62	7.436150368369428
+eve	62	7.436150368369428
+news	62	7.436150368369428
+chees_pizza	62	7.436150368369428
+serrano_ham	62	7.436150368369428
+fritter	62	7.436150368369428
+butternut_squash	62	7.436150368369428
+tast_pretti	62	7.436150368369428
+sweet_tea	62	7.436150368369428
+hat	62	7.436150368369428
+prawn	62	7.436150368369428
+solo	62	7.436150368369428
+crab_claw	62	7.436150368369428
+fair_price	62	7.436150368369428
+poppi	62	7.436150368369428
+pecan	62	7.436150368369428
+shortrib	62	7.436150368369428
+nervous	62	7.436150368369428
+bolognes	62	7.436150368369428
+categori	62	7.436150368369428
+respond	61	7.452410889241208
+bar_steak	61	7.452410889241208
+yuck	61	7.452410889241208
+discount	61	7.452410889241208
+influenc	61	7.452410889241208
+downfal	61	7.452410889241208
+maiz	61	7.452410889241208
+dug	61	7.452410889241208
+mug	61	7.452410889241208
+cell	61	7.452410889241208
+portobello	61	7.452410889241208
+tad_bit	61	7.452410889241208
+tooth	61	7.452410889241208
+hous_salad	61	7.452410889241208
+30-45	61	7.452410889241208
+oj	61	7.452410889241208
+brand	61	7.452410889241208
+decent_size	61	7.452410889241208
+grass_fed	61	7.452410889241208
+high_end	61	7.452410889241208
+breakfast_item	61	7.452410889241208
+arroz	61	7.452410889241208
+mocha	61	7.452410889241208
+unabl	61	7.452410889241208
+strict	61	7.452410889241208
+live_atmospher	61	7.452410889241208
+jambalaya_suprem	61	7.452410889241208
+atop	61	7.452410889241208
+pickl_pepper	61	7.452410889241208
+favorit_chicago	61	7.452410889241208
+chees_crust	61	7.452410889241208
+boo	61	7.452410889241208
+gentleman	61	7.452410889241208
+pretend	60	7.468940191192418
+pre-ord	60	7.468940191192418
+empti_tabl	60	7.468940191192418
+cheat	60	7.468940191192418
+queso_cotija	60	7.468940191192418
+pincho_de	60	7.468940191192418
+convent	60	7.468940191192418
+seat_quick	60	7.468940191192418
+torn	60	7.468940191192418
+palett	60	7.468940191192418
+grill_shrimp	60	7.468940191192418
+tastebud	60	7.468940191192418
+fix_menu	60	7.468940191192418
+chocol_shake	60	7.468940191192418
+brain	60	7.468940191192418
+limit_seat	60	7.468940191192418
+uniqu_flavor	60	7.468940191192418
+upbeat	60	7.468940191192418
+restrict	60	7.468940191192418
+unpretenti	60	7.468940191192418
+casual_atmospher	60	7.468940191192418
+hut	60	7.468940191192418
+tripl	60	7.468940191192418
+father	60	7.468940191192418
+green_chile	60	7.468940191192418
+utensil	60	7.468940191192418
+asparagus_risotto	60	7.468940191192418
+protein	60	7.468940191192418
+mole	60	7.468940191192418
+morsel	60	7.468940191192418
+slide	60	7.468940191192418
+french_bread	60	7.468940191192418
+rabbit_jambalaya	60	7.468940191192418
+top_chef	60	7.468940191192418
+stole	60	7.468940191192418
+piquillo_pepper-tomato	60	7.468940191192418
+fake_meat	60	7.468940191192418
+fountain	59	7.4857473095088
+concert	59	7.4857473095088
+urchin	59	7.4857473095088
+flat_bread	59	7.4857473095088
+jazz_music	59	7.4857473095088
+monkfish	59	7.4857473095088
+duh	59	7.4857473095088
+pretti_long	59	7.4857473095088
+occupi	59	7.4857473095088
+irish_curri	59	7.4857473095088
+chosen	59	7.4857473095088
+style_rib	59	7.4857473095088
+vindaloo	59	7.4857473095088
+yorker	59	7.4857473095088
+yellowtail_belli	59	7.4857473095088
+boy_buddha	59	7.4857473095088
+dim_lit	59	7.4857473095088
+wave	59	7.4857473095088
+vote	59	7.4857473095088
+poppi_seed	59	7.4857473095088
+juli	59	7.4857473095088
+lunchtim	59	7.4857473095088
+explan	59	7.4857473095088
+towner	59	7.4857473095088
+fresh_sushi	59	7.4857473095088
+pool	59	7.4857473095088
+airport	59	7.4857473095088
+swing	59	7.4857473095088
+equival	59	7.4857473095088
+half_price	59	7.4857473095088
+unnecessari	59	7.4857473095088
+grade	59	7.4857473095088
+north_side	59	7.4857473095088
+profil	59	7.4857473095088
+mouthwat	59	7.4857473095088
+sport_bar	59	7.4857473095088
+flip	58	7.5028417428681
+home_made	58	7.5028417428681
+dim_light	58	7.5028417428681
+reheat	58	7.5028417428681
+zone	58	7.5028417428681
+valet_park	58	7.5028417428681
+bucket	58	7.5028417428681
+overheard	58	7.5028417428681
+bath	58	7.5028417428681
+overload	58	7.5028417428681
+stun	58	7.5028417428681
+sazerac	58	7.5028417428681
+brave	58	7.5028417428681
+understood	58	7.5028417428681
+foam	58	7.5028417428681
+tomato_mayo	58	7.5028417428681
+grandma	58	7.5028417428681
+scarf	58	7.5028417428681
+powder_sugar	58	7.5028417428681
+drinker	58	7.5028417428681
+qualiti_ingredi	58	7.5028417428681
+depth	58	7.5028417428681
+caesar_salad	58	7.5028417428681
+melt_chees	58	7.5028417428681
+receipt	58	7.5028417428681
+birthday_parti	58	7.5028417428681
+serv_size	58	7.5028417428681
+disagre	58	7.5028417428681
+daili_special	58	7.5028417428681
+crew	58	7.5028417428681
+compon	58	7.5028417428681
+broken	58	7.5028417428681
+amaz_flavor	58	7.5028417428681
+favorit_meal	58	7.5028417428681
+deter	58	7.5028417428681
+bon	58	7.5028417428681
+fourth	58	7.5028417428681
+site	58	7.5028417428681
+unpleas	58	7.5028417428681
+cat	58	7.5028417428681
+sale	57	7.520233485579969
+tin	57	7.520233485579969
+cheez	57	7.520233485579969
+exterior	57	7.520233485579969
+final_decid	57	7.520233485579969
+built	57	7.520233485579969
+week_menu	57	7.520233485579969
+andouill	57	7.520233485579969
+gage_burger	57	7.520233485579969
+inconveni	57	7.520233485579969
+estim	57	7.520233485579969
+pretti_loud	57	7.520233485579969
+transport	57	7.520233485579969
+mysteri	57	7.520233485579969
+dice	57	7.520233485579969
+sauté	57	7.520233485579969
+english_muffin	57	7.520233485579969
+automat	57	7.520233485579969
+qualiti_sushi	57	7.520233485579969
+oz	57	7.520233485579969
+real_thing	57	7.520233485579969
+bad_day	57	7.520233485579969
+circl	57	7.520233485579969
+brick_wall	57	7.520233485579969
+trash	57	7.520233485579969
+giardiniera	57	7.520233485579969
+pride	57	7.520233485579969
+microwav	57	7.520233485579969
+free_sampl	57	7.520233485579969
+oblig	57	7.520233485579969
+small_piec	57	7.520233485579969
+norwegian_benedict	57	7.520233485579969
+alik	57	7.520233485579969
+sea_scallop	57	7.520233485579969
+favorit_breakfast	57	7.520233485579969
+shi	57	7.520233485579969
+upgrad	57	7.520233485579969
+desk	57	7.520233485579969
+milk_shake	57	7.520233485579969
+dri_tomato	57	7.520233485579969
+fresh_made	56	7.53793306267937
+dagwood	56	7.53793306267937
+bbq_chicken	56	7.53793306267937
+sunda	56	7.53793306267937
+perfect_combin	56	7.53793306267937
+frill	56	7.53793306267937
+homey	56	7.53793306267937
+includ_tip	56	7.53793306267937
+sparkl	56	7.53793306267937
+record	56	7.53793306267937
+human	56	7.53793306267937
+cure_meat	56	7.53793306267937
+field	56	7.53793306267937
+romain	56	7.53793306267937
+cheapest	56	7.53793306267937
+fulfil	56	7.53793306267937
+super_yummi	56	7.53793306267937
+overhyp	56	7.53793306267937
+insult	56	7.53793306267937
+sleek	56	7.53793306267937
+zeppol	56	7.53793306267937
+entré	56	7.53793306267937
+clever	56	7.53793306267937
+quail	56	7.53793306267937
+dang	56	7.53793306267937
+rib_pappardell	56	7.53793306267937
+kale_salad	56	7.53793306267937
+inhal	56	7.53793306267937
+jam_pack	56	7.53793306267937
+hmm	56	7.53793306267937
+mirror	56	7.53793306267937
+march	56	7.53793306267937
+bibimbap	56	7.53793306267937
+lasagna	56	7.53793306267937
+fat_elvi	56	7.53793306267937
+groceri	56	7.53793306267937
+previous_review	56	7.53793306267937
+explod	56	7.53793306267937
+slight_sweet	56	7.53793306267937
+dri_rub	56	7.53793306267937
+crouton	56	7.53793306267937
+décor	56	7.53793306267937
+bitch	56	7.53793306267937
+full_bar	55	7.555951568182048
+paprika	55	7.555951568182048
+thigh	55	7.555951568182048
+toast_bread	55	7.555951568182048
+fresh_bake	55	7.555951568182048
+path	55	7.555951568182048
+raw_onion	55	7.555951568182048
+nuff	55	7.555951568182048
+max	55	7.555951568182048
+smaller_portion	55	7.555951568182048
+male	55	7.555951568182048
+lord	55	7.555951568182048
+paper_bag	55	7.555951568182048
+healthier	55	7.555951568182048
+bit_slow	55	7.555951568182048
+wine_glass	55	7.555951568182048
+4-5	55	7.555951568182048
+bbq_wing	55	7.555951568182048
+museum	55	7.555951568182048
+gain	55	7.555951568182048
+fee	55	7.555951568182048
+allerg	55	7.555951568182048
+high_rate	55	7.555951568182048
+prompt_seat	55	7.555951568182048
+outdoor_patio	55	7.555951568182048
+conclus	55	7.555951568182048
+seek	55	7.555951568182048
+sweetbread	55	7.555951568182048
+favorit_bbq	55	7.555951568182048
+t-shirt	55	7.555951568182048
+pocket	55	7.555951568182048
+drumstick	55	7.555951568182048
+pushi	55	7.555951568182048
+sub-par	55	7.555951568182048
+taleggio_chees	55	7.555951568182048
+soap	55	7.555951568182048
+planet	55	7.555951568182048
+night_snack	55	7.555951568182048
+nibbl	55	7.555951568182048
+collect	55	7.555951568182048
+caper	55	7.555951568182048
+moon	55	7.555951568182048
+secur	55	7.555951568182048
+sun_dri	55	7.555951568182048
+hill	55	7.555951568182048
+draft_beer	55	7.555951568182048
+cap	55	7.555951568182048
+scratch	54	7.574300706850245
+subpar	54	7.574300706850245
+grandmoth	54	7.574300706850245
+gosh	54	7.574300706850245
+lay	54	7.574300706850245
+9am	54	7.574300706850245
+pine_nut	54	7.574300706850245
+ink_pasta	54	7.574300706850245
+eggplant_parmesan	54	7.574300706850245
+spotti	54	7.574300706850245
+status	54	7.574300706850245
+sleep	54	7.574300706850245
+sweat	54	7.574300706850245
+4/5	54	7.574300706850245
+must-tri	54	7.574300706850245
+jame	54	7.574300706850245
+feel_rush	54	7.574300706850245
+greek	54	7.574300706850245
+malnati_salad	54	7.574300706850245
+garbag	54	7.574300706850245
+whale	54	7.574300706850245
+beef_short	54	7.574300706850245
+favorit_brunch	54	7.574300706850245
+espanola	54	7.574300706850245
+expans	54	7.574300706850245
+marmalad	54	7.574300706850245
+korean_bbq	54	7.574300706850245
+nice_dinner	54	7.574300706850245
+kobe	54	7.574300706850245
+pet	54	7.574300706850245
+price_rang	54	7.574300706850245
+4th	54	7.574300706850245
+lesson	54	7.574300706850245
+hub	54	7.574300706850245
+high_school	54	7.574300706850245
+loud_music	54	7.574300706850245
+seat_arrang	54	7.574300706850245
+bean_rice	54	7.574300706850245
+repres	54	7.574300706850245
+classic_chicago	54	7.574300706850245
+fame	54	7.574300706850245
+nice_flavor	54	7.574300706850245
+cochon_butcher	54	7.574300706850245
+heartbeat	54	7.574300706850245
+west_coast	54	7.574300706850245
+hustl	54	7.574300706850245
+michigan_avenu	54	7.574300706850245
+1-2	54	7.574300706850245
+apricot	54	7.574300706850245
+communic	54	7.574300706850245
+grill_onion	53	7.592992839862397
+sushi_rice	53	7.592992839862397
+sea_urchin	53	7.592992839862397
+function	53	7.592992839862397
+worthwhil	53	7.592992839862397
+nice_select	53	7.592992839862397
+filipino	53	7.592992839862397
+perfect_portion	53	7.592992839862397
+humbl	53	7.592992839862397
+outer	53	7.592992839862397
+mid	53	7.592992839862397
+steak_hash	53	7.592992839862397
+luke_burger	53	7.592992839862397
+trend	53	7.592992839862397
+alley	53	7.592992839862397
+indecis	53	7.592992839862397
+chees_fondu	53	7.592992839862397
+fin	53	7.592992839862397
+domin	53	7.592992839862397
+3pm	53	7.592992839862397
+le	53	7.592992839862397
+special_menu	53	7.592992839862397
+uh	53	7.592992839862397
+fresh_tomato	53	7.592992839862397
+kansa	53	7.592992839862397
+redeem	53	7.592992839862397
+sushi_spot	53	7.592992839862397
+chicago-styl_pizza	53	7.592992839862397
+music_play	53	7.592992839862397
+strong_recommend	53	7.592992839862397
+local_beer	53	7.592992839862397
+radic	53	7.592992839862397
+dinner_reserv	53	7.592992839862397
+tagliatell	53	7.592992839862397
+turnip_cabbag	53	7.592992839862397
+wine_pair	53	7.592992839862397
+rye	53	7.592992839862397
+scrape	53	7.592992839862397
+disclaim	53	7.592992839862397
+jersey	53	7.592992839862397
+watermelon_pickl	53	7.592992839862397
+super_cute	53	7.592992839862397
+verdict	53	7.592992839862397
+hike	53	7.592992839862397
+inattent	53	7.592992839862397
+date_stuf	53	7.592992839862397
+lech	53	7.592992839862397
+cancel	52	7.612041034833092
+huevo	52	7.612041034833092
+suffici	52	7.612041034833092
+babareeba	52	7.612041034833092
+vanilla_french	52	7.612041034833092
+flour	52	7.612041034833092
+green_salad	52	7.612041034833092
+nicest	52	7.612041034833092
+friggin	52	7.612041034833092
+danger	52	7.612041034833092
+weekend_brunch	52	7.612041034833092
+snooti	52	7.612041034833092
+small_space	52	7.612041034833092
+femal	52	7.612041034833092
+flair	52	7.612041034833092
+11pm	52	7.612041034833092
+beef_tenderloin	52	7.612041034833092
+willi	52	7.612041034833092
+accid	52	7.612041034833092
+5/5	52	7.612041034833092
+reeba	52	7.612041034833092
+pump	52	7.612041034833092
+gut	52	7.612041034833092
+peep	52	7.612041034833092
+snow	52	7.612041034833092
+camaron	52	7.612041034833092
+vintag	52	7.612041034833092
+unaccept	52	7.612041034833092
+chickpea	52	7.612041034833092
+favorit_deep	52	7.612041034833092
+absurd	52	7.612041034833092
+yup	52	7.612041034833092
+sublim	52	7.612041034833092
+blackston_hotel	52	7.612041034833092
+spinach_mushroom	52	7.612041034833092
+faux	52	7.612041034833092
+exit	52	7.612041034833092
+talent	52	7.612041034833092
+white_fish	52	7.612041034833092
+deli	52	7.612041034833092
+shrimp_risotto	52	7.612041034833092
+sourdough	52	7.612041034833092
+hall	51	7.631459120690193
+dozen_oyster	51	7.631459120690193
+tini_bit	51	7.631459120690193
+crawl	51	7.631459120690193
+fontina	51	7.631459120690193
+french_press	51	7.631459120690193
+panini	51	7.631459120690193
+page	51	7.631459120690193
+pretti_close	51	7.631459120690193
+pale	51	7.631459120690193
+cupcak	51	7.631459120690193
+green_onion	51	7.631459120690193
+magazin	51	7.631459120690193
+formal	51	7.631459120690193
+journey	51	7.631459120690193
+ranchero	51	7.631459120690193
+barnelli	51	7.631459120690193
+melt-in-your-mouth	51	7.631459120690193
+reward	51	7.631459120690193
+tomat	51	7.631459120690193
+approxim	51	7.631459120690193
+boucheri_plate	51	7.631459120690193
+harder	51	7.631459120690193
+bar_tender	51	7.631459120690193
+magnific	51	7.631459120690193
+muscl	51	7.631459120690193
+korean_style	51	7.631459120690193
+menu_option	51	7.631459120690193
+nation	51	7.631459120690193
+noir	51	7.631459120690193
+region	51	7.631459120690193
+parsley	51	7.631459120690193
+lait	51	7.631459120690193
+ensalada	51	7.631459120690193
+lake	51	7.631459120690193
+au_jus	51	7.631459120690193
+bleu_chees	51	7.631459120690193
+prefac	51	7.631459120690193
+mint_julep	51	7.631459120690193
+petit	51	7.631459120690193
+abil	51	7.631459120690193
+smack	51	7.631459120690193
+glow	51	7.631459120690193
+well.th	51	7.631459120690193
+beef_burger	51	7.631459120690193
+egg_bacon	51	7.631459120690193
+tabl_open	51	7.631459120690193
+mound	51	7.631459120690193
+aliv	51	7.631459120690193
+alla	51	7.631459120690193
+whitefish	51	7.631459120690193
+tomorrow	51	7.631459120690193
+well-season	51	7.631459120690193
+sop	51	7.631459120690193
+fluke	51	7.631459120690193
+seed_bun	50	7.651261747986373
+flawless	50	7.651261747986373
+spici_king	50	7.651261747986373
+side_salad	50	7.651261747986373
+plethora	50	7.651261747986373
+al_dent	50	7.651261747986373
+pickl_onion	50	7.651261747986373
+beard	50	7.651261747986373
+teriyaki_mayo	50	7.651261747986373
+fun_night	50	7.651261747986373
+boast	50	7.651261747986373
+hunt	50	7.651261747986373
+skate	50	7.651261747986373
+liter_melt	50	7.651261747986373
+sloppi_goat	50	7.651261747986373
+stringi	50	7.651261747986373
+conveni_locat	50	7.651261747986373
+final_seat	50	7.651261747986373
+email	50	7.651261747986373
+bean_burger	50	7.651261747986373
+turnov	50	7.651261747986373
+peev	50	7.651261747986373
+januari	50	7.651261747986373
+rpm_italian	50	7.651261747986373
+univers	50	7.651261747986373
+tang	50	7.651261747986373
+condit	50	7.651261747986373
+belong	50	7.651261747986373
+pretti_bad	50	7.651261747986373
+singl_thing	50	7.651261747986373
+style_deep	50	7.651261747986373
+declin	50	7.651261747986373
+church	50	7.651261747986373
+spicier	50	7.651261747986373
+meat-eat	50	7.651261747986373
+lunch_spot	50	7.651261747986373
+pizza_hut	50	7.651261747986373
+small_size	50	7.651261747986373
+border	50	7.651261747986373
+cocktail_list	50	7.651261747986373
+frost	50	7.651261747986373
+munchi	50	7.651261747986373
+sushi/sashimi	50	7.651261747986373
+tuna_roll	50	7.651261747986373
+observ	50	7.651261747986373
