@@ -11,10 +11,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.regex.Pattern;
@@ -70,6 +70,7 @@ public class DocAnalyzer {
 	//you can manually modify the stopword file to include your newly selected words
 	public void LoadStopwords(String filename) {
 		try {
+			m_stopwords = new HashSet<>();
 			BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename), "UTF-8"));
 			String line;
 
@@ -80,6 +81,8 @@ public class DocAnalyzer {
 				if (!line.isEmpty())
 					m_stopwords.add(line);
 			}
+			// add NUM
+			m_stopwords.add("NUM");
 			reader.close();
 			System.out.format("Loading %d stopwords from %s\n", m_stopwords.size(), filename);
 		} catch(IOException e){
@@ -105,21 +108,29 @@ public class DocAnalyzer {
 
 				tokenList = tokenList.stream()
 					.map(s -> Normalization(s))
+					.map(s -> SnowballStemming(s))
 					.map(s -> s.trim())
 					.filter(s -> !s.isEmpty())
-					.map(s -> SnowballStemming(s))
 					.collect(Collectors.toList());
 
 				List<String> bigrams = new ArrayList<String>();
 				String prevToken = null;
 				for (String token: tokenList) {
 					if (prevToken != null) {
-						bigrams.add(prevToken + "_" + token);
+						// for bigram, add if both token are not stopwords
+						if (!m_stopwords.contains(prevToken) && !m_stopwords.contains(token)) {
+							bigrams.add(prevToken + "_" + token);
+						}
 					}
 					prevToken = token;
 				}
 
 				tokenList.addAll(bigrams);
+
+				// filter stopwords
+				tokenList = tokenList.stream()
+					.filter(s -> !m_stopwords.contains(s))
+					.collect(Collectors.toList());
 
 				tokens = tokenList.toArray(new String[tokenList.size()]);
 
@@ -286,7 +297,7 @@ public class DocAnalyzer {
 		return df;
 	}
 
-	private void sortPrintMap(HashMap<String, Integer> map) {
+	private void sortPrintMap(Map<String, Integer> map) {
 		List<Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
     list.sort(Entry.<String, Integer>comparingByValue().reversed());
 
@@ -295,9 +306,31 @@ public class DocAnalyzer {
 		}
 	}
 
+	private void specificStopWords(Map<String, Integer> df) {
+		List<Entry<String, Integer>> list = new ArrayList<>(df.entrySet());
+		list.sort(Entry.<String, Integer>comparingByValue().reversed());
+
+		List<Entry<String, Integer>> top100 = list.subList(0, 100);
+		LoadStopwords("./data/stop_words.txt");
+		for (Entry<String, Integer> entry: top100) {
+			String token = entry.getKey();
+			if (!m_stopwords.contains(token)) {
+				System.out.println(token);
+			}
+		}
+	}
+
 	private void controlledVocab() {
+		LoadStopwords("./data/stop_words.txt");
 		LoadDirectory("./yelp/train", ".json");
-		HashMap<String, Integer> df = calculateDF();
+		Map<String, Integer> df = calculateDF();
+
+		df = df.entrySet()
+			.stream()
+			.filter(e -> e.getValue() >= 50)
+			.collect(Collectors.toMap(Entry::getKey, Entry::getValue));
+
+		// specificStopWords(df);
 		sortPrintMap(df);
 	}
 
