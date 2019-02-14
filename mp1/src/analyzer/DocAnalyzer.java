@@ -9,6 +9,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.Math;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -59,6 +60,9 @@ public class DocAnalyzer {
 
 	//this structure is for language modeling
 	LanguageModel m_langModel;
+
+	// controlled vocab with idf
+	Map<String, Double> m_idf;
 
 	public DocAnalyzer(String tokenModel, int N) throws InvalidFormatException, FileNotFoundException, IOException {
 		m_N = N;
@@ -325,13 +329,67 @@ public class DocAnalyzer {
 		LoadDirectory("./yelp/train", ".json");
 		Map<String, Integer> df = calculateDF();
 
-		df = df.entrySet()
+		m_idf = df.entrySet()
 			.stream()
 			.filter(e -> e.getValue() >= 50)
-			.collect(Collectors.toMap(Entry::getKey, Entry::getValue));
+			.collect(Collectors.toMap(
+				Entry::getKey,
+				e -> 1 + Math.log((double) m_reviews.size() / e.getValue())
+			));
+
+		// List<Entry<String, Double>> list = new ArrayList<>(m_idf.entrySet());
+		// list.sort(Entry.<String, Double>comparingByValue());
+
+		// for (Entry<String, Double> entry: list) {
+		// 	System.out.println(entry.getKey() + "\t" + df.get(entry.getKey()) + "\t" + entry.getValue());
+		// }
 
 		// specificStopWords(df);
-		sortPrintMap(df);
+	}
+
+	private void setVector(Post review) {
+		Map<String, Integer> counts = new HashMap<>();
+		for (String token: review.getTokens()) {
+			// not in vocab
+			if (!m_idf.containsKey(token)) {
+				continue;
+			}
+
+			if (counts.containsKey(token)) {
+				counts.put(token, counts.get(token) + 1);
+			} else {
+				counts.put(token, 1);
+			}
+		}
+
+		Map<String, Double> tf = counts.entrySet().stream()
+			.collect(Collectors.toMap(
+				Entry::getKey,
+				e -> 1 + Math.log(e.getValue())
+			));
+
+		Map<String, Double> weights =	tf.entrySet().stream()
+			.collect(Collectors.toMap(
+				Entry::getKey,
+				e -> e.getValue() * m_idf.get(e.getKey())
+			));
+
+		Map<String, Token> vct = new HashMap<String, Token>();
+		for (Entry<String, Double> entry:  weights.entrySet()) {
+			Token t = new Token(entry.getKey());
+			t.setValue(entry.getValue());
+			vct.put(entry.getKey(), t);
+		}
+
+		review.setVct(vct);
+	}
+
+	private void computeSim() {
+		controlledVocab();
+
+		for (Post review: m_reviews) {
+			setVector(review);
+		}
 	}
 
 	public static void main(String[] args) throws InvalidFormatException, FileNotFoundException, IOException {
@@ -344,6 +402,8 @@ public class DocAnalyzer {
 		// analyzer.zipfLaw();
 
 		analyzer.controlledVocab();
+
+		// analyzer.computeSim();
 	}
 
 }
