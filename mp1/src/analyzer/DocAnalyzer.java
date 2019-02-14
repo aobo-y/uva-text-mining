@@ -10,11 +10,15 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.regex.Pattern;
-import java.util.Arrays;
+import java.util.List;
+import java.util.Map.Entry;
 import java.util.Set;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 import org.tartarus.snowball.SnowballStemmer;
 import org.tartarus.snowball.ext.englishStemmer;
@@ -97,15 +101,29 @@ public class DocAnalyzer {
 				 * The Post class has defined a "HashMap<String, Token> m_vector" field to hold the vector representation
 				 * For efficiency purpose, you can accumulate a term's DF here as well
 				 */
+				List<String> tokenList = Arrays.asList(tokens);
 
-				tokens = Arrays.stream(tokens)
+				tokenList = tokenList.stream()
 					.map(s -> Normalization(s))
 					.map(s -> s.trim())
 					.filter(s -> !s.isEmpty())
-					.toArray(String[]::new);
+					.map(s -> SnowballStemming(s))
+					.collect(Collectors.toList());
+
+				List<String> bigrams = new ArrayList<String>();
+				String prevToken = null;
+				for (String token: tokenList) {
+					if (prevToken != null) {
+						bigrams.add(prevToken + "_" + token);
+					}
+					prevToken = token;
+				}
+
+				tokenList.addAll(bigrams);
+
+				tokens = tokenList.toArray(new String[tokenList.size()]);
 
 				review.setTokens(tokens);
-
 
 				m_reviews.add(review);
 			}
@@ -225,8 +243,18 @@ public class DocAnalyzer {
 		LoadDirectory("./yelp/train", ".json");
 		LoadDirectory("./yelp/test", ".json");
 
+		HashMap<String, Integer> ttf = calculateTTF();
+		HashMap<String, Integer> df = calculateDF();
+
+		System.out.println("[ttf]");
+		sortPrintMap(ttf);
+
+		System.out.println("[df]");
+		sortPrintMap(df);
+	}
+
+	private HashMap<String, Integer> calculateTTF() {
 		HashMap<String, Integer> ttf = new HashMap<>();
-		HashMap<String, Integer> df = new HashMap<>();
 
 		for (Post review: m_reviews) {
 			for (String token: review.getTokens()) {
@@ -236,7 +264,15 @@ public class DocAnalyzer {
 					ttf.put(token, 1);
 				}
 			}
+		}
 
+		return ttf;
+	}
+
+	private HashMap<String, Integer> calculateDF() {
+		HashMap<String, Integer> df = new HashMap<>();
+
+		for (Post review: m_reviews) {
 			Set<String> tokenSet = new HashSet<>(Arrays.asList(review.getTokens()));
 			for (String token: tokenSet) {
 				if (df.containsKey(token)) {
@@ -247,26 +283,34 @@ public class DocAnalyzer {
 			}
 		}
 
-		System.out.println("[ttf]");
-		for (String token: ttf.keySet()) {
-			System.out.println(token + "\t" + ttf.get(token));
-		}
+		return df;
+	}
 
-		System.out.println("[df]");
-		for (String token: df.keySet()) {
-			System.out.println(token + "\t" + df.get(token));
+	private void sortPrintMap(HashMap<String, Integer> map) {
+		List<Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
+    list.sort(Entry.<String, Integer>comparingByValue().reversed());
+
+		for (Entry<String, Integer> entry: list) {
+			System.out.println(entry.getKey() + "\t" + entry.getValue());
 		}
+	}
+
+	private void controlledVocab() {
+		LoadDirectory("./yelp/train", ".json");
+		HashMap<String, Integer> df = calculateDF();
+		sortPrintMap(df);
 	}
 
 	public static void main(String[] args) throws InvalidFormatException, FileNotFoundException, IOException {
 		DocAnalyzer analyzer = new DocAnalyzer("./data/Model/en-token.bin", 2);
 
 		//code for demonstrating tokenization and stemming
-		// analyzer.TokenizerDemon("I've practiced for 30 30,000 30.1 002 2.2.2 3.3a 3,0,1,0.001 years in pediatrics, I've never seen anything quite like this.");
+		// analyzer.TokenizerDemon("I've don't practiced for 30 30,000 30.1 002 2.2.2 3.3a 3,0,1,0.001 years in pediatrics, I've never seen anything quite like this.");
 
 		//entry point to deal with a collection of documents
+		// analyzer.zipfLaw();
 
-		analyzer.zipfLaw();
+		analyzer.controlledVocab();
 	}
 
 }

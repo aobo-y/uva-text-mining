@@ -14,7 +14,7 @@ sourceSets {
     main {
         java {
             srcDirs = ['src']
-            outputDir = file("$buildDir")
+            outputDir = file("$buildDir/main")
         }
     }
 }
