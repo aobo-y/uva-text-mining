@@ -3,8 +3,13 @@ import json
 import re
 import pickle
 import numbers
+import random
+from decimal import Decimal
+# from functools import reduce
 from nltk.tokenize.treebank import TreebankWordTokenizer
 from nltk.stem.snowball import EnglishStemmer
+
+D = Decimal
 
 SAVE_PATH = './data/lang_model_save.pickle'
 
@@ -68,9 +73,9 @@ class Review:
 
 class LanguageModel:
 
-  def __init__(self, N, counts, ref=None):
-    self.lamda = 0.9
-    self.delta =  0.1
+  def __init__(self, N, counts, vocab, ref=None):
+    self.lamda = D(0.9)
+    self.delta =  D(0.1)
 
     self.N = N
     self.counts = counts
@@ -80,6 +85,7 @@ class LanguageModel:
 
     self.ref = ref
     self.ml_cache = {} # to cahce to on-the-fly calculated ml probs
+    self.vocab = vocab
 
 
   def get_count(self, *tokens):
@@ -97,7 +103,7 @@ class LanguageModel:
       return None
 
     val = prefix_counts[tokens[-1]] if tokens[-1] in prefix_counts else 0
-    val = val / sum(prefix_counts.values())
+    val = D(val) / D(sum(prefix_counts.values()))
 
     update_nested_map(self.ml_cache, tokens, val)
 
@@ -112,9 +118,9 @@ class LanguageModel:
 
       # have not encounter this prefix, fully back off
       if ml_prob is None:
-        return self.ref.calc_linear_smooth_prob(tokens[1:])
+        return self.ref.calc_linear_smooth_prob(*tokens[1:])
 
-      return self.lamda * ml_prob + (1.0 - self.lamda) * self.ref.calc_linear_smooth_prob(tokens[1:])
+      return self.lamda * ml_prob + (1 - self.lamda) * self.ref.calc_linear_smooth_prob(*tokens[1:])
 
     else:
       return self.calc_ml_prob(*tokens)
@@ -127,16 +133,30 @@ class LanguageModel:
 
       # have not encounter this prefix, fully back off
       if prefix_counts is None:
-        return self.ref.calc_abs_discount_prob(tokens[1:])
+        return self.ref.calc_abs_discount_prob(*tokens[1:])
 
-      count = prefix_counts[tokens[-1]]
+      count = prefix_counts[tokens[-1]] if tokens[-1] in prefix_counts else 0
       S = len(prefix_counts.keys())
       prefix_sum = sum(prefix_counts.values())
 
-      return max((count - self.delta), 0) / prefix_sum + (self.delta * S / prefix_sum) * self.ref.calc_abs_discount_prob(tokens[1:])
+      return max((count - self.delta), D(0)) / prefix_sum + (self.delta * S / prefix_sum) * self.ref.calc_abs_discount_prob(*tokens[1:])
 
     else:
       return self.calc_ml_prob(*tokens)
+
+  def sampling(self, *prefix_tokens, smoothing='linear'):
+    # either one is the same for unigram
+    calc_prob = self.calc_abs_discount_prob if smoothing == 'absolute' else self.calc_linear_smooth_prob
+
+    prob = D(random.random())
+
+    for token in self.vocab:
+      token_prob = calc_prob(*prefix_tokens, token)
+      prob -= token_prob
+      if prob < 0:
+        return token, token_prob
+
+    raise Exception('Failed to sample: Out of vocab')
 
 
 def read_folder(path):
@@ -200,6 +220,36 @@ def get_bigram_of(bi_model, pre_word):
   for t in a_results[:10]:
     print(t[0], t[1])
 
+
+def sample_sentences(uni_model, bi_model):
+  print('[unigram]:')
+  for _ in range(10):
+    tokens = []
+    likelihood = 1;
+
+    for _ in range(15):
+      token, prob = uni_model.sampling()
+      tokens.append(token)
+      likelihood *= prob
+
+    print(' '.join(tokens), '{:.5g}'.format(likelihood))
+
+  for smoothing in ['linear', 'absolute']:
+    print('[bigram]', smoothing + ':')
+
+    for _ in range(10):
+      token, porb = uni_model.sampling()
+      tokens = [token]
+      likelihood = porb;
+
+      for _ in range(14):
+        token, prob = bi_model.sampling(token, smoothing=smoothing)
+        tokens.append(token)
+        likelihood *= prob
+
+      print(' '.join(tokens), '{:.5g}'.format(likelihood))
+
+
 def main():
   if os.path.isfile(SAVE_PATH):
     print('load save', SAVE_PATH)
@@ -213,11 +263,12 @@ def main():
     with open(SAVE_PATH, 'wb') as pf:
       pickle.dump((reviews, uni_counts, bi_counts), pf)
 
-  uni_model = LanguageModel(1, uni_counts)
-  bi_model = LanguageModel(2, bi_counts, uni_model)
-  print(bi_counts['good'])
+  vocab = list(uni_counts.keys())
+  uni_model = LanguageModel(1, uni_counts, vocab)
+  bi_model = LanguageModel(2, bi_counts, vocab, uni_model)
 
-  get_bigram_of(bi_model, 'good')
+  # get_bigram_of(bi_model, 'good')
+  sample_sentences(uni_model, bi_model)
 
 main()
 

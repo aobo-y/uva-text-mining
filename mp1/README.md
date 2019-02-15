@@ -312,6 +312,8 @@ Query | Guess
 
 #### 2.1 - 1
 
+In the below implementation, `D` is the `decimal.Decimal` of python to increase the precision of decimal calculation. All other variables & function used but defined out of the following code snippets, like `delta`, uses `Decimal`  as well.
+
 Linear interpolation smoothing
 
 ```python
@@ -323,9 +325,9 @@ def calc_linear_smooth_prob(self, *tokens):
 
     # have not encounter this prefix, fully back off
     if ml_prob is None:
-      return self.ref.calc_linear_smooth_prob(tokens[1:])
+      return self.ref.calc_linear_smooth_prob(*tokens[1:])
 
-    return self.lamda * ml_prob + (1.0 - self.lamda) * self.ref.calc_linear_smooth_prob(tokens[1:])
+    return self.lamda * ml_prob + (1 - self.lamda) * self.ref.calc_linear_smooth_prob(*tokens[1:])
 
   else:
     return self.calc_ml_prob(*tokens)
@@ -341,13 +343,13 @@ def calc_abs_discount_prob(self, *tokens):
 
     # have not encounter this prefix, fully back off
     if prefix_counts is None:
-      return self.ref.calc_abs_discount_prob(tokens[1:])
+      return self.ref.calc_abs_discount_prob(*tokens[1:])
 
-    count = prefix_counts[tokens[-1]]
+    count = prefix_counts[tokens[-1]] if tokens[-1] in prefix_counts else 0
     S = len(prefix_counts.keys())
     prefix_sum = sum(prefix_counts.values())
 
-    return max((count - self.delta), 0) / prefix_sum + (self.delta * S / prefix_sum) * self.ref.calc_abs_discount_prob(tokens[1:])
+    return max((count - self.delta), D(0)) / prefix_sum + (self.delta * S / prefix_sum) * self.ref.calc_abs_discount_prob(*tokens[1:])
 
   else:
     return self.calc_ml_prob(*tokens)
@@ -390,3 +392,70 @@ too | 0.01625458038350706
 #### 2.1 - 3
 
 The top 10 words of both smoothing methods are the same. It makes sense because smoothing only aims to give a fraction of the probabilities to the unseen words to avoid zero probability. The fraction amount should not make huge impacts on the seen words, especially for the top one. The original Max-Likelihood estimation would still be the dominant part. Linear interpolation smoothing shrinks the likelihood linearly while Absolute discount smoothing reduces them by a fixed amount. None these methods would change their order. Therefore, it is expected to see them to be same.
+
+#### 2.2 - 1
+
+Implementation of the sampling procedure
+
+```python
+def sampling(self, *prefix_tokens, smoothing='linear'):
+  # either one is the same for unigram
+  calc_prob = self.calc_abs_discount_prob if smoothing == 'absolute' else self.calc_linear_smooth_prob
+
+  prob = D(random.random())
+
+  for token in self.vocab:
+    token_prob = calc_prob(*prefix_tokens, token)
+    prob -= token_prob
+    if prob < 0:
+      return token, token_prob
+
+  raise Exception('Failed to sample: Out of vocab')
+```
+
+#### 2.2 - 2
+
+unigram:
+
+sentences | likelihood
+-|-
+corn so a back.-ricotta s about the place just manag good i that place on | 3.3996e-39
+veri mayo like hold a n't did raviolipesto reserv know just wrap i s dim | 2.6970e-46
+server from they with fianc have portion got best bake the bus mexican num the | 6.4016e-43
+we sit dinner across big their fun the made tarragon and 9:30-ish of style and | 2.0920e-46
+afford and out more decid a soft also from raucous with restaur without was a | 2.9579e-42
+nice a con disappear to burger near which place order delici n't n't veri this | 6.6864e-41
+more and hope have that chicken not the it light is my wall much easi | 7.7836e-39
+will the to busi ordinari i parmesan did mayb interest i on goat with take | 3.2183e-41
+nyc food fine at addit i we onli you the wine the go parti the | 5.8064e-38
+it but m mole/sweet high the sooo get that way waiter level meal nice super | 2.6738e-46
+
+bigram linear interpolation smoothing:
+
+sentences | likelihood
+-|-
+final be back toro sashimi.tip if you do want so that i had a i | 8.6990e-29
+i ll keep come back again arriv there of food never overwhelm with the french | 8.3518e-31
+drink in one night for the entre well prepar while sit in fact that my | 2.6980e-31
+as is liter sat in river north of beet salad and give you it was | 1.2271e-28
+we get coffe keep in my food and cook in there are we ll stick | 7.4978e-32
+area and not eat help for the best chicken but they d m alreadi place | 2.2842e-35
+had order like this sinc i know for pizza without have found the weak flat | 6.0902e-35
+consist of much it taboot for a bite into the num menu name in line | 3.2364e-36
+say our pizza paid attent no for a pretti much better to see what the | 4.4115e-31
+return i had the pork guy an easi near the veri few upscal ever tast | 1.4671e-36
+
+bigram absolute discount smoothing:
+
+sentences | likelihood
+-|-
+insid you should come back rib of the dinner out of these three time the | 9.9002e-29
+seat at the cajun but to tri i guess what the dish abov the gazpacho | 2.3475e-32
+i do n't have come time and grit becaus there were extrem salti i ca | 1.4145e-27
+under season of bone so tempt smell level is grass-f lamb was good buffalo sauc | 8.3199e-37
+new restaur was good we order the guac was the qualiti of the sauc if | 5.3702e-26
+it was cook but i think that joint but realli good deal when i will | 2.4794e-26
+sinc i would go this city.they have had to tri the pain me sit and | 3.1190e-29
+also pleas other place is of this place is fantast as our food my first | 2.6001e-29
+s what the pizza we were sit better and when it in the plate if | 4.4712e-30
+everi time to be pack num star by work function here with this place is | 1.2008e-28
