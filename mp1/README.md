@@ -357,7 +357,8 @@ For both smoothing, the code simply return Max-Likelyhood estimation in unigram 
 
 #### 2.1 - 2
 
-Linear interpolation smoothing:
+Linear interpolation smoothing
+
 word | prob
 -|-
 but | 0.08536056067451706
@@ -372,6 +373,7 @@ for | 0.015720943470062972
 too | 0.01463232416663702
 
 Absolute discount smoothing
+
 word | prob
 -|-
 but | 0.09484150983670711
@@ -384,3 +386,7 @@ it | 0.018922764950727523
 thing | 0.018816037568038707
 for | 0.01746415738731367
 too | 0.01625458038350706
+
+#### 2.1 - 3
+
+The top 10 words of both smoothing methods are the same. It makes sense because smoothing only aims to give a fraction of the probabilities to the unseen words to avoid zero probability. The fraction amount should not make huge impacts on the seen words, especially for the top one. The original Max-Likelihood estimation would still be the dominant part. Linear interpolation smoothing shrinks the likelihood linearly while Absolute discount smoothing reduces them by a fixed amount. None these methods would change their order. Therefore, it is expected to see them to be same.

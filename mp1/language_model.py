@@ -215,7 +215,7 @@ def main():
 
   uni_model = LanguageModel(1, uni_counts)
   bi_model = LanguageModel(2, bi_counts, uni_model)
-
+  print(bi_counts['good'])
 
   get_bigram_of(bi_model, 'good')
 
