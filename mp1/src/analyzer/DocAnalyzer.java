@@ -167,7 +167,9 @@ public class DocAnalyzer {
 	}
 
 	public void createLanguageModel() {
-		m_langModel = new LanguageModel(m_N, m_stats.size());
+		// m_langModel = new LanguageModel(m_N, m_stats.size());
+		Map<String, Integer> unigramCount = new HashMap<>();
+		Map<String, Map<String, Integer>> bigramCount = new HashMap();
 
 		for(Post review:m_reviews) {
 			String[] tokens = Tokenize(review.getContent());
@@ -175,7 +177,45 @@ public class DocAnalyzer {
 			 * HINT: essentially you will perform very similar operations as what you have done in analyzeDocument()
 			 * Now you should properly update the counts in LanguageModel structure such that we can perform maximum likelihood estimation on it
 			 */
+			List<String> tokenList = Arrays.asList(tokens);
+
+			tokenList = tokenList.stream()
+				.map(s -> Normalization(s))
+				.map(s -> SnowballStemming(s))
+				.map(s -> s.trim())
+				.filter(s -> !s.isEmpty())
+				.collect(Collectors.toList());
+
+			String prevToken = null;
+			for (String token: tokenList) {
+				if (unigramCount.containsKey(token)) {
+					unigramCount.put(token, unigramCount.get(token) + 1);
+				} else {
+					unigramCount.put(token, 1);
+				}
+
+				if (prevToken != null) {
+					if (bigramCount.containsKey(prevToken)) {
+						Map<String, Integer> m = bigramCount.get(prevToken);
+
+						if (m.containsKey(token)) {
+							m.put(token, m.get(token) + 1);
+						}  else {
+							m.put(token, 1);
+						}
+					} else {
+						Map<String, Integer> m = new HashMap<>();
+
+						m.put(token, 1);
+						bigramCount.put(prevToken, m);
+					}
+				}
+
+				prevToken = token;
+			}
 		}
+
+
 	}
 
 	//sample code for loading a json file
@@ -449,14 +489,14 @@ public class DocAnalyzer {
 		DocAnalyzer analyzer = new DocAnalyzer("./data/Model/en-token.bin", 2);
 
 		//code for demonstrating tokenization and stemming
-		// analyzer.TokenizerDemon("I've don't practiced for 30 30,000 30.1 002 2.2.2 3.3a 3,0,1,0.001 years in pediatrics, I've never seen anything quite like this.");
+		analyzer.TokenizerDemon("I've don't practiced for 30 30,000 30.1 002 2.2.2 3.3a 3,0,1,0.001 years in pediatrics, I've never seen anything quite like this.");
 
 		//entry point to deal with a collection of documents
 		// analyzer.zipfLaw();
 
 		// analyzer.controlledVocab();
 
-		analyzer.computeSim();
+		// analyzer.computeSim();
 	}
 
 }

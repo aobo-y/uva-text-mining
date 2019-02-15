@@ -1,6 +1,6 @@
 # Machine Problem 1
 
-## 1. Vector Space Model
+## Part I: Vector Space Model
 
 ### 1.1 Understand Zipf's Law
 
@@ -304,3 +304,83 @@ Query | Guess
 3 | Mexican/Taco
 4 | Japanese/Seafood
 5 | American food
+
+
+## Part II: Statistical Language Models
+
+### 2.1 Maximum likelihood estimation for statistical language models with proper smoothing
+
+#### 2.1 - 1
+
+Linear interpolation smoothing
+
+```python
+def calc_linear_smooth_prob(self, *tokens):
+  assert len(tokens) == self.N # tokens len should match the N-gram model
+
+  if self.N > 1:
+    ml_prob = self.calc_ml_prob(*tokens)
+
+    # have not encounter this prefix, fully back off
+    if ml_prob is None:
+      return self.ref.calc_linear_smooth_prob(tokens[1:])
+
+    return self.lamda * ml_prob + (1.0 - self.lamda) * self.ref.calc_linear_smooth_prob(tokens[1:])
+
+  else:
+    return self.calc_ml_prob(*tokens)
+```
+
+Absolute discount smoothing
+```python
+def calc_abs_discount_prob(self, *tokens):
+  assert len(tokens) == self.N # tokens len should match the N-gram model
+
+  if self.N > 1:
+    prefix_counts = self.get_count(*tokens[:-1])
+
+    # have not encounter this prefix, fully back off
+    if prefix_counts is None:
+      return self.ref.calc_abs_discount_prob(tokens[1:])
+
+    count = prefix_counts[tokens[-1]]
+    S = len(prefix_counts.keys())
+    prefix_sum = sum(prefix_counts.values())
+
+    return max((count - self.delta), 0) / prefix_sum + (self.delta * S / prefix_sum) * self.ref.calc_abs_discount_prob(tokens[1:])
+
+  else:
+    return self.calc_ml_prob(*tokens)
+```
+
+For both smoothing, the code simply return Max-Likelyhood estimation in unigram here, but later in 2-3, it will be changed to additive smoothing to deal with the unseen words in testing data.
+
+#### 2.1 - 2
+
+Linear interpolation smoothing:
+word | prob
+-|-
+but | 0.08536056067451706
+and | 0.05948984311074745
+the | 0.04969226937991391
+i | 0.04959621473549397
+as | 0.033843253050624356
+food | 0.02654310007470917
+it | 0.017033690277135437
+thing | 0.0169376356327155
+for | 0.015720943470062972
+too | 0.01463232416663702
+
+Absolute discount smoothing
+word | prob
+-|-
+but | 0.09484150983670711
+and | 0.06609626809918531
+the | 0.055210075064925826
+i | 0.05510334768223701
+as | 0.03760005692127077
+food | 0.02948877583692056
+it | 0.018922764950727523
+thing | 0.018816037568038707
+for | 0.01746415738731367
+too | 0.01625458038350706
