@@ -94,6 +94,25 @@ public class DocAnalyzer {
 		}
 	}
 
+	public void LoadIDF(String filename) {
+		try {
+			m_idf = new HashMap<>();
+			BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename), "UTF-8"));
+			String line;
+
+			while ((line = reader.readLine()) != null) {
+				if (!line.isEmpty()) {
+					String[] parts = line.split("\t");
+					m_idf.put(parts[0], Double.parseDouble(parts[2]));
+				}
+			}
+			reader.close();
+			System.out.format("Loading %d vocab from %s\n", m_idf.size(), filename);
+		} catch(IOException e){
+			System.err.format("[Error]Failed to open file %s!!", filename);
+		}
+	}
+
 	public void analyzeDocument(JSONObject json) {
 		try {
 			JSONArray jarray = json.getJSONArray("Reviews");
@@ -337,12 +356,12 @@ public class DocAnalyzer {
 				e -> 1 + Math.log((double) m_reviews.size() / e.getValue())
 			));
 
-		// List<Entry<String, Double>> list = new ArrayList<>(m_idf.entrySet());
-		// list.sort(Entry.<String, Double>comparingByValue());
+		List<Entry<String, Double>> list = new ArrayList<>(m_idf.entrySet());
+		list.sort(Entry.<String, Double>comparingByValue());
 
-		// for (Entry<String, Double> entry: list) {
-		// 	System.out.println(entry.getKey() + "\t" + df.get(entry.getKey()) + "\t" + entry.getValue());
-		// }
+		for (Entry<String, Double> entry: list) {
+			System.out.println(entry.getKey() + "\t" + df.get(entry.getKey()) + "\t" + entry.getValue());
+		}
 
 		// specificStopWords(df);
 	}
@@ -385,10 +404,44 @@ public class DocAnalyzer {
 	}
 
 	private void computeSim() {
-		controlledVocab();
+		LoadStopwords("./data/stop_words.txt");
+		LoadIDF("./data/vocab.txt");
 
+		LoadDirectory("./yelp/query", ".json");
+		List<Post> q_reviews = m_reviews;
+		for (Post review: q_reviews) {
+			setVector(review);
+		}
+
+		m_reviews = new ArrayList<>();
+		LoadDirectory("./yelp/test", ".json");
 		for (Post review: m_reviews) {
 			setVector(review);
+		}
+
+		for (Post q_review: q_reviews) {
+			Map<Post, Double> results = new HashMap<>();
+			for (Post m_review: m_reviews) {
+				Double sim = q_review.similiarity(m_review);
+				if (!sim.isNaN()) {
+					results.put(m_review, sim);
+				}
+			}
+
+			List<Entry<Post, Double>> list = new ArrayList<>(results.entrySet());
+			list.sort(Entry.<Post, Double>comparingByValue().reversed());
+
+			System.out.println("Top 3 for query: " + q_review.getID());
+			System.out.println(q_review.getContent());
+			System.out.println("\n");
+
+			for (Entry<Post, Double> entry: list.subList(0, 3)) {
+				Post review = entry.getKey();
+				System.out.println(review.getID() + "\t" + review.getAuthor() + "\t" + review.getDate() +  "\t" + entry.getValue());
+				System.out.println(review.getContent());
+			}
+
+			System.out.println("\n\n");
 		}
 	}
 
@@ -401,9 +454,9 @@ public class DocAnalyzer {
 		//entry point to deal with a collection of documents
 		// analyzer.zipfLaw();
 
-		analyzer.controlledVocab();
+		// analyzer.controlledVocab();
 
-		// analyzer.computeSim();
+		analyzer.computeSim();
 	}
 
 }
