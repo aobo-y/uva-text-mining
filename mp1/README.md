@@ -55,41 +55,42 @@ TTF fits Zipf's law better than DF. The high-frequency words tend to occure mult
 
 #### 1.2 - 1
 
-Restaurant specific stopwords
+New stop words to merge and if they are Restaurant specific stopwords
 
-```
-n't
-good
-food
-NUM
-great
-and_the
-order
-of_the
-it_was
-time
-this_place
-wait
-servic
-back
-it_s
-in_the
-friend
-love
-fri
-on_the
-and_i
-the_food
-delici
-ve
-sauc
-restaur
-i_was
-do_n't
-dish
-eat
-for_a
-```
+Stop word | Restaurant specific
+-|-
+n't |
+good |
+food | Y
+NUM | Y
+great |
+and_the |
+order | Y
+of_the |
+it_was |
+time | Y
+this_place | Y
+wait | Y
+servic | Y
+back | Y
+it_s |
+in_the |
+friend |
+love |
+fri | Y
+on_the |
+and_i |
+the_food | Y
+delici | Y
+ve |
+sauc | Y
+restaur | Y
+i_was |
+do_n't |
+dish | Y
+eat | Y
+for_a |
+
 
 #### 1.2 - 2
 
@@ -393,6 +394,8 @@ too | 0.01625458038350706
 
 The top 10 words of both smoothing methods are the same. It makes sense because smoothing only aims to give a fraction of the probabilities to the unseen words to avoid zero probability. The fraction amount should not make huge impacts on the seen words, especially for the top one. The original Max-Likelihood estimation would still be the dominant part. Linear interpolation smoothing shrinks the likelihood linearly while Absolute discount smoothing reduces them by a fixed amount. None these methods would change their order. Therefore, it is expected to see them to be same.
 
+### 2.2 Generate text documents from a language model
+
 #### 2.2 - 1
 
 Implementation of the sampling procedure
@@ -459,3 +462,45 @@ sinc i would go this city.they have had to tri the pain me sit and | 3.1190e-29
 also pleas other place is of this place is fantast as our food my first | 2.6001e-29
 s what the pizza we were sit better and when it in the plate if | 4.4712e-30
 everi time to be pack num star by work function here with this place is | 1.2008e-28
+
+### 2.3 Language model evaluation
+
+#### 2.3 - 1
+
+Implementation of Perplexity, which supports any N-gram model, not necessarily to be bigram, as long as there is a N-1 model as `ref`
+
+```python
+def perplexity(self, review, smoothing='linear'):
+  tokens = review.tokens
+
+  # either one uses additive smoothing for unigram in the end
+  calc_prob_name = 'calc_abs_discount_prob' if smoothing == 'absolute' else 'calc_linear_smooth_prob'
+
+  if self.N > 1:
+    calc_prob = getattr(self.ref, calc_prob_name)
+    start_prob = calc_prob(*tokens[:self.N - 1])
+  else:
+    start_prob = D(1)
+
+  likelihood = math.log(start_prob)
+  calc_prob = getattr(self, calc_prob_name)
+
+  # bigram starts with i = 2 which leads to chunk [0:2]
+  for i in range(self.N, len(tokens) + 1):
+    token_chunk = tokens[i - self.N:i]
+    likelihood += math.log(calc_prob(*token_chunk))
+
+  return math.exp(-likelihood / len(tokens))
+```
+
+#### 2.3 - 2
+
+model | mean | standard deviation
+-|-|-
+unigram | 1696.4585 | 51779.4274
+bigram linear | 1393.5503 | 58366.02617
+bigram absolute | 1641.7145 | 63439.3503
+
+#### 2.3 - 3
+
+Bigram with linear interplotation smooth is the best model, because it has the best mean. It is better than unigram as expected, since bigram encode more information. Compared with absolute discount, I believe the result is better because the linear interplotation gives a decent amount of probabilities to the unseen tokens (10%, lambda=0.1), while absolute discount gives up too little (delta=0.1, 10% multiply the ratio of the seen word types and total count). The testing data actually brings in lots of unseen tokens (20k to the 67K training tokens), so better smoothed model perform better.

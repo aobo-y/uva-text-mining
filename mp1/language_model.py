@@ -4,8 +4,9 @@ import re
 import pickle
 import numbers
 import random
+import math
 from decimal import Decimal
-# from functools import reduce
+from statistics import mean, stdev
 from nltk.tokenize.treebank import TreebankWordTokenizer
 from nltk.stem.snowball import EnglishStemmer
 
@@ -87,6 +88,8 @@ class LanguageModel:
     self.ml_cache = {} # to cahce to on-the-fly calculated ml probs
     self.vocab = vocab
 
+    self.uni_sum = None # only for additive cache
+
 
   def get_count(self, *tokens):
     return get_nested_map(self.counts, tokens)
@@ -109,6 +112,21 @@ class LanguageModel:
 
     return val
 
+  def calc_additive_smooth_prob(self, token):
+    assert self.N == 1 # only allow unigram to use
+
+    if token in self.ml_cache:
+      return self.ml_cache[token]
+
+    if self.uni_sum is None:
+      self.uni_sum = sum(self.counts.values()) + self.delta * len(self.vocab)
+
+    val = self.counts[token] if token in self.counts else 0
+    val = (val + self.delta) / self.uni_sum
+
+    self.ml_cache[token] = val
+
+    return val
 
   def calc_linear_smooth_prob(self, *tokens):
     assert len(tokens) == self.N # tokens len should match the N-gram model
@@ -123,7 +141,7 @@ class LanguageModel:
       return self.lamda * ml_prob + (1 - self.lamda) * self.ref.calc_linear_smooth_prob(*tokens[1:])
 
     else:
-      return self.calc_ml_prob(*tokens)
+      return self.calc_additive_smooth_prob(tokens[0])
 
   def calc_abs_discount_prob(self, *tokens):
     assert len(tokens) == self.N # tokens len should match the N-gram model
@@ -142,7 +160,7 @@ class LanguageModel:
       return max((count - self.delta), D(0)) / prefix_sum + (self.delta * S / prefix_sum) * self.ref.calc_abs_discount_prob(*tokens[1:])
 
     else:
-      return self.calc_ml_prob(*tokens)
+      return self.calc_additive_smooth_prob(tokens[0])
 
   def sampling(self, *prefix_tokens, smoothing='linear'):
     # either one is the same for unigram
@@ -157,6 +175,28 @@ class LanguageModel:
         return token, token_prob
 
     raise Exception('Failed to sample: Out of vocab')
+
+  def perplexity(self, review, smoothing='linear'):
+    tokens = review.tokens
+
+    # either one uses additive smoothing for unigram in the end
+    calc_prob_name = 'calc_abs_discount_prob' if smoothing == 'absolute' else 'calc_linear_smooth_prob'
+
+    if self.N > 1:
+      calc_prob = getattr(self.ref, calc_prob_name)
+      start_prob = calc_prob(*tokens[:self.N - 1])
+    else:
+      start_prob = D(1)
+
+    likelihood = math.log(start_prob)
+    calc_prob = getattr(self, calc_prob_name)
+
+    # bigram starts with i = 2 which leads to chunk [0:2]
+    for i in range(self.N, len(tokens) + 1):
+      token_chunk = tokens[i - self.N:i]
+      likelihood += math.log(calc_prob(*token_chunk))
+
+    return math.exp(-likelihood / len(tokens))
 
 
 def read_folder(path):
@@ -249,26 +289,50 @@ def sample_sentences(uni_model, bi_model):
 
       print(' '.join(tokens), '{:.5g}'.format(likelihood))
 
+def add_vocab(vocab, test_reviews):
+  v = set(vocab)
+  for review in test_reviews:
+    for t in review.tokens:
+      v.add(t)
+  return list(v)
+
+def calculate_perplexity(uni_model, bi_model, test_reviews):
+  test_reviews = [r for r in test_reviews if len(r.tokens) > 0]
+
+  uni_perp = [uni_model.perplexity(review) for review in test_reviews]
+  bi_perp_l = [bi_model.perplexity(review, smoothing='linear') for review in test_reviews]
+  bi_perp_a = [bi_model.perplexity(review, smoothing='absolute') for review in test_reviews]
+
+  print('uni_perp:', mean(uni_perp), stdev(uni_perp))
+  print('bi_perp_l:', mean(bi_perp_l), stdev(bi_perp_l))
+  print('bi_perp_a:', mean(bi_perp_a), stdev(bi_perp_a))
 
 def main():
   if os.path.isfile(SAVE_PATH):
     print('load save', SAVE_PATH)
 
     with open(SAVE_PATH,'rb') as pf:
-      reviews, uni_counts, bi_counts = pickle.load(pf)
+      reviews, test_reviews, uni_counts, bi_counts = pickle.load(pf)
   else:
     reviews = read_folder('./yelp/train')
+    test_reviews = read_folder('./yelp/test')
     uni_counts, bi_counts = count_grams(reviews)
 
     with open(SAVE_PATH, 'wb') as pf:
-      pickle.dump((reviews, uni_counts, bi_counts), pf)
+      pickle.dump((reviews, test_reviews, uni_counts, bi_counts), pf)
+
 
   vocab = list(uni_counts.keys())
+  print('vocab size of training data:', len(vocab))
+  vocab = add_vocab(vocab, test_reviews)
+  print('vocab size of including testing data:', len(vocab))
+
   uni_model = LanguageModel(1, uni_counts, vocab)
   bi_model = LanguageModel(2, bi_counts, vocab, uni_model)
 
   # get_bigram_of(bi_model, 'good')
-  sample_sentences(uni_model, bi_model)
+  # sample_sentences(uni_model, bi_model)
+  calculate_perplexity(uni_model, bi_model, test_reviews)
 
 main()
 
