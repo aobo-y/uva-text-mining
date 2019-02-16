@@ -265,7 +265,7 @@ def sample_sentences(uni_model, bi_model):
   print('[unigram]:')
   for _ in range(10):
     tokens = []
-    likelihood = 1;
+    likelihood = 1
 
     for _ in range(15):
       token, prob = uni_model.sampling()
