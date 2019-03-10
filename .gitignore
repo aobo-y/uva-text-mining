@@ -6,3 +6,4 @@
 **/gradle
 **/.settings
 **/*.pickle
+**/__pycache__
