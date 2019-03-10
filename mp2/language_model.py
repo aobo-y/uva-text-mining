@@ -26,7 +26,6 @@ class LanguageModel:
     if token in self.cache[prefix_token]['probs']:
       return self.cache[token]['probs'][token]
 
-
     val = self.counts[token] if token in self.counts else 0
     val = (val + self.delta) / self.cache[prefix_token]['sum']
 
