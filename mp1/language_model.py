@@ -280,7 +280,7 @@ def sample_sentences(uni_model, bi_model):
     for _ in range(10):
       token, porb = uni_model.sampling()
       tokens = [token]
-      likelihood = porb;
+      likelihood = porb
 
       for _ in range(14):
         token, prob = bi_model.sampling(token, smoothing=smoothing)
