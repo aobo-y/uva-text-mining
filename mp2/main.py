@@ -58,4 +58,5 @@ def main():
 
   print(top_tokens(ems_counts['NN'], 10))
   print(top_tokens(trs_counts['VB'], 10))
+
 main()

@@ -5,22 +5,26 @@
 ### 1.1
 
 ```python
-def calc_prob(self, prefix_token, token):
+def calc_prob(self, pre_token, token):
   ''' Additive smoothed probability '''
 
-  if prefix_token not in self.cache:
-    self.cache[prefix_token] = {
-      'sum': sum(self.counts[prefix_token].values()) + self.delta * len(self.tokens),
+  counts = self.counts[pre_token]
+
+  if pre_token not in self.cache:
+    self.cache[pre_token] = {
+      'sum': sum(counts.values()) + self.delta * len(self.tokens),
       'probs': {}
     }
 
-  if token in self.cache[prefix_token]['probs']:
-    return self.cache[token]['probs'][token]
+  cache = self.cache[pre_token]
 
-  val = self.counts[token] if token in self.counts else 0
-  val = (val + self.delta) / self.cache[prefix_token]['sum']
+  if token in cache['probs']:
+    return cache['probs'][token]
 
-  self.cache[token]['probs'][token] = val
+  val = counts[token] if token in counts else 0
+  val = (val + self.delta) / cache['sum']
+
+  cache['probs'][token] = val
 
   return val
 ```
