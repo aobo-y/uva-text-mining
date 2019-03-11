@@ -17,6 +17,8 @@ class LanguageModel:
   def calc_prob(self, pre_token, token):
     ''' Additive smoothed probability '''
 
+    assert token in self.tokens
+
     counts = self.counts[pre_token]
 
     if pre_token not in self.cache:
