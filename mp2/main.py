@@ -1,5 +1,7 @@
 import math
 from random import shuffle
+from statistics import mean, stdev
+
 from data_util import read_folder
 from language_model import LanguageModel
 from viterbi import viterbi
@@ -50,14 +52,14 @@ def top_tokens(counts, num):
   return [c[0] for c in counts[:num]]
 
 
-def build_models(sentences):
+def build_models(sentences, delta=0.5, sigma=0.1):
   trs_counts, ems_counts, tags, words = count_grams(sentences)
 
-  print('Number of tags:', len(tags))
-  print('Number of words:', len(words))
+  # print('Number of tags:', len(tags))
+  # print('Number of words:', len(words))
 
-  trs_model = LanguageModel(trs_counts, tags, delta=0.5)
-  ems_model = LanguageModel(ems_counts, words, delta=0.1)
+  trs_model = LanguageModel(trs_counts, tags, delta)
+  ems_model = LanguageModel(ems_counts, words, sigma)
 
   return trs_model, ems_model
 
@@ -73,26 +75,112 @@ def split_data(sentences, i):
 
   return training, testing
 
+def eval_metric(tags, preds, labels):
+  total, accurate =  0, 0
+  tp = {}
+  fp = {}
+  fn = {}
+
+  def increment(dic, k):
+    if k in dic:
+      dic[k] += 1
+    else:
+      dic[k] = 1
+
+  for p_seq, l_seq in zip(preds, labels):
+    for p, ls in zip(p_seq, l_seq):
+      if not isinstance(ls, list):
+        ls = [ls]
+
+      total += 1
+      if p in ls:
+        accurate += 1
+
+      for l in ls:
+        if l == p:
+          increment(tp, p)
+        else:
+          increment(fp, p)
+          increment(fn, l)
+
+  accuracy = accurate / total
+
+  precisions, recalls = {}, {}
+
+  for t in tags:
+     t_tp = tp[t] if t in tp else 0
+     t_fp = fp[t] if t in fp else 0
+     t_fn = fn[t] if t in fn else 0
+
+     precisions[t] = t_tp / (t_tp + t_fp) if t_tp + t_fp != 0 else 0
+     recalls[t] = t_tp / (t_tp + t_fn) if t_tp + t_fn != 0 else 0
+
+  return accuracy, precisions, recalls
+
+
+def get_tags(sentences):
+  tags = set()
+  for s in sentences:
+    for ts in s.tags:
+      if not isinstance(ts, list):
+        ts = [ts]
+      for t in ts:
+        if t not in tags:
+          tags.add(t)
+
+  return tags
+
 def main():
   sentences = read_folder('./tagged')
   shuffle(sentences)
 
-  for i in range(5):
-    print('Cross-validation:', i)
-    training, testing = split_data(sentences, i)
+  tags = get_tags(sentences)
 
-    print('Training size:', len(training))
-    print('Testing size:', len(testing))
+  for delta in [5, 1, 0.5, 0.1, 0.05, 0.001, 0.005]:
+    for sigma in [1, 0.5, 0.1, 0.05, 0.01, 0.005, 0.001]:
+      print('Delta, Sigma:',  delta, sigma)
 
-    trs_model, ems_model = build_models(training)
+      accuracy_results = []
+      precision_results = []
+      recall_results = []
 
-    map_unk = lambda s: [w if w in ems_model.tokens else 'UNK' for w in s]
+      for i in range(5):
+        # print('Cross-validation:', i)
+        training, testing = split_data(sentences, i)
 
-    preds = [viterbi(trs_model, ems_model, map_unk(s.words))[0] for s in testing[:5]]
+        # print('Training size:', len(training))
+        # print('Testing size:', len(testing))
 
-    print(testing[3].words)
-    print(testing[3].tags)
-    print(preds[3])
+        trs_model, ems_model = build_models(training, delta, sigma)
+
+        map_unk = lambda s: [w if w in ems_model.tokens else 'UNK' for w in s]
+
+        # testing = testing[:5]
+        preds = [viterbi(trs_model, ems_model, map_unk(s.words))[0] for s in testing]
+
+        labels = [s.tags for s in testing]
+
+        accuracy, precisions, recalls =  eval_metric(tags, preds, labels)
+
+        accuracy_results.append(accuracy)
+        precision_results.append(precisions)
+        recall_results.append(recalls)
+
+      print('accuracy:', round(mean(accuracy_results), 4))
+
+      precisions, recalls = {}, {}
+      for t in precision_results[0].keys():
+        precisions[t] = mean([p[t] for p in precision_results])
+        recalls[t] = mean([r[t] for r in recall_results])
+
+      print('precisions:', round(mean(precisions.values()), 4))
+      print('recalls:', round(mean(recalls.values()), 4))
+
+      print('NN:', round(precisions['NN'], 4), round(recalls['NN'], 4))
+      print('VB:', round(precisions['VB'], 4), round(recalls['VB'], 4))
+      print('JJ:', round(precisions['JJ'], 4), round(recalls['JJ'], 4))
+      print('NNP:', round(precisions['NNP'], 4), round(recalls['NNP'], 4))
+
 
   # print(top_tokens(ems_counts['NN'], 10))
   # print(top_tokens(trs_counts['VB'], 10))
