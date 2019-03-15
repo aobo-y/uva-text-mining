@@ -136,8 +136,8 @@ def main():
 
   tags = get_tags(sentences)
 
-  for delta in [5, 1, 0.5, 0.1, 0.05, 0.001, 0.005]:
-    for sigma in [1, 0.5, 0.1, 0.05, 0.01, 0.005, 0.001]:
+  for delta in [7, 5, 4, 3, 2, 1, 0.8]:
+    for sigma in [0.07, 0.05, 0.04, 0.03, 0.02, 0.01, 0.008]:
       print('Delta, Sigma:',  delta, sigma)
 
       accuracy_results = []
