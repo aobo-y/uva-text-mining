@@ -108,12 +108,12 @@ def eval_metric(tags, preds, labels):
   precisions, recalls = {}, {}
 
   for t in tags:
-     t_tp = tp[t] if t in tp else 0
-     t_fp = fp[t] if t in fp else 0
-     t_fn = fn[t] if t in fn else 0
+    t_tp = tp[t] if t in tp else 0
+    t_fp = fp[t] if t in fp else 0
+    t_fn = fn[t] if t in fn else 0
 
-     precisions[t] = t_tp / (t_tp + t_fp) if t_tp + t_fp != 0 else 0
-     recalls[t] = t_tp / (t_tp + t_fn) if t_tp + t_fn != 0 else 0
+    precisions[t] = t_tp / (t_tp + t_fp) if t_tp + t_fp != 0 else 0
+    recalls[t] = t_tp / (t_tp + t_fn) if t_tp + t_fn != 0 else 0
 
   return accuracy, precisions, recalls
 
@@ -136,50 +136,50 @@ def main():
 
   tags = get_tags(sentences)
 
-  for delta in [7, 5, 4, 3, 2, 1, 0.8]:
-    for sigma in [0.07, 0.05, 0.04, 0.03, 0.02, 0.01, 0.008]:
-      print('Delta, Sigma:',  delta, sigma)
+  # for delta in [7, 5, 4, 3, 2, 1, 0.8]:
+  #   for sigma in [0.07, 0.05, 0.04, 0.03, 0.02, 0.01, 0.008]:
+  #     print('Delta, Sigma:',  delta, sigma)
 
-      accuracy_results = []
-      precision_results = []
-      recall_results = []
+  accuracy_results = []
+  precision_results = []
+  recall_results = []
 
-      for i in range(5):
-        # print('Cross-validation:', i)
-        training, testing = split_data(sentences, i)
+  for i in range(5):
+    # print('Cross-validation:', i)
+    training, testing = split_data(sentences, i)
 
-        # print('Training size:', len(training))
-        # print('Testing size:', len(testing))
+    # print('Training size:', len(training))
+    # print('Testing size:', len(testing))
 
-        trs_model, ems_model = build_models(training, delta, sigma)
+    trs_model, ems_model = build_models(training)
 
-        map_unk = lambda s: [w if w in ems_model.tokens else 'UNK' for w in s]
+    map_unk = lambda s: [w if w in ems_model.tokens else 'UNK' for w in s]
 
-        # testing = testing[:5]
-        preds = [viterbi(trs_model, ems_model, map_unk(s.words))[0] for s in testing]
+    # testing = testing[:5]
+    preds = [viterbi(trs_model, ems_model, map_unk(s.words))[0] for s in testing]
 
-        labels = [s.tags for s in testing]
+    labels = [s.tags for s in testing]
 
-        accuracy, precisions, recalls =  eval_metric(tags, preds, labels)
+    accuracy, precisions, recalls =  eval_metric(tags, preds, labels)
 
-        accuracy_results.append(accuracy)
-        precision_results.append(precisions)
-        recall_results.append(recalls)
+    accuracy_results.append(accuracy)
+    precision_results.append(precisions)
+    recall_results.append(recalls)
 
-      print('accuracy:', round(mean(accuracy_results), 4))
+  print('accuracy:', round(mean(accuracy_results), 4))
 
-      precisions, recalls = {}, {}
-      for t in precision_results[0].keys():
-        precisions[t] = mean([p[t] for p in precision_results])
-        recalls[t] = mean([r[t] for r in recall_results])
+  precisions, recalls = {}, {}
+  for t in precision_results[0].keys():
+    precisions[t] = mean([p[t] for p in precision_results])
+    recalls[t] = mean([r[t] for r in recall_results])
 
-      print('precisions:', round(mean(precisions.values()), 4))
-      print('recalls:', round(mean(recalls.values()), 4))
+  print('precisions:', round(mean(precisions.values()), 4))
+  print('recalls:', round(mean(recalls.values()), 4))
 
-      print('NN:', round(precisions['NN'], 4), round(recalls['NN'], 4))
-      print('VB:', round(precisions['VB'], 4), round(recalls['VB'], 4))
-      print('JJ:', round(precisions['JJ'], 4), round(recalls['JJ'], 4))
-      print('NNP:', round(precisions['NNP'], 4), round(recalls['NNP'], 4))
+  print('NN:', round(precisions['NN'], 4), round(recalls['NN'], 4))
+  print('VB:', round(precisions['VB'], 4), round(recalls['VB'], 4))
+  print('JJ:', round(precisions['JJ'], 4), round(recalls['JJ'], 4))
+  print('NNP:', round(precisions['NNP'], 4), round(recalls['NNP'], 4))
 
 
   # print(top_tokens(ems_counts['NN'], 10))
