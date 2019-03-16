@@ -210,14 +210,26 @@ def main():
 
     samples.append({
       'sentence': sentence,
+      'tags': tags,
       'score': score
     })
 
   samples = sorted(samples, key=lambda m: m['score'], reverse=True)
 
-  for m in samples[:10]:
-    print(' '.join(m['sentence']))
-    print(m['score'])
+  # for m in samples[:10]:
+  #   print(' '.join(m['sentence']))
+  #   print(m['score'])
+
+  accuracies = []
+  for m in samples:
+    prediction = viterbi(trs_model, ems_model, m['sentence'])[0]
+    accuracy = sum([1 for t, p in zip(m['tags'], prediction) if t == p]) / len(prediction)
+    accuracies.append(accuracy)
+    print(round(m['score'], 4), accuracy)
+
+  print('avg accuracy:', mean(accuracies))
+
+
 
 
 
