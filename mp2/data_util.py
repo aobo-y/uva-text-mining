@@ -5,9 +5,9 @@ def normalize(token):
   token = token.lower()
   # 7\/8/CD
   token = token.replace('\\/', '/')
-  if re.fullmatch(r'\d+(,\d{3})*(\.\d+)?', token) or \
-    re.fullmatch(r'\d+[/|\-|:]\d+', token):
-    token = 'NUM'
+  # if re.fullmatch(r'\d+(,\d{3})*(\.\d+)?', token) or \
+  #   re.fullmatch(r'\d+[/|\-|:]\d+', token):
+  #   token = 'NUM'
 
   return token.strip()
 

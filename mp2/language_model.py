@@ -48,4 +48,4 @@ class LanguageModel:
       if prob < 0:
         return token, token_prob
 
-    raise Exception('Failed to sample: Out of vocab')
+    raise Exception('Failed to sample: Out of token')
