@@ -56,33 +56,28 @@ def information_gain(reviews, words):
   l_counts = Counter([review.label for review in reviews])
   l_probs = {l: c / len(reviews) for l, c in l_counts.items()}
 
-  print('label probs')
-  print(l_probs)
-
   entropy = lambda probs: sum([
-    0 if p == 0 else p * math.log(p) for k, p in l_probs.items()
+    0 if p == 0 else p * math.log(p) for k, p in probs.items()
   ])
 
   words_ig = {}
   for word in words:
+    w_reviews = [review for review in reviews if word in review.tokens]
+
     # probs of review with / without the word
-    w_counts = Counter([
-      word in review.tokens for review in reviews
-    ])
+    w_counts = {True: len(w_reviews), False: len(reviews) - len(w_reviews)}
 
     w_probs = {k: v / sum(w_counts.values()) for k, v in w_counts.items()}
 
     # probs of positive / negative review with the word
     l_w_counts = Counter([
-      review.label for review in reviews if word in review.tokens
+      review.label for review in w_reviews
     ])
 
     l_w_probs = {k: v / sum(l_w_counts.values()) for k, v in l_w_counts.items()}
 
     # probs of positive / negative review without the word
-    l_n_w_counts = Counter([
-      review.label for review in reviews if word not in review.tokens
-    ])
+    l_n_w_counts = {k: v - l_w_counts[k] for k, v in l_counts.items()}
 
     l_n_w_probs = {k: v / sum(l_n_w_counts.values()) for k, v in l_n_w_counts.items()}
 
@@ -91,6 +86,26 @@ def information_gain(reviews, words):
       + w_probs[False] * entropy(l_n_w_probs)
 
   return words_ig
+
+def chi_square(reviews, words):
+  words_cs = {}
+  pos_reviews = [review for review in reviews if review.label == 1]
+  neg_reviews = [review for review in reviews if review.label == 0]
+
+  for word in words:
+    pos_counts = Counter(word in review.tokens for review in pos_reviews)
+    neg_counts = Counter(word in review.tokens for review in neg_reviews)
+
+    A = pos_counts[True]
+    B = pos_counts[False]
+    C = neg_counts[True]
+    D = neg_counts[False]
+
+    words_cs[word] = (A + B + C + D) * ((A * D - B * C) ** 2) \
+      / ((A + C) * (B + D) * (A + B) * (C + D))
+
+  return words_cs
+
 
 def document_frequency(reviews):
   df = Counter()
@@ -106,7 +121,31 @@ def select_features(reviews):
   vocab = [w for w, v in df.items() if v >= 10]
   print('Vocab size (df >= 10):', len(vocab))
 
+  css = chi_square(reviews, vocab)
+
+  css = {w: v for w, v in css.items() if v >= 3.841}
+  print('Vocab size (chi square >= 3.841):', len(css))
+
   igs = information_gain(reviews, vocab)
+
+  css = sorted(css.items(), key=lambda i: i[1], reverse=True)
+  igs = sorted(igs.items(), key=lambda i: i[1], reverse=True)
+
+  if len(css) >= 5000:
+    css = css[:5000]
+  if len(igs) >= 5000:
+    igs = igs[:5000]
+
+  print('Top 20 Information Gain')
+  print(igs[:20])
+  print('Top 20 Chi Square')
+  print(css[:20])
+
+  vocab = set(i[0] for i in css).union(i[0] for i in igs)
+
+  print('Final Vocab size:', len(vocab))
+
+  return vocab
 
 
 
@@ -116,14 +155,15 @@ def main():
     print('load save', SAVE_PATH)
 
     with open(SAVE_PATH,'rb') as pf:
-      reviews = pickle.load(pf)
+      corpus, vocab = pickle.load(pf)
   else:
-    reviews = read_folder('./yelp/train')
-    # test_reviews = read_folder('./yelp/test')
-    with open(SAVE_PATH, 'wb') as pf:
-      pickle.dump(reviews, pf)
+    corpus = read_folder('./yelp')
+    vocab = select_features(corpus)
 
-  select_features(reviews)
+    with open(SAVE_PATH, 'wb') as pf:
+      pickle.dump((corpus, vocab), pf)
+
+
 
 
 
