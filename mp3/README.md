@@ -121,3 +121,61 @@ def chi_square(reviews, words):
 
   return words_cs
 ```
+
+## Task 2: Naive Bayes
+
+### 2.1 Training Naive Bayes with Maximum a Posterior estimator
+
+Top 20 words of ranked log-ratio list
+
+```
+gluttoni
+ryan
+mmmmmmm
+fantasi
+seamless
+yummo
+boutiqu
+hoagi
+underr
+devin
+maxim
+meticul
+hand-cut
+yummmm
+lambrusco
+slow-cook
+lickin
+ganach
+st.loui
+tapioca
+```
+
+Top 20 words of ranked log-ratio list
+
+```
+off-night
+downhil
+unhelp
+tasteless
+nauseous
+inexcus
+ick
+ined
+blatant
+deplor
+wade
+indigest
+diarrhea
+a-hol
+emperor
+ineffici
+injuri
+scam
+rudest
+2-star
+```
+
+In my opinion, many of them do not make any sense in distinguishing the positive opinion and negative opinion. It may be because the smooth parameter `delta=0.1` is too small which leads to extreme large/small log ratio of some rare words with accidental unbalanced distribution in the data.
+
+### 2.2 Naive Bayes as a linear classifier

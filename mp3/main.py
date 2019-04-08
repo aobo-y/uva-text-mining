@@ -6,41 +6,32 @@ import numbers
 import random
 import math
 from collections import Counter
-from decimal import Decimal
 from statistics import mean, stdev
 
 from data import read_folder
+from language_model import LanguageModel
 
-D = Decimal
 
 SAVE_PATH = './save.pickle'
 
 
+def build_lang_models(reviews, vocab):
+  pos_counts = Counter()
+  neg_counts = Counter()
 
-def count_grams(reviews):
-  uni_counts = {}
-  bi_counts = {}
+  delta = 0.1
 
   for review in reviews:
-    prev_token = None
+    if review.label:
+      pos_counts.update(review.features.keys())
+    else:
+      neg_counts.update(review.features.keys())
 
-    for token in review.tokens:
-      if token in uni_counts:
-        uni_counts[token] += 1
-      else:
-        uni_counts[token] = 1
+  pos_model = LanguageModel(pos_counts, vocab, delta)
+  neg_model = LanguageModel(neg_counts, vocab, delta)
 
-      if prev_token in bi_counts:
-        if token in bi_counts[prev_token]:
-          bi_counts[prev_token][token] += 1
-        else:
-          bi_counts[prev_token][token] = 1
-      elif prev_token != None:
-        bi_counts[prev_token] = {token: 1}
+  return pos_model, neg_model
 
-      prev_token = token
-
-  return uni_counts, bi_counts
 
 
 
@@ -148,6 +139,25 @@ def select_features(reviews):
   return vocab
 
 
+def rank_nb_log_ratio(pos_model, neg_model):
+  vocab = pos_model.vocab
+  log_ratios = {
+    word: math.log(pos_model.probs[word] / neg_model.probs[word])
+    for word in vocab
+  }
+
+  print('bland:', pos_model.probs['bland'], neg_model.probs['bland'])
+  print('worst:', pos_model.probs['worst'], neg_model.probs['worst'])
+  print('2-star:', pos_model.probs['2-star'], neg_model.probs['2-star'])
+  # print('delici:', log_ratios['delici'])
+  # print('worst:', log_ratios['worst'])
+
+  log_ratios = sorted(log_ratios.items(), key=lambda i: i[1], reverse=True)
+
+  print('Top 20 log ratio:')
+  print(log_ratios[:20])
+  print('Bottom 20 log ratio:')
+  print(log_ratios[-20:])
 
 
 def main():
@@ -168,6 +178,9 @@ def main():
 
     with open(SAVE_PATH, 'wb') as pf:
       pickle.dump((corpus, vocab), pf)
+
+  pos_model, neg_model = build_lang_models(corpus, vocab)
+  rank_nb_log_ratio(pos_model, neg_model)
 
 
 main()
