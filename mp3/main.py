@@ -160,11 +160,14 @@ def main():
     corpus = read_folder('./yelp')
     vocab = select_features(corpus)
 
+    print('Corpus size:', len(corpus))
+    for d in corpus:
+      d.filter_vocab(vocab)
+    corpus = [d for d in corpus if len(d.features) > 5]
+    print('Corpus size (feature > 5):', len(corpus))
+
     with open(SAVE_PATH, 'wb') as pf:
       pickle.dump((corpus, vocab), pf)
-
-
-
 
 
 main()

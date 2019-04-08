@@ -42,6 +42,9 @@ class Review:
     tokens = [token for token in tokens if token not in stop_words and token != '']
     self.tokens = Counter(tokens)
 
+  def filter_vocab(self, vocab):
+    self.features = Counter({k: v for k, v in self.tokens.items() if k in vocab})
+
 def read_folder(path):
   reviews = []
 
