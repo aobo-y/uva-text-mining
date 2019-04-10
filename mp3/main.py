@@ -7,6 +7,8 @@ import random
 import math
 from collections import Counter
 from statistics import mean, stdev
+import matplotlib.pyplot as plt
+
 
 from data import read_folder
 from language_model import LanguageModel
@@ -15,11 +17,9 @@ from language_model import LanguageModel
 SAVE_PATH = './save.pickle'
 
 
-def build_lang_models(reviews, vocab):
+def build_lang_models(reviews, vocab, delta = 0.1):
   pos_counts = Counter()
   neg_counts = Counter()
-
-  delta = 0.1
 
   for review in reviews:
     if review.label:
@@ -159,6 +159,67 @@ def rank_nb_log_ratio(pos_model, neg_model):
   print('Bottom 20 log ratio:')
   print(log_ratios[-20:])
 
+def naive_bayes(corpus, vocab):
+  pos_count = len([d for d in corpus if d.label])
+  neg_count = len(corpus) - pos_count
+  pos_prob = pos_count / len(corpus)
+  neg_prob = neg_count / len(corpus)
+  log_ratio = math.log(pos_prob / neg_prob)
+
+  # rank_nb_log_ratio(pos_model, neg_model)
+
+  if os.path.isfile('./test_corpus.pickle'):
+    print('load save ./test_corpus.pickle')
+
+    with open('./test_corpus.pickle','rb') as pf:
+      test_corpus = pickle.load(pf)
+  else:
+    test_corpus = read_folder('./yelp/test')
+    for d in test_corpus:
+      d.filter_vocab(vocab)
+
+    with open('./test_corpus.pickle','wb') as pf:
+      pickle.dump(test_corpus, pf)
+
+  deltas = [0.01, 0.1, 1, 10]
+
+  for delta in deltas:
+    pos_model, neg_model = build_lang_models(corpus, vocab, delta)
+
+    f = lambda d: log_ratio + sum([
+      math.log(pos_model.probs[w]) - math.log(neg_model.probs[w])
+      for w in d.features
+    ])
+
+    results = sorted([(d, f(d)) for d in test_corpus], key=lambda i: i[1], reverse=True)
+
+    results = [r[0] for r in results]
+
+    curve = []
+    pos_count = len([d for d in results if d.label])
+
+    for i in range(len(results)):
+      tp = len([d for d in results[:i + 1] if d.label])
+
+      precision = tp / (i + 1)
+      recall = tp / pos_count
+
+      curve.append((precision, recall))
+
+    plt.plot([p[1] for p in curve], [p[0] for p in curve])
+
+  plt.grid()
+  plt.xlabel('recall')
+  plt.ylabel('precision')
+  plt.title('Precision Recall Curve')
+  plt.legend([
+    'delta=0.01',
+    'delta=0.1',
+    'delta=1',
+    'delta=10'
+  ], loc='lower left')
+  plt.show()
+
 
 def main():
   if os.path.isfile(SAVE_PATH):
@@ -179,8 +240,7 @@ def main():
     with open(SAVE_PATH, 'wb') as pf:
       pickle.dump((corpus, vocab), pf)
 
-  pos_model, neg_model = build_lang_models(corpus, vocab)
-  rank_nb_log_ratio(pos_model, neg_model)
+  naive_bayes(corpus, vocab)
 
 
 main()

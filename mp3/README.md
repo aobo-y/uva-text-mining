@@ -179,3 +179,17 @@ rudest
 In my opinion, many of them do not make any sense in distinguishing the positive opinion and negative opinion. It may be because the smooth parameter `delta=0.1` is too small which leads to extreme large/small log ratio of some rare words with accidental unbalanced distribution in the data.
 
 ### 2.2 Naive Bayes as a linear classifier
+
+#### 2.2.1
+
+Precision-Recall curve with default `delta=0.1`
+
+<img src="./precision_recall_curve.png" width="512">
+
+#### 2.2.2
+
+Precision-Recall curve with `delta=[0.01, 0.1, 1, 10]`
+
+<img src="./varied_precision_recall_curve.png" width="512">
+
+By changing the smoothing paramter `delta`, the Precision-Recall curve tradeoff changes as well. This is because different `delta` lead to different language model probabilities which further impact the `f(x)` values of the testing corpus. Therefore, for a fixed number of true psotive predictions which is the same as a fixed recall value, models with different `delta` needs to make a different psotive/negative cut which means different precision.
