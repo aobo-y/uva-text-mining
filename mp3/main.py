@@ -12,29 +12,10 @@ import matplotlib.pyplot as plt
 
 
 from data import read_folder
-from language_model import LanguageModel
 from knn import KNN
-
+from naive_bayes import NaiveBayes
 
 SAVE_PATH = './save.pickle'
-
-
-def build_lang_models(reviews, vocab, delta = 0.1):
-  pos_counts = Counter()
-  neg_counts = Counter()
-
-  for review in reviews:
-    if review.label:
-      pos_counts.update(review.features.keys())
-    else:
-      neg_counts.update(review.features.keys())
-
-  pos_model = LanguageModel(pos_counts, vocab, delta)
-  neg_model = LanguageModel(neg_counts, vocab, delta)
-
-  return pos_model, neg_model
-
-
 
 
 def add_vocab(vocab, test_reviews):
@@ -162,12 +143,6 @@ def rank_nb_log_ratio(pos_model, neg_model):
   print(log_ratios[-20:])
 
 def naive_bayes(corpus, vocab):
-  pos_count = len([d for d in corpus if d.label])
-  neg_count = len(corpus) - pos_count
-  pos_prob = pos_count / len(corpus)
-  neg_prob = neg_count / len(corpus)
-  log_ratio = math.log(pos_prob / neg_prob)
-
   # rank_nb_log_ratio(pos_model, neg_model)
 
   if os.path.isfile('./test_corpus.pickle'):
@@ -186,14 +161,9 @@ def naive_bayes(corpus, vocab):
   deltas = [0.01, 0.1, 1, 10]
 
   for delta in deltas:
-    pos_model, neg_model = build_lang_models(corpus, vocab, delta)
+    nb = NaiveBayes(corpus, vocab, delta)
 
-    f = lambda d: log_ratio + sum([
-      math.log(pos_model.probs[w]) - math.log(neg_model.probs[w])
-      for w in d.features
-    ])
-
-    results = sorted([(d, f(d)) for d in test_corpus], key=lambda i: i[1], reverse=True)
+    results = sorted([(d, nb.f_value(d)) for d in test_corpus], key=lambda i: i[1], reverse=True)
 
     results = [r[0] for r in results]
 
@@ -290,8 +260,8 @@ def main():
     with open(SAVE_PATH, 'wb') as pf:
       pickle.dump((corpus, vocab), pf)
 
-  # naive_bayes(corpus, vocab)
-  knn(corpus, idf)
+  naive_bayes(corpus, vocab)
+  # knn(corpus, idf)
 
 main()
 
