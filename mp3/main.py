@@ -5,6 +5,7 @@ import pickle
 import numbers
 import random
 import math
+import time
 from collections import Counter
 from statistics import mean, stdev
 import matplotlib.pyplot as plt
@@ -12,6 +13,7 @@ import matplotlib.pyplot as plt
 
 from data import read_folder
 from language_model import LanguageModel
+from knn import KNN
 
 
 SAVE_PATH = './save.pickle'
@@ -220,13 +222,58 @@ def naive_bayes(corpus, vocab):
   ], loc='lower left')
   plt.show()
 
+def calc_idf(corpus, vocab):
+  df = Counter()
+  for d in corpus:
+    df.update(d.features.keys())
+
+  return {w: 1 + math.log(len(corpus) / df[w]) for w in vocab}
+
+def tf_idf(corpus, idf):
+  vocab = sorted(idf.keys())
+
+  print('init corpus feature vectors')
+  for d in corpus:
+    d.set_vector(vocab, idf)
+
+def knn(corpus, vocab):
+  idf = calc_idf(corpus, vocab)
+
+  query = read_folder('./query')
+  tf_idf(query, idf)
+
+  print('fit KNN model')
+
+  classifier = KNN(5, 5)
+  classifier.fit([d.vector for d in corpus], corpus)
+
+  start_time = time.time()
+
+  for i, d in enumerate(query):
+    print('Query Doc', i)
+    print(d.tokens)
+
+    # neighbors = classifier.brute_force(d.vector)
+    neighbors = classifier.neighbors(d.vector)
+    print('Query Neighbors', i)
+
+    for n in neighbors:
+      print(n.tokens)
+      print('\n')
+
+    print('\n')
+
+  print("--- %s seconds ---" % (time.time() - start_time))
+
+
+
 
 def main():
   if os.path.isfile(SAVE_PATH):
     print('load save', SAVE_PATH)
 
     with open(SAVE_PATH,'rb') as pf:
-      corpus, vocab = pickle.load(pf)
+      corpus, vocab, idf = pickle.load(pf)
   else:
     corpus = read_folder('./yelp')
     vocab = select_features(corpus)
@@ -237,11 +284,14 @@ def main():
     corpus = [d for d in corpus if len(d.features) > 5]
     print('Corpus size (feature > 5):', len(corpus))
 
+    idf = calc_idf(corpus, vocab)
+    tf_idf(corpus, idf)
+
     with open(SAVE_PATH, 'wb') as pf:
       pickle.dump((corpus, vocab), pf)
 
-  naive_bayes(corpus, vocab)
-
+  # naive_bayes(corpus, vocab)
+  knn(corpus, idf)
 
 main()
 

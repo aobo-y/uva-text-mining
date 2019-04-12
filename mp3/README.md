@@ -193,3 +193,57 @@ Precision-Recall curve with `delta=[0.01, 0.1, 1, 10]`
 <img src="./varied_precision_recall_curve.png" width="512">
 
 By changing the smoothing paramter `delta`, the Precision-Recall curve tradeoff changes as well. This is because different `delta` lead to different language model probabilities which further impact the `f(x)` values of the testing corpus. Therefore, for a fixed number of true psotive predictions which is the same as a fixed recall value, models with different `delta` needs to make a different psotive/negative cut which means different precision.
+
+## Task 3: k Nearest Neighbor
+
+### 3.1
+
+Implementation of random projection, which relies on `numpy` and returns the hash bits as an integer. The function `init_hash_vectors` is called after retrieved vector dimension size during `fit`.
+
+```python
+class KNN:
+  def __init__(self, n_hashbits, n_neighbors):
+    self.n_hashbits = n_hashbits
+    self.n_neighbors = n_neighbors
+
+    self.hash_vectors = None
+    self.buckets = None
+
+  def init_hash_vectors(self, dimensions):
+    self.hash_vectors = np.random.uniform(-1, 1, (self.n_hashbits, dimensions))
+
+  def project(self, vector):
+    hash_bits = self.hash_vectors.dot(vector)
+    hash_bits = [sgn(b) for b in hash_bits]
+    hash_bits = ''.join(str(b) for b in hash_bits)
+
+    return int(hash_bits, 2)
+
+  def fit(self, vectors, labels):
+    # vectors should have same dimension size
+    self.init_hash_vectors(len(vectors[0]))
+
+    ...
+```
+### 3.2
+
+The running time of prediction of 5 query
+
+Model | Time (seconds)
+-|-
+KNN Brute Force | 4.7720
+KNN with 5 bits random projection | 0.1535
+
+The approximate KNN can still determine the cusine of some query reviews
+
+Query | Cusine
+-|-
+1 | Unknown
+2 | Italian
+3 | Mexican
+4 | Japanese
+5 | Peach Cobbler
+
+However, in my opinion, determining the cuisine type cannot necessarily evaluate if the KNN results are reasonable. Because by far, the features / words have already been filtered based on how good they can distinguish the review sentiments. Based on this purpose, the "reasonable" nearest neighbours should be reviews with the same sentiment, not the same cuisine type.
+
+On the other hand, the features are also not optimal to classify the cuisine, but the model indeed can still detect some review cuisines. It is because the vocabulary size is large enough to include not only the best sentiment sensitive words but also others accidentally helpful to tell the cuisine. For example, words like "peach" and "tuna" which are obviously sentiment neutral are left in the features set.

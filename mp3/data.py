@@ -4,6 +4,8 @@ import re
 import pickle
 import numbers
 import random
+import numpy as np
+from math import log, sqrt
 from collections import Counter
 
 from nltk.tokenize.treebank import TreebankWordTokenizer
@@ -36,14 +38,23 @@ class Review:
     self.rid = obj['ReviewID']
     self.date = obj['Date']
     self.label = 0 if float(obj['Overall']) < 4 else 1
-    content = obj['Content']
+    self.content = obj['Content']
 
-    tokens = [normalize(token) for token in tokenizer.tokenize(content)]
+    tokens = [normalize(token) for token in tokenizer.tokenize(self.content)]
     tokens = [token for token in tokens if token not in stop_words and token != '']
     self.tokens = Counter(tokens)
 
   def filter_vocab(self, vocab):
     self.features = Counter({k: v for k, v in self.tokens.items() if k in vocab})
+
+  def set_vector(self, vocab, idf):
+    tf = lambda k: 1 + log(self.tokens[k]) if k in self.tokens else 0
+
+    self.vector = np.array([
+      tf(k) * idf[k]
+      for k in vocab
+    ])
+
 
 def read_folder(path):
   reviews = []
