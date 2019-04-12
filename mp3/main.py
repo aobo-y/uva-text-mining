@@ -224,8 +224,8 @@ def knn(corpus, idf):
 
 
 def split_data(corpus, i):
-  # 5-fold cross validation
-  chk_size = math.ceil(len(corpus) / 5)
+  # 10-fold cross validation
+  chk_size = math.ceil(len(corpus) / 10)
 
   start_idx = chk_size * i
   end_idx = chk_size * (i + 1)
@@ -234,6 +234,87 @@ def split_data(corpus, i):
   testing = corpus[start_idx:end_idx]
 
   return training, testing
+
+def cross_validation(corpus, idf):
+  nb_results = {
+    'precision': [],
+    'recall': [],
+    'f1': []
+  }
+
+  knn_results = {
+    'precision': [],
+    'recall': [],
+    'f1': []
+  }
+
+  vocab = sorted(idf.keys())
+
+  random.shuffle(corpus)
+
+  def metrics(labels, preds):
+    tp = 0
+    pos_l_count = 0
+    pos_p_count = 0
+
+    for l, p in zip(labels, preds):
+      if p == 1:
+        pos_p_count += 1
+
+      if l == 1:
+        pos_l_count += 1
+
+      if p == 1 and l == 1:
+        tp += 1
+
+    precision = tp / pos_p_count
+    recall = tp / pos_l_count
+    f1 = 2 * precision * recall / (precision + recall)
+
+    return precision, recall, f1
+
+  for i in range(10):
+    print('cross validation', i)
+
+    training, testing = split_data(corpus, i)
+
+    nb = NaiveBayes(training, vocab, 0.1)
+    knn = KNN(5, 5)
+    knn.fit([d.vector for d in training], [d.label for d in training])
+
+    labels = [d.label for d in testing]
+    nb_preds = [nb.predict(d) for d in testing]
+    knn_preds = [knn.predict(d.vector) for d in testing]
+
+    p, r, f1 = metrics(labels, nb_preds)
+    nb_results['precision'].append(p)
+    nb_results['recall'].append(r)
+    nb_results['f1'].append(f1)
+
+    p, r, f1 = metrics(labels, knn_preds)
+    knn_results['precision'].append(p)
+    knn_results['recall'].append(r)
+    knn_results['f1'].append(f1)
+
+  print('nb precision mean', mean(nb_results['precision']))
+  print('nb recall mean', mean(nb_results['recall']))
+  print('nb f1 mean', mean(nb_results['f1']))
+
+  print('knn precision mean', mean(knn_results['precision']))
+  print('knn recall mean', mean(knn_results['recall']))
+  print('knn f1 mean', mean(knn_results['f1']))
+
+  print('nb_results f1')
+  print(nb_results['f1'])
+  print('knn_results f1')
+  print(knn_results['f1'])
+
+  diff = [a - b for a, b in zip(nb_results['f1'], knn_results['f1'])]
+  print('diff')
+  print(diff)
+
+  t = mean(diff) / (stdev(diff) / len(diff) ** 0.5)
+  print('t value:', t)
 
 def main():
   if os.path.isfile(SAVE_PATH):
@@ -264,7 +345,8 @@ def main():
       pickle.dump((train, test, vocab, idf), pf)
 
   # naive_bayes(train, test, vocab)
-  knn(train + test, idf)
+  # knn(train + test, idf)
+  cross_validation(train + test, idf)
 
 main()
 
