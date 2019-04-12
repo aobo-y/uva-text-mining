@@ -129,9 +129,9 @@ def rank_nb_log_ratio(pos_model, neg_model):
     for word in vocab
   }
 
-  print('bland:', pos_model.probs['bland'], neg_model.probs['bland'])
-  print('worst:', pos_model.probs['worst'], neg_model.probs['worst'])
-  print('2-star:', pos_model.probs['2-star'], neg_model.probs['2-star'])
+  # print('bland:', pos_model.probs['bland'], neg_model.probs['bland'])
+  # print('worst:', pos_model.probs['worst'], neg_model.probs['worst'])
+  # print('2-star:', pos_model.probs['2-star'], neg_model.probs['2-star'])
   # print('delici:', log_ratios['delici'])
   # print('worst:', log_ratios['worst'])
 
@@ -142,28 +142,17 @@ def rank_nb_log_ratio(pos_model, neg_model):
   print('Bottom 20 log ratio:')
   print(log_ratios[-20:])
 
-def naive_bayes(corpus, vocab):
-  # rank_nb_log_ratio(pos_model, neg_model)
+def naive_bayes(train, test, vocab):
+  # nb = NaiveBayes(train + test, vocab, 0.1)
+  # rank_nb_log_ratio(nb.pos_model, nb.neg_model)
 
-  if os.path.isfile('./test_corpus.pickle'):
-    print('load save ./test_corpus.pickle')
-
-    with open('./test_corpus.pickle','rb') as pf:
-      test_corpus = pickle.load(pf)
-  else:
-    test_corpus = read_folder('./yelp/test')
-    for d in test_corpus:
-      d.filter_vocab(vocab)
-
-    with open('./test_corpus.pickle','wb') as pf:
-      pickle.dump(test_corpus, pf)
-
-  deltas = [0.01, 0.1, 1, 10]
+  deltas = [0.1]
+  # deltas = [0.01, 0.1, 1, 10]
 
   for delta in deltas:
-    nb = NaiveBayes(corpus, vocab, delta)
+    nb = NaiveBayes(train, vocab, delta)
 
-    results = sorted([(d, nb.f_value(d)) for d in test_corpus], key=lambda i: i[1], reverse=True)
+    results = sorted([(d, nb.f_value(d)) for d in test], key=lambda i: i[1], reverse=True)
 
     results = [r[0] for r in results]
 
@@ -185,10 +174,10 @@ def naive_bayes(corpus, vocab):
   plt.ylabel('precision')
   plt.title('Precision Recall Curve')
   plt.legend([
-    'delta=0.01',
+    # 'delta=0.01',
     'delta=0.1',
-    'delta=1',
-    'delta=10'
+    # 'delta=1',
+    # 'delta=10'
   ], loc='lower left')
   plt.show()
 
@@ -206,9 +195,7 @@ def tf_idf(corpus, idf):
   for d in corpus:
     d.set_vector(vocab, idf)
 
-def knn(corpus, vocab):
-  idf = calc_idf(corpus, vocab)
-
+def knn(corpus, idf):
   query = read_folder('./query')
   tf_idf(query, idf)
 
@@ -221,14 +208,14 @@ def knn(corpus, vocab):
 
   for i, d in enumerate(query):
     print('Query Doc', i)
-    print(d.tokens)
+    print(d.features)
 
     # neighbors = classifier.brute_force(d.vector)
     neighbors = classifier.neighbors(d.vector)
     print('Query Neighbors', i)
 
     for n in neighbors:
-      print(n.tokens)
+      print(n.features)
       print('\n')
 
     print('\n')
@@ -236,32 +223,48 @@ def knn(corpus, vocab):
   print("--- %s seconds ---" % (time.time() - start_time))
 
 
+def split_data(corpus, i):
+  # 5-fold cross validation
+  chk_size = math.ceil(len(corpus) / 5)
 
+  start_idx = chk_size * i
+  end_idx = chk_size * (i + 1)
+
+  training = corpus[:start_idx] + corpus[end_idx:]
+  testing = corpus[start_idx:end_idx]
+
+  return training, testing
 
 def main():
   if os.path.isfile(SAVE_PATH):
     print('load save', SAVE_PATH)
 
     with open(SAVE_PATH,'rb') as pf:
-      corpus, vocab, idf = pickle.load(pf)
+      train, test, vocab, idf = pickle.load(pf)
   else:
-    corpus = read_folder('./yelp')
-    vocab = select_features(corpus)
+    train = read_folder('./yelp/train')
+    test = read_folder('./yelp/test')
+    vocab = select_features(train)
 
-    print('Corpus size:', len(corpus))
-    for d in corpus:
+    print('Train Corpus size:', len(train))
+    print('Test Corpus size:', len(test))
+    for d in train:
       d.filter_vocab(vocab)
-    corpus = [d for d in corpus if len(d.features) > 5]
-    print('Corpus size (feature > 5):', len(corpus))
+    for d in test:
+      d.filter_vocab(vocab)
+    train = [d for d in train if len(d.features) > 5]
+    test = [d for d in test if len(d.features) > 5]
+    print('Train Corpus size (feature > 5):', len(train))
+    print('Test Corpus size (feature > 5):', len(test))
 
-    idf = calc_idf(corpus, vocab)
-    tf_idf(corpus, idf)
+    idf = calc_idf(train, vocab)
+    tf_idf(train + test, idf)
 
     with open(SAVE_PATH, 'wb') as pf:
-      pickle.dump((corpus, vocab), pf)
+      pickle.dump((train, test, vocab, idf), pf)
 
-  naive_bayes(corpus, vocab)
-  # knn(corpus, idf)
+  # naive_bayes(train, test, vocab)
+  knn(train + test, idf)
 
 main()
 

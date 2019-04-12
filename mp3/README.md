@@ -9,24 +9,25 @@ Top 20 words selected by Information Gain
 bland
 delici
 mediocr
-n't
 perfect
-decent
+n't
 rude
 bad
+decent
 amaz
-terribl
-favorit
 disappoint
-worst
-averag
+terribl
 overpr
+favorit
+averag
+worst
 hype
+expect
 meh
 love
-expect
 horribl
 ```
+
 
 Top 20 words selected by Chi Square
 
@@ -34,28 +35,28 @@ Top 20 words selected by Chi Square
 bland
 mediocr
 rude
-decent
 bad
-n't
+decent
 delici
 terribl
-worst
-averag
+n't
 overpr
+worst
 disappoint
-meh
+averag
 perfect
+meh
 hype
-amaz
 horribl
-overr
-lack
+expect
+amaz
 poor
+understand
 ```
 
 The size of the finalized controlled vocabulary is `5000`.
 
-`55268` review documents are there in the resulting corpus.
+`55516` review documents are there in the resulting corpus.
 
 ### 1.2
 
@@ -131,52 +132,53 @@ Top 20 words of ranked log-ratio list
 ```
 gluttoni
 ryan
-mmmmmmm
 fantasi
+mmmmmmm
 seamless
 yummo
 boutiqu
 hoagi
 underr
-devin
-maxim
-meticul
-hand-cut
-yummmm
 lambrusco
-slow-cook
+devin
+yummmm
+maxim
+hand-cut
 lickin
-ganach
 st.loui
-tapioca
+ganach
+slow-cook
+dawn
+mmmmmmmmm
 ```
+
 
 Top 20 words of ranked log-ratio list
 
 ```
-off-night
+tablespoon
+abysm
+unappet
+overr
+flavorless
+uninspir
+over-r
+2/5
+a-ok
+unaccept
+incompet
 downhil
 unhelp
-tasteless
-nauseous
 inexcus
-ick
+tasteless
 ined
+roach
+ick
 blatant
-deplor
-wade
-indigest
-diarrhea
-a-hol
-emperor
-ineffici
-injuri
-scam
 rudest
-2-star
 ```
 
-In my opinion, many of them do not make any sense in distinguishing the positive opinion and negative opinion. It may be because the smooth parameter `delta=0.1` is too small which leads to extreme large/small log ratio of some rare words with accidental unbalanced distribution in the data.
+In my opinion, many of them are neutral and do not make any sense in distinguishing the positive and negative sentiments, such as `st.loui`. It may be because the smooth parameter `delta=0.1` is too small which leads to extreme large/small log ratio of some rare words with accidental unbalanced distribution in the data.
 
 ### 2.2 Naive Bayes as a linear classifier
 
@@ -231,8 +233,8 @@ The running time of prediction of 5 query
 
 Model | Time (seconds)
 -|-
-KNN Brute Force | 4.7720
-KNN with 5 bits random projection | 0.1535
+KNN Brute Force | 5.7899
+KNN with 5 bits random projection | 0.2182
 
 The approximate KNN can still determine the cusine of some query reviews
 
@@ -242,7 +244,7 @@ Query | Cusine
 2 | Italian
 3 | Mexican
 4 | Japanese
-5 | Peach Cobbler
+5 | Unknown
 
 However, in my opinion, determining the cuisine type cannot necessarily evaluate if the KNN results are reasonable. Because by far, the features / words have already been filtered based on how good they can distinguish the review sentiments. Based on this purpose, the "reasonable" nearest neighbours should be reviews with the same sentiment, not the same cuisine type.
 
