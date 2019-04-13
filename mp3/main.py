@@ -320,7 +320,7 @@ def evaluate_knn(corpus):
   print('l\tk\tprecision\trecall\tf1')
 
   test_cases = []
-  for l in [2, 5, 8, 10]:
+  for l in [10, 8, 5, 2]:
     for k in [1, 3, 5, 7]:
       test_cases.append((l, k))
 
@@ -348,6 +348,8 @@ def evaluate_knn(corpus):
         results[k].append(m)
 
     print(l, k, mean(results['precision']), mean(results['recall']), mean(results['f1']))
+
+    return results
 
   pool = ThreadPool(8)
   pool.map(eval_model, test_cases)
