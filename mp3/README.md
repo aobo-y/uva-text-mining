@@ -190,7 +190,8 @@ Precision-Recall curve with default `delta=0.1`
 
 #### 2.2.2
 
-Precision-Recall curve with `delta=[0.01, 0.1, 1, 10]`
+Precision-Recall curve with `delta=[0.01
+0.1, 1, 10]`
 
 <img src="./varied_precision_recall_curve.png" width="512">
 
@@ -249,3 +250,73 @@ Query | Cusine
 However, in my opinion, determining the cuisine type cannot necessarily evaluate if the KNN results are reasonable. Because by far, the features / words have already been filtered based on how good they can distinguish the review sentiments. Based on this purpose, the "reasonable" nearest neighbours should be reviews with the same sentiment, not the same cuisine type.
 
 On the other hand, the features are also not optimal to classify the cuisine, but the model indeed can still detect some review cuisines. It is because the vocabulary size is large enough to include not only the best sentiment sensitive words but also others accidentally helpful to tell the cuisine. For example, words like "peach" and "tuna" which are obviously sentiment neutral are left in the features set.
+
+## Task 4: Classification performance evaluation
+
+### 4.1
+
+10-fold cross validation
+
+Model | Avg Precision | Avg Recall | Avg F1
+-|-|-|-
+Naive Bayes | 0.9014 | 0.9042 | 0.9028
+KNN | 0.8048 | 0.9574 | 0.8745
+
+### 4.2
+
+Followings are the results of the paired two sample t-test
+
+Prcesion
+
+Fold | Naive Bayes | KNN | Diff
+-|-|-|-
+1 | 0.9060 | 0.8126 | 0.0933
+2 | 0.8949 | 0.8002 | 0.0947
+3 | 0.9023 | 0.8019 | 0.1003
+4 | 0.8894 | 0.7980 | 0.0914
+5 | 0.9083 | 0.8125 | 0.0957
+6 | 0.8997 | 0.8096 | 0.0901
+7 | 0.9029 | 0.8035 | 0.0994
+8 | 0.9088 | 0.8101 | 0.0986
+9 | 0.9029 | 0.8027 | 0.1002
+10 | 0.8981 | 0.7966 | 0.1014
+
+precision t-value: 75.5697
+
+
+Recall
+
+Fold | Naive Bayes | KNN | Diff
+-|-|-|-
+1 | 0.9047 | 0.9515 | -0.0468
+2 | 0.9059 | 0.9608 | -0.0549
+3 | 0.9114 | 0.9607 | -0.0493
+4 | 0.8996 | 0.9592 | -0.0595
+5 | 0.9043 | 0.9570 | -0.0526
+6 | 0.8993 | 0.9621 | -0.0627
+7 | 0.8978 | 0.9530 | -0.0551
+8 | 0.9132 | 0.9563 | -0.0430
+9 | 0.9006 | 0.9559 | -0.0552
+10 | 0.9046 | 0.9575 | -0.0528
+
+recall t-value: -29.0127
+
+
+F1
+
+Fold | Naive Bayes | KNN | Diff
+-|-|-|-
+1 | 0.9053 | 0.8766 | 0.0287
+2 | 0.9004 | 0.8732 | 0.0271
+3 | 0.9068 | 0.8741 | 0.0326
+4 | 0.8945 | 0.8712 | 0.0233
+5 | 0.9063 | 0.8789 | 0.0273
+6 | 0.8995 | 0.8793 | 0.0202
+7 | 0.9003 | 0.8718 | 0.0284
+8 | 0.9110 | 0.8772 | 0.0338
+9 | 0.9017 | 0.8726 | 0.0291
+10 | 0.9014 | 0.8697 | 0.0316
+
+f1 t-value: 21.5893
+
+To align with the two-tailed confidence level of 95%, the t-value should satisfy: -2.62 < t < 2.262, which is obviously not the case here for all metrics. For precision, Naive Bayes is significantly better. For recall, KNN is significantly better. For overall F1, Naive Bayes is significantly better. This should be due to the unbalanced dataset which has much more positive data. Because the KNN here does not apply weighted vote, the frequent positive samples dominate the vote and lead to more positive predictions. Therefore, KNN has a better recall but worse precision.
