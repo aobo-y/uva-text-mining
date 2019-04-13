@@ -296,25 +296,24 @@ def cross_validation(corpus, idf):
     knn_results['recall'].append(r)
     knn_results['f1'].append(f1)
 
-  print('nb precision mean', mean(nb_results['precision']))
-  print('nb recall mean', mean(nb_results['recall']))
-  print('nb f1 mean', mean(nb_results['f1']))
 
-  print('knn precision mean', mean(knn_results['precision']))
-  print('knn recall mean', mean(knn_results['recall']))
-  print('knn f1 mean', mean(knn_results['f1']))
+  for m in ['precision', 'recall', 'f1']:
+    print('nb', m)
+    print(nb_results[m])
+    print(m, 'nb mean', mean(nb_results[m]))
 
-  print('nb_results f1')
-  print(nb_results['f1'])
-  print('knn_results f1')
-  print(knn_results['f1'])
+    print('knn', m)
+    print(knn_results[m])
+    print(m, 'knn mean', mean(knn_results[m]))
 
-  diff = [a - b for a, b in zip(nb_results['f1'], knn_results['f1'])]
-  print('diff')
-  print(diff)
 
-  t = mean(diff) / (stdev(diff) / len(diff) ** 0.5)
-  print('t value:', t)
+    diff = [a - b for a, b in zip(nb_results[m], knn_results[m])]
+    print(m, 'diff')
+    print(diff)
+
+    t = mean(diff) / (stdev(diff) / len(diff) ** 0.5)
+    print(m, 't value:', t)
+
 
 def main():
   if os.path.isfile(SAVE_PATH):
