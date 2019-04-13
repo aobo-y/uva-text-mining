@@ -235,6 +235,27 @@ def split_data(corpus, i):
 
   return training, testing
 
+def model_metrics(labels, preds):
+  tp = 0
+  pos_l_count = 0
+  pos_p_count = 0
+
+  for l, p in zip(labels, preds):
+    if p == 1:
+      pos_p_count += 1
+
+    if l == 1:
+      pos_l_count += 1
+
+    if p == 1 and l == 1:
+      tp += 1
+
+  precision = tp / pos_p_count
+  recall = tp / pos_l_count
+  f1 = 2 * precision * recall / (precision + recall)
+
+  return precision, recall, f1
+
 def cross_validation(corpus, idf):
   nb_results = {
     'precision': [],
@@ -252,27 +273,6 @@ def cross_validation(corpus, idf):
 
   random.shuffle(corpus)
 
-  def metrics(labels, preds):
-    tp = 0
-    pos_l_count = 0
-    pos_p_count = 0
-
-    for l, p in zip(labels, preds):
-      if p == 1:
-        pos_p_count += 1
-
-      if l == 1:
-        pos_l_count += 1
-
-      if p == 1 and l == 1:
-        tp += 1
-
-    precision = tp / pos_p_count
-    recall = tp / pos_l_count
-    f1 = 2 * precision * recall / (precision + recall)
-
-    return precision, recall, f1
-
   for i in range(10):
     print('cross validation', i)
 
@@ -286,16 +286,13 @@ def cross_validation(corpus, idf):
     nb_preds = [nb.predict(d) for d in testing]
     knn_preds = [knn.predict(d.vector) for d in testing]
 
-    p, r, f1 = metrics(labels, nb_preds)
-    nb_results['precision'].append(p)
-    nb_results['recall'].append(r)
-    nb_results['f1'].append(f1)
+    metrics = model_metrics(labels, nb_preds)
+    for m, k in zip(metrics, ['precision', 'recall', 'f1']):
+      nb_results[k].append(m)
 
-    p, r, f1 = metrics(labels, knn_preds)
-    knn_results['precision'].append(p)
-    knn_results['recall'].append(r)
-    knn_results['f1'].append(f1)
-
+    metrics = model_metrics(labels, knn_preds)
+    for m, k in zip(metrics, ['precision', 'recall', 'f1']):
+      knn_results[k].append(m)
 
   for m in ['precision', 'recall', 'f1']:
     print('nb', m)
