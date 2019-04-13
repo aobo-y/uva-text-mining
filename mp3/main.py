@@ -223,9 +223,9 @@ def knn(corpus, idf):
   print("--- %s seconds ---" % (time.time() - start_time))
 
 
-def split_data(corpus, i):
+def split_data(corpus, i, chunks=10):
   # 10-fold cross validation
-  chk_size = math.ceil(len(corpus) / 10)
+  chk_size = math.ceil(len(corpus) / chunks)
 
   start_idx = chk_size * i
   end_idx = chk_size * (i + 1)
@@ -276,7 +276,7 @@ def cross_validation(corpus, idf):
   for i in range(10):
     print('cross validation', i)
 
-    training, testing = split_data(corpus, i)
+    training, testing = split_data(corpus, i, 10)
 
     nb = NaiveBayes(training, vocab, 0.1)
     knn = KNN(5, 5)
@@ -312,6 +312,40 @@ def cross_validation(corpus, idf):
     print(m, 't value:', t)
 
 
+def evaluate_knn(corpus):
+  folds = 5
+
+  random.shuffle(corpus)
+
+  print('l\tk\tprecision\trecall\tf1')
+
+  for l in [2, 5, 8, 10]:
+    for k in [1, 3, 5, 7]:
+      results = {
+        'precision': [],
+        'recall': [],
+        'f1': []
+      }
+
+      model = KNN(l, k)
+
+      for i in range(folds):
+        print('cross validation', i)
+
+        training, testing = split_data(corpus, i, folds)
+        model.fit([d.vector for d in training], [d.label for d in training])
+        preds = [model.predict(d.vector) for d in testing]
+
+        labels = [d.label for d in testing]
+
+        metrics = model_metrics(labels, preds)
+        for m, k in zip(metrics, ['precision', 'recall', 'f1']):
+          results[k].append(m)
+
+      print(l, k, mean(results['precision']), mean(results['recall']), mean(results['f1']))
+
+
+
 def main():
   if os.path.isfile(SAVE_PATH):
     print('load save', SAVE_PATH)
@@ -342,7 +376,9 @@ def main():
 
   # naive_bayes(train, test, vocab)
   # knn(train + test, idf)
-  cross_validation(train + test, idf)
+  # cross_validation(train + test, idf)
+
+  evaluate_knn(train + test)
 
 main()
 
