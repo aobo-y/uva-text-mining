@@ -9,7 +9,7 @@ import time
 from collections import Counter
 from statistics import mean, stdev
 import matplotlib.pyplot as plt
-
+from multiprocessing.dummy import Pool as ThreadPool
 
 from data import read_folder
 from knn import KNN
@@ -319,31 +319,38 @@ def evaluate_knn(corpus):
 
   print('l\tk\tprecision\trecall\tf1')
 
+  test_cases = []
   for l in [2, 5, 8, 10]:
     for k in [1, 3, 5, 7]:
-      results = {
-        'precision': [],
-        'recall': [],
-        'f1': []
-      }
+      test_cases.append((l, k))
 
-      model = KNN(l, k)
+  def eval_model(case):
+    l, k = case
+    results = {
+      'precision': [],
+      'recall': [],
+      'f1': []
+    }
 
-      for i in range(folds):
-        print('cross validation', i)
+    model = KNN(l, k)
 
-        training, testing = split_data(corpus, i, folds)
-        model.fit([d.vector for d in training], [d.label for d in training])
-        preds = [model.predict(d.vector) for d in testing]
+    for i in range(folds):
+      print(l, k, 'cross validation', i)
 
-        labels = [d.label for d in testing]
+      training, testing = split_data(corpus, i, folds)
+      model.fit([d.vector for d in training], [d.label for d in training])
+      preds = [model.predict(d.vector) for d in testing]
 
-        metrics = model_metrics(labels, preds)
-        for m, k in zip(metrics, ['precision', 'recall', 'f1']):
-          results[k].append(m)
+      labels = [d.label for d in testing]
 
-      print(l, k, mean(results['precision']), mean(results['recall']), mean(results['f1']))
+      metrics = model_metrics(labels, preds)
+      for m, k in zip(metrics, ['precision', 'recall', 'f1']):
+        results[k].append(m)
 
+    print(l, k, mean(results['precision']), mean(results['recall']), mean(results['f1']))
+
+  pool = ThreadPool(8)
+  pool.map(eval_model, test_cases)
 
 
 def main():
