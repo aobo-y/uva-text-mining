@@ -320,3 +320,26 @@ Fold | Naive Bayes | KNN | Diff
 f1 t-value: 21.5893
 
 To align with the two-tailed confidence level of 95%, the t-value should satisfy: -2.62 < t < 2.262, which is obviously not the case here for all metrics. For precision, Naive Bayes is significantly better. For recall, KNN is significantly better. For overall F1, Naive Bayes is significantly better. This should be due to the unbalanced dataset which has much more positive data. Because the KNN here does not apply weighted vote, the frequent positive samples dominate the vote and lead to more positive predictions. Therefore, KNN has a better recall but worse precision.
+
+## Task 5: Explore the best configuration of l and k
+
+The experiement is tested by choosing the length of projection hash code `l` from the set `[10, 9，8]` and the number of nearest neighbors `k` from the set `[1, 3, 5, 7]`. For each `k` and `l` combination, I do a 5-folds cross-validation with the corpus and evaluate its mean precision, mean recall, and mean f1.
+
+Because of the time limit, the testing `l` set skips smaller numbers. Less hash bits equals to less buckets and more look-up instances which can dramatically ballon the running time under cross-validation. However, I believe smaller `l` should give better performance because the nearest neighbours can be chosen from a larger pool with less approximation. The testing `k` set consists of only odd numbers to avoid even votes.
+
+l | k | precision | recall | f1
+-|-|-|-|-
+10 | 1 | 0.8196 | 0.8447 | 0.8320
+10 | 3 | 0.7983 | 0.8952 | 0.8440
+10 | 5 | 0.7938 | 0.9329 | 0.8578
+10 | 7 | 0.7891 | 0.9502 | 0.8622
+9 | 1 | 0.8217 | 0.8547 | 0.8379
+9 | 3 | 0.8011 | 0.9011 | 0.8481
+9 | 7 | 0.7913 | 0.9543 | 0.8652
+9 | 5 | 0.7962 | 0.9407 | 0.8624
+8 | 1 | 0.8231 | 0.8575 | 0.8399
+8 | 3 | 0.8025 | 0.9073 | 0.8517
+8 | 7 | 0.7943 | 0.9601 | 0.8694
+8 | 5 | 0.7989 | 0.9417 | 0.8644
+
+According to my setting, the optimal hyperparameters are `l=8` and `k=7`, which gives the best f1.
