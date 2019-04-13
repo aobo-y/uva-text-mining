@@ -338,14 +338,18 @@ def evaluate_knn(corpus):
       print(l, k, 'cross validation', i)
 
       training, testing = split_data(corpus, i, folds)
+
+      print(l, k, 'fit model', i)
       model.fit([d.vector for d in training], [d.label for d in training])
+
+      print(l, k, 'predict', i)
       preds = [model.predict(d.vector) for d in testing]
 
       labels = [d.label for d in testing]
 
       metrics = model_metrics(labels, preds)
-      for m, k in zip(metrics, ['precision', 'recall', 'f1']):
-        results[k].append(m)
+      for m, key in zip(metrics, ['precision', 'recall', 'f1']):
+        results[key].append(m)
 
     print(l, k, mean(results['precision']), mean(results['recall']), mean(results['f1']))
 
